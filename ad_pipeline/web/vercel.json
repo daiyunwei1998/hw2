@@ -1,0 +1,9 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "outputDirectory": "public",
+  "headers": [
+    { "source": "/(.*)", "headers": [{ "key": "X-Robots-Tag", "value": "noindex, nofollow" }] },
+    { "source": "/(index.html|app.js|style.css|admin.html)?", "headers": [{ "key": "Cache-Control", "value": "no-cache" }] },
+    { "source": "/design.json", "headers": [{ "key": "Cache-Control", "value": "no-cache" }] }
+  ]
+}

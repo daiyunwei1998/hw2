@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>實驗管理</title>
+<link rel="stylesheet" href="style.css">
+<style>main{max-width:1100px}table{border-collapse:collapse;width:100%;font-size:14px}th,td{border-bottom:1px solid var(--line);padding:6px 8px;text-align:left}th{color:var(--mute);font-weight:500}.tablewrap{overflow-x:auto}</style>
+</head>
+<body>
+<main>
+  <h1>實驗管理</h1>
+  <div class="card">
+    <div class="row"><input type="text" id="key" placeholder="管理金鑰（ADMIN_KEY）" autocomplete="off" style="max-width:360px"><button class="primary" id="load">載入</button></div>
+    <p id="msg" class="small mute"></p>
+    <div class="row" id="dl" hidden>
+      <button id="csvT">下載 trials.csv</button><button id="csvA">下載 adjust.csv</button><button id="json">下載完整 JSON</button>
+    </div>
+  </div>
+  <div class="card">
+    <h2>產生受試者連結</h2>
+    <div class="row"><input type="text" id="lpid" placeholder="參與編號，例如 P01" style="max-width:200px"><button id="mk">產生</button></div>
+    <p><input type="text" id="link" readonly></p>
+  </div>
+  <div class="card tablewrap"><table><thead><tr><th>編號</th><th>清單</th><th>方式</th><th>事件數</th><th>試次</th><th>調整</th><th>耳機檢查</th><th>注意力</th><th>完成</th><th>最後更新</th></tr></thead><tbody id="rows"></tbody></table></div>
+</main>
+<script>
+const $ = (s) => document.querySelector(s);
+const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+try { $('#key').value = sessionStorage.getItem('adkey') || ''; } catch {}
+const mark = (v) => v === true ? '<span class="okc">✓</span>' : v === false ? '<span class="err">✗</span>' : '—';
+async function load() {
+  const key = $('#key').value.trim();
+  try { sessionStorage.setItem('adkey', key); } catch {}
+  $('#msg').textContent = '載入中…';
+  const r = await fetch(`/api/export?format=summary&key=${encodeURIComponent(key)}`, { cache: 'no-store' });
+  if (!r.ok) { $('#msg').textContent = r.status === 403 ? '金鑰不正確。' : `錯誤 ${r.status}`; return; }
+  const d = await r.json();
+  $('#msg').textContent = `${d.participants.length} 位受試者、${d.n_events} 筆事件`;
+  $('#dl').hidden = false;
+  $('#rows').innerHTML = d.participants.map((p) => `<tr><td>${esc(p.pid)}</td><td>${p.list ?? '—'}</td><td>${esc(p.mode)}</td><td>${p.n_events}</td>
+    <td>${p.n_trials}</td><td>${p.n_adjust}</td><td>${mark(p.hp_pass)}</td><td>${mark(p.attention_pass)}</td><td>${mark(p.finished)}</td>
+    <td>${esc((p.last_ts || '').replace('T', ' ').slice(0, 19))}</td></tr>`).join('');
+}
+const dl = (fmt) => { location.href = `/api/export?format=${fmt}&key=${encodeURIComponent($('#key').value.trim())}`; };
+$('#load').onclick = load;
+$('#csvT').onclick = () => dl('trials.csv');
+$('#csvA').onclick = () => dl('adjust.csv');
+$('#json').onclick = async () => {
+  const r = await fetch(`/api/export?format=json&key=${encodeURIComponent($('#key').value.trim())}`);
+  const b = new Blob([await r.text()], { type: 'application/json' });
+  const a = document.createElement('a'); a.href = URL.createObjectURL(b); a.download = `all_events_${Date.now()}.json`; a.click();
+};
+$('#mk').onclick = () => {
+  const u = new URL('/', location.href);
+  if ($('#lpid').value.trim()) u.searchParams.set('pid', $('#lpid').value.trim());
+  $('#link').value = u.toString(); $('#link').select();
+};
+</script>
+</body>
+</html>

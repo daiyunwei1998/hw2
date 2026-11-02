@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AD 旁白審稿</title>
+<style>
+:root{--bg:#fafaf9;--panel:#fff;--ink:#1c1917;--mute:#78716c;--line:#e7e5e4;--acc:#2563eb;--us:#2563eb;--uk:#c2410c;--sub:#a8a29e;--ok:#15803d;--warn:#b45309;--bad:#b91c1c;--sel:#fde68a}
+@media (prefers-color-scheme:dark){:root{--bg:#1c1917;--panel:#262220;--ink:#f5f5f4;--mute:#a8a29e;--line:#3f3a36;--sel:#713f12}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.5 system-ui,"Noto Sans TC","Microsoft JhengHei",sans-serif}
+header{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center;padding:10px 16px;border-bottom:1px solid var(--line);background:var(--panel);position:sticky;top:0;z-index:5}
+header h1{font-size:15px;margin:0 8px 0 0}
+label{color:var(--mute);font-size:12px}
+select,input,textarea,button{font:inherit;color:inherit;background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:4px 8px}
+button{cursor:pointer}button.primary{background:var(--acc);border-color:var(--acc);color:#fff}
+button.on{outline:2px solid var(--acc)}
+main{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:16px;padding:16px}
+@media (max-width:900px){main{grid-template-columns:1fr}}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:12px}
+video{width:100%;border-radius:8px;background:#000;display:block}
+#timeline{position:relative;margin-top:10px;user-select:none}
+.row{position:relative;height:18px;margin:3px 0 3px 44px;background:color-mix(in srgb,var(--line) 45%,transparent);border-radius:3px}
+.row .lbl{position:absolute;left:-44px;width:40px;font-size:11px;color:var(--mute);text-align:right}
+.blk{position:absolute;top:2px;height:14px;border-radius:2px;cursor:pointer;opacity:.85}
+.blk.sel{outline:2px solid var(--ink);opacity:1}
+#playhead{position:absolute;top:0;bottom:0;width:2px;background:var(--bad);pointer-events:none}
+.meta{display:grid;grid-template-columns:auto 1fr;gap:2px 10px;font-size:13px}
+.meta b{color:var(--mute);font-weight:500}
+.en{font-size:15px;padding:6px 8px;border-left:3px solid var(--line);margin:6px 0}
+.other{font-size:12px;color:var(--mute)}
+textarea{width:100%;min-height:72px;font-size:17px;line-height:1.6;resize:vertical}
+.flex{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+table{border-collapse:collapse;width:100%;font-size:13px}
+th,td{border-bottom:1px solid var(--line);padding:4px 6px;text-align:left;vertical-align:top}
+th{color:var(--mute);font-weight:500}
+tr.cur td{background:var(--sel)}
+#list tr{cursor:pointer}
+.ok{color:var(--ok)}.warn{color:var(--warn)}.bad{color:var(--bad)}.mute{color:var(--mute)}
+.pill{font-size:11px;padding:0 6px;border-radius:9px;border:1px solid currentColor}
+#toast{position:fixed;right:16px;bottom:16px;background:var(--ink);color:var(--bg);padding:6px 12px;border-radius:6px;opacity:0;transition:opacity .2s}
+.dirty{outline:2px solid var(--warn)}
+kbd{font-size:11px;border:1px solid var(--line);border-radius:3px;padding:0 4px}
+</style>
+</head>
+<body>
+<header>
+  <h1>AD 旁白審稿</h1>
+  <span><label>片段</label> <select id="clipSel"></select></span>
+  <span><label>版本</label> <button data-ver="us" class="verBtn">US</button><button data-ver="uk" class="verBtn">UK</button></span>
+  <span><label>聲音</label> <select id="voiceSel"></select></span>
+  <span><label>語速</label> <span id="rateBtns"></span> <input id="ratesIn" size="11" title="逗號分隔，例如 1,1.5,2.25"></span>
+  <span><label>旁白時原聲音量</label> <input id="duck" type="range" min="0" max="1" step="0.05" value="0.3"> <span id="duckV"></span></span>
+  <span><label>前導</label> <input id="preroll" type="number" step="0.5" min="0" value="2" style="width:56px">s</span>
+</header>
+<main>
+  <section>
+    <div class="card">
+      <video id="vid" controls preload="auto"></video>
+      <div id="timeline">
+        <div class="row" id="rowSub"><span class="lbl">對白</span></div>
+        <div class="row" id="rowUS"><span class="lbl">US</span></div>
+        <div class="row" id="rowUK"><span class="lbl">UK</span></div>
+        <div id="playhead"></div>
+      </div>
+    </div>
+    <div class="card" style="margin-top:16px;max-height:46vh;overflow:auto">
+      <table><thead><tr><th>#</th><th>時間</th><th>英文</th><th>中文</th><th>狀態</th></tr></thead><tbody id="list"></tbody></table>
+    </div>
+  </section>
+  <section>
+    <div class="card" id="editor">
+      <div class="flex" style="justify-content:space-between">
+        <div><b id="segTitle"></b> <span id="segStatusPill"></span></div>
+        <div class="flex"><button id="prevBtn">↑ 上一段</button><button id="nextBtn">↓ 下一段</button></div>
+      </div>
+      <div class="meta" style="margin-top:6px">
+        <b>時間</b><span id="mTime"></span>
+        <b>原英文 AD 長度</b><span id="mSlot"></span>
+        <b>可用空檔</b><span id="mWin"></span>
+        <b>句組</b><span id="mGroup"></span>
+      </div>
+      <div class="en" id="mEn"></div>
+      <div class="other" id="mOther"></div>
+      <label>中文（可直接修改，<kbd>Ctrl</kbd>+<kbd>S</kbd> 儲存）</label>
+      <textarea id="zh"></textarea>
+      <div class="flex" style="margin-top:6px">
+        <select id="status"><option value="draft">draft 待審</option><option value="ok">ok 確認</option><option value="flag">flag 有問題</option></select>
+        <input id="note" placeholder="備註（例如：專有名詞待確認）" style="flex:1;min-width:160px">
+        <button class="primary" id="saveBtn">儲存</button>
+      </div>
+      <div class="mute" id="draftInfo" style="font-size:12px;margin-top:4px"></div>
+      <div class="flex" style="margin-top:12px">
+        <select id="scope" title="句組：把相連的幾段合成一句念"><option value="group">預覽整個句組</option><option value="cue">只預覽這一段</option></select>
+        <button class="primary" id="playBtn">▶ 影片 + 旁白預覽 <kbd>Ctrl</kbd>+<kbd>Enter</kbd></button>
+        <button id="narrBtn">只聽旁白</button>
+        <button id="stopBtn">■ 停止</button>
+      </div>
+      <table style="margin-top:10px"><thead><tr><th>語速</th><th>這一段</th><th>整個句組</th><th>音節/秒（句組）</th></tr></thead><tbody id="rateTbl"></tbody></table>
+      <p class="mute" style="font-size:12px">每格顯示旁白長度，✓／✗ 表示是否放得進對應的可用空檔。REFRAMED 常把一句話切成好幾段相連的字幕（間隔 &lt; 0.3 s），所以要看「整個句組」那欄。音節數以中文字數計。未儲存的文字也能試聽，但只有按儲存才會寫入檔案。</p>
+      <div id="glossary" class="mute" style="font-size:12px"></div>
+    </div>
+  </section>
+</main>
+<audio id="narr"></audio>
+<div id="toast"></div>
+<script>
+const $=s=>document.querySelector(s);
+const S={clips:[],clip:null,vid:null,ver:'us',idx:0,voice:null,rates:[1,1.5,2.25],rate:1,tts:{},playing:null};
+const fmt=t=>{const m=Math.floor(t/60),s=(t%60).toFixed(1).padStart(4,'0');return `${m}:${s}`};
+const toast=m=>{const e=$('#toast');e.textContent=m;e.style.opacity=1;clearTimeout(e._t);e._t=setTimeout(()=>e.style.opacity=0,1600)};
+const segs=()=>S.clip.versions[S.ver];
+const seg=()=>segs()[S.idx];
+function load(k,d){try{return JSON.parse(localStorage.getItem('adtool.'+k))??d}catch{return d}}
+function store(k,v){try{localStorage.setItem('adtool.'+k,JSON.stringify(v))}catch{}}
+
+async function api(u,o){const r=await fetch(u,o);const j=await r.json();if(!r.ok)throw new Error(j.error||r.status);return j}
+
+async function init(){
+  const meta=await api('/api/meta');
+  $('#voiceSel').innerHTML=meta.voices.map(v=>`<option>${v}</option>`).join('');
+  S.voice=load('voice',meta.voices[0]);$('#voiceSel').value=S.voice;
+  S.rates=load('rates',[1,1.5,2.25]);S.rate=S.rates[0];renderRates();
+  $('#duck').value=load('duck',0.3);$('#duckV').textContent=$('#duck').value;
+  S.clips=await api('/api/clips');
+  $('#clipSel').innerHTML=S.clips.map(c=>`<option value="${c.id}">${c.movie} (${c.id})</option>`).join('');
+  const last=load('pos',{});
+  await openClip(last.vid&&S.clips.some(c=>c.id===last.vid)?last.vid:S.clips[0].id,last.ver||'us',last.idx||0);
+}
+function renderRates(){
+  $('#ratesIn').value=S.rates.join(',');
+  $('#rateBtns').innerHTML=S.rates.map(r=>`<button data-rate="${r}" class="${r==S.rate?'on':''}">${r}x</button>`).join('');
+  document.querySelectorAll('#rateBtns button').forEach(b=>b.onclick=()=>{S.rate=+b.dataset.rate;renderRates()});
+}
+function canLeave(){return !isDirty()||confirm('這段有未儲存的修改，要放棄嗎？')}
+async function openClip(vid,ver,idx){
+  if(S.clip&&!canLeave()){$('#clipSel').value=S.vid;return}
+  S.boundSeg=null;S.vid=vid;S.clip=await api('/api/clip/'+vid);$('#clipSel').value=vid;
+  $('#vid').src='/video/'+vid;
+  $('#glossary').innerHTML='<b>譯名表：</b>'+Object.entries(S.clip.glossary).map(([a,b])=>`${a} → ${b}`).join('；');
+  drawTimeline();setVer(ver,idx,true);
+}
+function setVer(ver,idx=0,force=false){
+  if(!force&&!canLeave())return;
+  S.ver=ver;document.querySelectorAll('.verBtn').forEach(b=>b.classList.toggle('on',b.dataset.ver===ver));
+  renderList();select(Math.min(idx,segs().length-1),true);
+}
+function drawTimeline(){
+  const D=S.clip.duration;
+  const put=(row,arr,color,ver)=>{row.querySelectorAll('.blk').forEach(e=>e.remove());arr.forEach((c,i)=>{const [a,b]=Array.isArray(c)?c:[c.start,c.end];const d=document.createElement('div');d.className='blk';d.style.left=(a/D*100)+'%';d.style.width=Math.max(.3,(b-a)/D*100)+'%';d.style.background=color;d.title=(Array.isArray(c)?c[2]:c.en);if(ver){d.dataset.ver=ver;d.dataset.i=i;d.onclick=()=>{if(S.ver!==ver)setVer(ver,i);else select(i)}}else d.onclick=()=>{$('#vid').currentTime=a};row.appendChild(d)})};
+  put($('#rowSub'),S.clip.subs,'var(--sub)');put($('#rowUS'),S.clip.versions.us,'var(--us)','us');put($('#rowUK'),S.clip.versions.uk,'var(--uk)','uk');
+}
+const GAP=0.3; // cues closer than this are one sentence split across SRT cues
+function groupOf(i){const g=segs();let a=i,b=i;
+  while(a>0&&g[a].start-g[a-1].end<GAP)a--;
+  while(b<g.length-1&&g[b+1].start-g[b].end<GAP)b++;
+  return [a,b]}
+// Gap available from cue `a`'s start: until next dialogue line, the next AD cue after `b`, or clip end.
+function windowEnd(a,b=a){
+  const g=segs(),t=g[a].start+0.05;const c=[S.clip.duration];
+  S.clip.subs.forEach(([x])=>{if(x>t)c.push(x)});if(b+1<g.length)c.push(g[b+1].start);
+  return Math.min(...c);
+}
+function scopeRange(scope){return scope==='cue'?[S.idx,S.idx]:groupOf(S.idx)}
+function renderList(){
+  $('#list').innerHTML=segs().map((s,i)=>`<tr data-i="${i}"><td>${i}</td><td>${fmt(s.start)}</td><td>${esc(s.en)}</td><td>${esc(s.zh)}</td><td class="${s.status==='ok'?'ok':s.status==='flag'?'bad':'mute'}">${s.status}${s.updated?' ✎':''}</td></tr>`).join('');
+  document.querySelectorAll('#list tr').forEach(tr=>tr.onclick=()=>select(+tr.dataset.i));
+}
+const esc=s=>s.replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+function select(i,force=false){
+  if(!force&&!canLeave())return;
+  stop();S.idx=i;const s=seg();S.boundSeg=s;store('pos',{vid:S.vid,ver:S.ver,idx:i});
+  document.querySelectorAll('#list tr').forEach(tr=>tr.classList.toggle('cur',+tr.dataset.i===i));
+  document.querySelector(`#list tr[data-i="${i}"]`)?.scrollIntoView({block:'nearest'});
+  document.querySelectorAll('.blk').forEach(b=>b.classList.toggle('sel',b.dataset.ver===S.ver&&+b.dataset.i===i));
+  $('#segTitle').textContent=`${S.ver.toUpperCase()} #${i}`;
+  $('#segStatusPill').innerHTML=`<span class="pill ${s.status==='ok'?'ok':s.status==='flag'?'bad':'mute'}">${s.status}</span>`;
+  $('#mTime').textContent=`${fmt(s.start)} – ${fmt(s.end)}`;
+  $('#mSlot').textContent=(s.end-s.start).toFixed(2)+' s';
+  $('#mWin').textContent=(windowEnd(i)-s.start).toFixed(2)+' s（到下一句對白或下一段 AD）';
+  const [ga,gb]=groupOf(i);
+  $('#mGroup').innerHTML=ga===gb?'<span class="mute">單獨一段</span>':`#${ga}–#${gb}（${gb-ga+1} 段相連，可用空檔 ${(windowEnd(ga,gb)-segs()[ga].start).toFixed(2)} s）<br><span class="mute">${esc(segs().slice(ga,gb+1).map(x=>x.en).join(' '))}</span>`;
+  $('#mEn').textContent=s.en;
+  const ov=S.ver==='us'?'uk':'us';
+  const near=S.clip.versions[ov].filter(x=>x.start<s.start+6&&x.end>s.start-6);
+  $('#mOther').innerHTML=near.length?`<b>${ov.toUpperCase()} 同時段：</b>`+near.map(x=>`[${fmt(x.start)}] ${esc(x.en)}`).join(' ／ '):`${ov.toUpperCase()} 同時段沒有 AD`;
+  $('#zh').value=s.zh;$('#status').value=s.status;$('#note').value=s.note||'';markDirty();
+  $('#draftInfo').textContent=s.updated?`最後修改 ${s.updated}；初稿：${s.zh_draft}（歷史 ${s.history.length} 筆）`:'初稿（尚未修改）';
+  refreshRates();
+}
+function isDirty(){const s=S.boundSeg;return !!s&&($('#zh').value.trim()!==s.zh||$('#status').value!==s.status||$('#note').value!==(s.note||''))}
+function markDirty(){$('#zh').classList.toggle('dirty',isDirty())}
+async function saveSeg(){
+  const s=seg();
+  const r=await api(`/api/segment/${S.vid}/${S.ver}/${S.idx}`,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({zh:$('#zh').value,status:$('#status').value,note:$('#note').value})});
+  segs()[S.idx]=r;renderList();select(S.idx,true);toast('已儲存');
+  S.clips=await api('/api/clips');
+}
+async function ttsFor(rate,scope){
+  const s=seg();const text=$('#zh').value.trim();const [a,b]=scopeRange(scope);
+  const q=new URLSearchParams({rate,voice:S.voice,span:b-a+1,edit_idx:S.idx});if(text!==s.zh)q.set('text',text);
+  return api(`/api/tts/${S.vid}/${S.ver}/${a}?`+q);
+}
+function fitCell(t,win){const fit=t.duration<=win;return `<td class="${fit?'ok':'bad'}">${t.duration.toFixed(2)} s ${fit?'✓':'✗ 超出 '+(t.duration-win).toFixed(2)+' s'}</td>`}
+async function refreshRates(){
+  const myIdx=S.idx,myVer=S.ver;const [ga,gb]=groupOf(S.idx);
+  const cueWin=windowEnd(S.idx)-seg().start,grpWin=windowEnd(ga,gb)-segs()[ga].start;
+  $('#rateTbl').innerHTML=S.rates.map(r=>`<tr data-r="${r}"><td>${r}x</td><td colspan=3 class="mute">產生中…</td></tr>`).join('');
+  for(const r of S.rates){
+    const tr=()=>document.querySelector(`#rateTbl tr[data-r="${r}"]`);
+    try{const tc=await ttsFor(r,'cue');const tg=ga===gb?tc:await ttsFor(r,'group');
+      if(myIdx!==S.idx||myVer!==S.ver)return;
+      tr().innerHTML=`<td>${r}x</td>${fitCell(tc,cueWin)}${fitCell(tg,grpWin)}<td>${tg.syl_per_s}</td>`;
+    }catch(e){if(tr())tr().innerHTML=`<td>${r}x</td><td colspan=3 class="bad">${esc(e.message)}</td>`}
+  }
+}
+function stop(){
+  const v=$('#vid'),a=$('#narr');if(S.playing){clearInterval(S.playing.timer);S.playing=null}
+  a.pause();v.pause();v.volume=1;
+}
+async function preview(){
+  stop();const scope=$('#scope').value;const [ga,gb]=scopeRange(scope);const s=segs()[ga];
+  const v=$('#vid'),a=$('#narr');const t=await ttsFor(S.rate,scope);
+  a.src=t.url;await new Promise(r=>{a.oncanplaythrough=r;setTimeout(r,1500);a.load()});
+  const duck=+$('#duck').value,pre=+$('#preroll').value;
+  const stopAt=Math.max(s.start+t.duration,windowEnd(ga,gb))+1.5;
+  v.currentTime=Math.max(0,s.start-pre);v.volume=1;await v.play();
+  const st={started:false};S.playing=st;
+  st.timer=setInterval(()=>{if(S.playing!==st)return;
+    if(!st.started&&v.currentTime>=s.start){st.started=true;v.volume=duck;a.currentTime=0;a.play();a.onended=()=>{v.volume=1}}
+    if(v.currentTime>=stopAt)stop()},15);
+  toast(`${S.rate}x，旁白 ${t.duration.toFixed(2)} s：${t.text}`);
+}
+async function narrOnly(){stop();const t=await ttsFor(S.rate,$('#scope').value);const a=$('#narr');a.src=t.url;a.play();toast(t.text)}
+
+$('#clipSel').onchange=e=>openClip(e.target.value,S.ver,0);
+document.querySelectorAll('.verBtn').forEach(b=>b.onclick=()=>setVer(b.dataset.ver,0));
+$('#voiceSel').onchange=e=>{S.voice=e.target.value;store('voice',S.voice);refreshRates()};
+$('#ratesIn').onchange=e=>{const r=e.target.value.split(',').map(Number).filter(x=>x>=0.5&&x<=4);if(r.length){S.rates=r;S.rate=r.includes(S.rate)?S.rate:r[0];store('rates',r);renderRates();refreshRates()}};
+$('#duck').oninput=e=>{$('#duckV').textContent=e.target.value;store('duck',+e.target.value)};
+$('#zh').oninput=markDirty;$('#status').onchange=markDirty;$('#note').oninput=markDirty;
+$('#zh').onchange=()=>refreshRates();
+$('#saveBtn').onclick=saveSeg;$('#playBtn').onclick=preview;$('#narrBtn').onclick=narrOnly;$('#stopBtn').onclick=stop;
+$('#prevBtn').onclick=()=>S.idx>0&&select(S.idx-1);$('#nextBtn').onclick=()=>S.idx<segs().length-1&&select(S.idx+1);
+document.addEventListener('keydown',e=>{
+  if((e.ctrlKey||e.metaKey)&&e.key==='s'){e.preventDefault();saveSeg()}
+  else if((e.ctrlKey||e.metaKey)&&e.key==='Enter'){e.preventDefault();preview()}
+  else if(e.target.tagName!=='TEXTAREA'&&e.target.tagName!=='INPUT'){if(e.key==='ArrowDown'){e.preventDefault();$('#nextBtn').click()}if(e.key==='ArrowUp'){e.preventDefault();$('#prevBtn').click()}}
+});
+$('#vid').ontimeupdate=()=>{$('#playhead').style.left=`calc(44px + (100% - 44px) * ${$('#vid').currentTime/S.clip.duration})`};
+window.onbeforeunload=e=>{if(isDirty()){e.preventDefault();return ''}};
+init().catch(e=>toast('載入失敗：'+e.message));
+</script>
+</body>
+</html>

@@ -1,0 +1,2888 @@
+{
+ "source": "REFRAMED validation split (CC BY-NC 4.0)",
+ "clips": {
+  "UMBOdTivgjBj": {
+   "movie": "liar_liar",
+   "imdb_id": "tt0119528",
+   "duration": 154.16,
+   "video": "N:\\datasets\\reframed\\clips\\UMBOdTivgjBj.mp4",
+   "subs": [
+    [
+     3.59,
+     7.09,
+     "Your Honor, would the court be willing to grant me a short bathroom break?"
+    ],
+    [
+     7.17,
+     10.01,
+     "- Can't it wait? - Yes, it can."
+    ],
+    [
+     10.09,
+     13.47,
+     "But I've heard that if you hold it, it can damage the prostate gland,"
+    ],
+    [
+     13.51,
+     16.1,
+     "making it very difficult to get an erection!"
+    ],
+    [
+     16.18,
+     18.98,
+     "- Is that true? - It has to be."
+    ],
+    [
+     19.02,
+     21.98,
+     "Well, in that case, I better take a little break myself."
+    ],
+    [
+     22.02,
+     25.36,
+     "But you get back here immediately so we can finish this."
+    ],
+    [
+     42.04,
+     46.25,
+     "How am I going to get out of this?"
+    ],
+    [
+     47.54,
+     51.05,
+     "Think. Think."
+    ],
+    [
+     51.09,
+     55.05,
+     "Think!"
+    ],
+    [
+     110.77,
+     113.19,
+     "What the hell are you doing?"
+    ],
+    [
+     114.36,
+     118.23,
+     "I'm kicking my ass! Do you mind?"
+    ],
+    [
+     143.01,
+     146.01,
+     "I found him like this in the bathroom, Your Honor."
+    ],
+    [
+     146.09,
+     148.05,
+     "Somebody beat the hell out of him."
+    ],
+    [
+     148.14,
+     151.06,
+     "- Who did this? - A madman, Your Honor!"
+    ]
+   ],
+   "glossary": {
+    "Fletcher": "佛萊契",
+    "Dana": "黛娜",
+    "Mr. Cole": "柯爾先生",
+    "Mrs. Cole": "柯爾太太",
+    "Judge Stevens": "史蒂文斯法官",
+    "Counsel Appleton": "艾波頓律師"
+   },
+   "versions": {
+    "us": [
+     {
+      "start": 25.4,
+      "end": 26.07,
+      "en": "He grins,",
+      "zh_draft": "他咧嘴一笑，",
+      "zh": "他咧嘴一笑，",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 26.07,
+      "end": 26.99,
+      "en": "leaps over the bar",
+      "zh_draft": "跳過圍欄，",
+      "zh": "跳過圍欄，",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 27.07,
+      "end": 28.45,
+      "en": "and scurries out of the courtroom.",
+      "zh_draft": "匆匆跑出法庭。",
+      "zh": "匆匆跑出法庭。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 31.82,
+      "end": 32.62,
+      "en": "Dana leans over",
+      "zh_draft": "黛娜湊過去，",
+      "zh": "黛娜湊過去，",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 32.62,
+      "end": 33.99,
+      "en": "and whispers to Mr. Cole.",
+      "zh_draft": "對柯爾先生耳語。",
+      "zh": "對柯爾先生耳語。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 37.87,
+      "end": 40.04,
+      "en": "In a bathroom, Fletcher uses a urinal.",
+      "zh_draft": "廁所裡，佛萊契站在小便斗前。",
+      "zh": "廁所裡，佛萊契站在小便斗前。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 48.88,
+      "end": 50.68,
+      "en": "He bangs his forehead against the wall.",
+      "zh_draft": "他用額頭撞牆。",
+      "zh": "他用額頭撞牆。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 54.81,
+      "end": 55.39,
+      "en": "He turns",
+      "zh_draft": "他轉身，",
+      "zh": "他轉身，",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 55.39,
+      "end": 57.22,
+      "en": "and addresses his reflection in a mirror.",
+      "zh_draft": "對著鏡中的自己說話。",
+      "zh": "對著鏡中的自己說話。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 58.93,
+      "end": 59.81,
+      "en": "He zips his pants",
+      "zh_draft": "他拉上褲子拉鍊，",
+      "zh": "他拉上褲子拉鍊，",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 59.81,
+      "end": 60.81,
+      "en": "and runs to the mirror.",
+      "zh_draft": "跑到鏡子前。",
+      "zh": "跑到鏡子前。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 60.98,
+      "end": 62.48,
+      "en": "He punches himself in the face.",
+      "zh_draft": "他朝自己臉上揍了一拳。",
+      "zh": "他朝自己臉上揍了一拳。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 64.98,
+      "end": 66.73,
+      "en": "He pumps liquid soap into his hands,",
+      "zh_draft": "他把洗手乳擠到手上，",
+      "zh": "他把洗手乳擠到手上，",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 66.9,
+      "end": 68.36,
+      "en": "then dabs it into his eyes.",
+      "zh_draft": "再抹進眼睛裡。",
+      "zh": "再抹進眼睛裡。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 71.82,
+      "end": 72.95,
+      "en": "A man enters the restroom",
+      "zh_draft": "一名男子走進廁所，",
+      "zh": "一名男子走進廁所，",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 72.95,
+      "end": 74.41,
+      "en": "and jumps at the sight of Fletcher.",
+      "zh_draft": "看到佛萊契嚇了一跳。",
+      "zh": "看到佛萊契嚇了一跳。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 74.62,
+      "end": 75.99,
+      "en": "Fletcher tears at his clothes,",
+      "zh_draft": "佛萊契撕扯自己的衣服，",
+      "zh": "佛萊契撕扯自己的衣服，",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 76.24,
+      "end": 77.29,
+      "en": "then wriggles around,",
+      "zh_draft": "接著扭來扭去，",
+      "zh": "接著扭來扭去，",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 77.37,
+      "end": 78.29,
+      "en": "pulling his hair.",
+      "zh_draft": "拉扯頭髮。",
+      "zh": "拉扯頭髮。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 79.75,
+      "end": 80.62,
+      "en": "Fletcher kicks out",
+      "zh_draft": "佛萊契猛力一踢，",
+      "zh": "佛萊契猛力一踢，",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 80.62,
+      "end": 82.33,
+      "en": "and slams his knee into a radiator.",
+      "zh_draft": "膝蓋撞上暖氣片。",
+      "zh": "膝蓋撞上暖氣片。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 82.46,
+      "end": 83.58,
+      "en": "The man's jaw drops.",
+      "zh_draft": "男子目瞪口呆。",
+      "zh": "男子目瞪口呆。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 83.71,
+      "end": 84.96,
+      "en": "Fletcher falls to the ground.",
+      "zh_draft": "佛萊契倒在地上。",
+      "zh": "佛萊契倒在地上。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 85.67,
+      "end": 87.71,
+      "en": "Fletcher smacks the top off a garbage can",
+      "zh_draft": "佛萊契拍掉垃圾桶的蓋子，",
+      "zh": "佛萊契拍掉垃圾桶的蓋子，",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 87.84,
+      "end": 89.13,
+      "en": "and turns it upside down,",
+      "zh_draft": "把垃圾桶倒過來，",
+      "zh": "把垃圾桶倒過來，",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 89.3,
+      "end": 91.09,
+      "en": "dumping the trash all over himself.",
+      "zh_draft": "垃圾倒了自己一身。",
+      "zh": "垃圾倒了自己一身。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 91.68,
+      "end": 94.09,
+      "en": "With a bloody nose, Fletcher rolls across the floor",
+      "zh_draft": "佛萊契鼻子流血，在地上打滾，",
+      "zh": "佛萊契鼻子流血，在地上打滾，",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 94.09,
+      "end": 95.55,
+      "en": "and hits his head inside of a toilet.",
+      "zh_draft": "頭撞進馬桶裡。",
+      "zh": "頭撞進馬桶裡。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 95.76,
+      "end": 96.47,
+      "en": "He lifts the lid",
+      "zh_draft": "他掀起馬桶蓋，",
+      "zh": "他掀起馬桶蓋，",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 96.47,
+      "end": 97.76,
+      "en": "and places his head beneath it.",
+      "zh_draft": "把頭放在蓋子下面。",
+      "zh": "把頭放在蓋子下面。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 97.93,
+      "end": 100.27,
+      "en": "He slams the lid into his head over and over.",
+      "zh_draft": "他用蓋子一次又一次砸自己的頭。",
+      "zh": "他用蓋子一次又一次砸自己的頭。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 101.1,
+      "end": 102.69,
+      "en": "He squishes his head beneath the lid.",
+      "zh_draft": "他用蓋子夾住自己的頭。",
+      "zh": "他用蓋子夾住自己的頭。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 102.9,
+      "end": 104.77,
+      "en": "The man continues watching, startled.",
+      "zh_draft": "男子仍驚愕地看著。",
+      "zh": "男子仍驚愕地看著。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 105.56,
+      "end": 106.61,
+      "en": "Fletcher stumbles up",
+      "zh_draft": "佛萊契踉蹌爬起，",
+      "zh": "佛萊契踉蹌爬起，",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 106.61,
+      "end": 107.9,
+      "en": "and stomps on his own foot.",
+      "zh_draft": "往自己腳上猛踩。",
+      "zh": "往自己腳上猛踩。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 108.11,
+      "end": 109.32,
+      "en": "He staggers toward the man.",
+      "zh_draft": "他搖搖晃晃走向男子。",
+      "zh": "他搖搖晃晃走向男子。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 118.62,
+      "end": 120.54,
+      "en": "The man staggers backward toward the door",
+      "zh_draft": "男子踉蹌退向門口，",
+      "zh": "男子踉蹌退向門口，",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 120.54,
+      "end": 121.41,
+      "en": "and shakes his head.",
+      "zh_draft": "搖了搖頭。",
+      "zh": "搖了搖頭。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 121.5,
+      "end": 123.33,
+      "en": "Fletcher slams himself into the wall,",
+      "zh_draft": "佛萊契用身體撞牆，",
+      "zh": "佛萊契用身體撞牆，",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 123.42,
+      "end": 125.13,
+      "en": "as the man stumbles out of the room.",
+      "zh_draft": "男子跌跌撞撞逃出廁所。",
+      "zh": "男子跌跌撞撞逃出廁所。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 126.25,
+      "end": 128.3,
+      "en": "Fletcher launches his whole body at the wall,",
+      "zh_draft": "佛萊契整個人飛撲撞向牆壁，",
+      "zh": "佛萊契整個人飛撲撞向牆壁，",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 128.5,
+      "end": 130.59,
+      "en": "then falls onto his back, unconscious.",
+      "zh_draft": "仰倒在地，昏了過去。",
+      "zh": "仰倒在地，昏了過去。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 132.38,
+      "end": 134.84,
+      "en": "In the courtroom, Mrs. Cole powders her face.",
+      "zh_draft": "法庭裡，柯爾太太在補粉。",
+      "zh": "法庭裡，柯爾太太在補粉。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 134.93,
+      "end": 136.93,
+      "en": "Judge Stevens and Dana check their watches.",
+      "zh_draft": "史蒂文斯法官和黛娜看了看手錶。",
+      "zh": "史蒂文斯法官和黛娜看了看手錶。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 137.14,
+      "end": 138.22,
+      "en": "Mr. Cole yawns.",
+      "zh_draft": "柯爾先生打了個哈欠。",
+      "zh": "柯爾先生打了個哈欠。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 138.47,
+      "end": 141.73,
+      "en": "A court officer enters, supporting a bloodied and bedraggled Fletcher.",
+      "zh_draft": "一名法警走進來，扶著滿身是血、狼狽不堪的佛萊契。",
+      "zh": "一名法警走進來，扶著滿身是血、狼狽不堪的佛萊契。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     }
+    ],
+    "uk": [
+     {
+      "start": 26.24,
+      "end": 28.45,
+      "en": "Fletcher leaps over a low-lying wooden gate",
+      "zh_draft": "佛萊契跳過矮木門，",
+      "zh": "佛萊契跳過矮木門，",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 28.57,
+      "end": 32.24,
+      "en": "and dashes out of the courtroom to the bemused muttering of the assembled public.",
+      "zh_draft": "衝出法庭，旁聽席一陣困惑的竊竊私語。",
+      "zh": "衝出法庭，旁聽席一陣困惑的竊竊私語。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 33.58,
+      "end": 36.2,
+      "en": "In the bathroom, he leans forward against a urinal",
+      "zh_draft": "廁所裡，他身體前傾靠在小便斗上，",
+      "zh": "廁所裡，他身體前傾靠在小便斗上，",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 36.29,
+      "end": 38.21,
+      "en": "and stares up at the high ceiling.",
+      "zh_draft": "抬頭盯著高高的天花板。",
+      "zh": "抬頭盯著高高的天花板。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 45.96,
+      "end": 47.97,
+      "en": "Banging his head on the marbled wall.",
+      "zh_draft": "用頭撞大理石牆。",
+      "zh": "用頭撞大理石牆。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 60.02,
+      "end": 61.44,
+      "en": "Fletcher zips up his fly,",
+      "zh_draft": "佛萊契拉上拉鍊，",
+      "zh": "佛萊契拉上拉鍊，",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 61.44,
+      "end": 62.56,
+      "en": "hurries across to the mirror",
+      "zh_draft": "快步走到鏡子前，",
+      "zh": "快步走到鏡子前，",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 62.56,
+      "end": 64.57,
+      "en": "and starts hitting himself around the face.",
+      "zh_draft": "開始往自己臉上猛打。",
+      "zh": "開始往自己臉上猛打。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 65.57,
+      "end": 68.74,
+      "en": "Next, he rubs liquid soap from a dispenser into both his eyes.",
+      "zh_draft": "接著，他從給皂機擠出洗手乳，抹進雙眼。",
+      "zh": "接著，他從給皂機擠出洗手乳，抹進雙眼。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 72.87,
+      "end": 74.45,
+      "en": "A flabbergasted man watches",
+      "zh_draft": "一名男子目瞪口呆地看著",
+      "zh": "一名男子目瞪口呆地看著",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 74.45,
+      "end": 76.66,
+      "en": "as Fletcher tears at the sleeves of his suit,",
+      "zh_draft": "佛萊契撕扯西裝袖子，",
+      "zh": "佛萊契撕扯西裝袖子，",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 76.74,
+      "end": 77.83,
+      "en": "writhes at his hair",
+      "zh_draft": "扭扯頭髮，",
+      "zh": "扭扯頭髮，",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 77.83,
+      "end": 79.79,
+      "en": "and smacks his knee against a radiator.",
+      "zh_draft": "膝蓋撞上暖氣片。",
+      "zh": "膝蓋撞上暖氣片。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 85.71,
+      "end": 87.84,
+      "en": "Next, he knocks the swivel top off a bin",
+      "zh_draft": "接著，他打掉垃圾桶的翻蓋，",
+      "zh": "接著，他打掉垃圾桶的翻蓋，",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 87.84,
+      "end": 90.72,
+      "en": "and empties all the used paper hand towels over his head.",
+      "zh_draft": "把用過的擦手紙全倒在自己頭上。",
+      "zh": "把用過的擦手紙全倒在自己頭上。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 91.13,
+      "end": 92.3,
+      "en": "He rolls across the floor",
+      "zh_draft": "他在地上打滾，",
+      "zh": "他在地上打滾，",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 92.3,
+      "end": 94.18,
+      "en": "and hits his head against a toilet bowl,",
+      "zh_draft": "頭撞上馬桶，",
+      "zh": "頭撞上馬桶，",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 94.51,
+      "end": 99.27,
+      "en": "before slamming down the wooden toilet seat again and again on the side of his rubbery face.",
+      "zh_draft": "再用木製馬桶座一次次砸向自己那張橡皮般的臉。",
+      "zh": "再用木製馬桶座一次次砸向自己那張橡皮般的臉。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 100.81,
+      "end": 105.4,
+      "en": "Finally, to the astonishment of the transfixed onlooker, he emerges from the cubicle",
+      "zh_draft": "最後，在看傻了的男子驚愕注視下，他從隔間走出來，",
+      "zh": "最後，在看傻了的男子驚愕注視下，他從隔間走出來，",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 105.4,
+      "end": 107.15,
+      "en": "and stamps on his own foot.",
+      "zh_draft": "往自己腳上一踩。",
+      "zh": "往自己腳上一踩。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 119.33,
+      "end": 123.21,
+      "en": "As the man makes a speedy exit, Fletcher drags himself by the tie",
+      "zh_draft": "男子飛快離開，佛萊契扯著自己的領帶，",
+      "zh": "男子飛快離開，佛萊契扯著自己的領帶，",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 123.21,
+      "end": 125.58,
+      "en": "and hurls himself repeatedly against the wall.",
+      "zh_draft": "一次次把自己摔向牆壁。",
+      "zh": "一次次把自己摔向牆壁。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 127.21,
+      "end": 131.3,
+      "en": "With one final thwack, he falls unconscious on the floor.",
+      "zh_draft": "最後砰的一聲，他倒在地上昏了過去。",
+      "zh": "最後砰的一聲，他倒在地上昏了過去。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 132.01,
+      "end": 134.97,
+      "en": "Back in the courtroom, Mrs. Cole sits powdering her nose",
+      "zh_draft": "回到法庭，柯爾太太坐著在鼻子上補粉，",
+      "zh": "回到法庭，柯爾太太坐著在鼻子上補粉，",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 134.97,
+      "end": 138.35,
+      "en": "while the judge and Counsel Appleton impatiently look at their watches.",
+      "zh_draft": "法官和艾波頓律師不耐煩地看著手錶。",
+      "zh": "法官和艾波頓律師不耐煩地看著手錶。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 138.93,
+      "end": 142.1,
+      "en": "Suddenly, a security guard drags in a battered looking Fletcher.",
+      "zh_draft": "突然，一名警衛拖著遍體鱗傷的佛萊契進來。",
+      "zh": "突然，一名警衛拖著遍體鱗傷的佛萊契進來。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     }
+    ]
+   }
+  },
+  "CQEeb6wSS97K": {
+   "movie": "the_girl_with_the_dragon_tattoo",
+   "imdb_id": "tt1568346",
+   "duration": 113.31,
+   "video": "N:\\datasets\\reframed\\clips\\CQEeb6wSS97K.mp4",
+   "subs": [],
+   "glossary": {
+    "Salander / Lisbeth": "莎蘭德／莉絲貝",
+    "Martin": "馬汀",
+    "Range Rover": "荒原路華",
+    "SUV": "休旅車"
+   },
+   "versions": {
+    "us": [
+     {
+      "start": 0.29,
+      "end": 2.42,
+      "en": "The SUV cruises a forest road.",
+      "zh_draft": "休旅車行駛在林間道路上。",
+      "zh": "休旅車行駛在林間道路上。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 2.71,
+      "end": 5.05,
+      "en": "Pulling out, the motorcycle kicks up gravel.",
+      "zh_draft": "機車起步，揚起碎石。",
+      "zh": "機車起步，揚起碎石。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 5.38,
+      "end": 8.34,
+      "en": "As Martin struggles to drive, the SUV swerves.",
+      "zh_draft": "馬汀吃力地駕駛，休旅車左右打滑。",
+      "zh": "馬汀吃力地駕駛，休旅車左右打滑。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 8.55,
+      "end": 9.84,
+      "en": "Salander catches air,",
+      "zh_draft": "莎蘭德騰空飛起，",
+      "zh": "莎蘭德騰空飛起，",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 10.05,
+      "end": 11.72,
+      "en": "then races down the forest road",
+      "zh_draft": "接著在林間道路上疾馳，",
+      "zh": "接著在林間道路上疾馳，",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 11.72,
+      "end": 12.76,
+      "en": "and rounds a bend.",
+      "zh_draft": "轉過彎道。",
+      "zh": "轉過彎道。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 12.97,
+      "end": 15.6,
+      "en": "Her lone headlight shines through Martin's back window.",
+      "zh_draft": "她唯一的車燈照進馬汀的後車窗。",
+      "zh": "她唯一的車燈照進馬汀的後車窗。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 15.93,
+      "end": 18.27,
+      "en": "Her view finds the SUV rounding a bend.",
+      "zh_draft": "她看見休旅車轉過彎道。",
+      "zh": "她看見休旅車轉過彎道。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 18.39,
+      "end": 20.15,
+      "en": "Martin checks his rear view mirror.",
+      "zh_draft": "馬汀看了看後照鏡。",
+      "zh": "馬汀看了看後照鏡。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 20.19,
+      "end": 22.52,
+      "en": "Salander hunches over her bike's handlebars.",
+      "zh_draft": "莎蘭德伏身在機車把手上。",
+      "zh": "莎蘭德伏身在機車把手上。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 22.73,
+      "end": 26.4,
+      "en": "The vehicles race along the forest road, flanked by tall, thin trees.",
+      "zh_draft": "兩輛車在林間道路上競速，兩旁是高瘦的樹木。",
+      "zh": "兩輛車在林間道路上競速，兩旁是高瘦的樹木。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 26.53,
+      "end": 30.91,
+      "en": "Now the motorcycle gains on the SUV, jouncing in the cold rushing air.",
+      "zh_draft": "機車逐漸逼近休旅車，在呼嘯的冷風中顛簸。",
+      "zh": "機車逐漸逼近休旅車，在呼嘯的冷風中顛簸。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 31.24,
+      "end": 32.99,
+      "en": "Martin checks his rear view again.",
+      "zh_draft": "馬汀又看了一眼後照鏡。",
+      "zh": "馬汀又看了一眼後照鏡。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 33.12,
+      "end": 36.54,
+      "en": "She follows him down a hill, peering ahead with a determined gaze.",
+      "zh_draft": "她跟著他衝下山坡，眼神堅定地盯著前方。",
+      "zh": "她跟著他衝下山坡，眼神堅定地盯著前方。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 36.87,
+      "end": 39.37,
+      "en": "As they reach the bridge, Salander rides up close.",
+      "zh_draft": "到了橋上，莎蘭德緊跟上去。",
+      "zh": "到了橋上，莎蘭德緊跟上去。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 39.58,
+      "end": 41.5,
+      "en": "Martin spots her in his side mirror,",
+      "zh_draft": "馬汀從側後照鏡看見她，",
+      "zh": "馬汀從側後照鏡看見她，",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 41.58,
+      "end": 43.5,
+      "en": "then cuts her off before she can pass.",
+      "zh_draft": "在她超車前切過去擋住她。",
+      "zh": "在她超車前切過去擋住她。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 43.75,
+      "end": 44.96,
+      "en": "She tries the other side,",
+      "zh_draft": "她改從另一側超車，",
+      "zh": "她改從另一側超車，",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 44.96,
+      "end": 46.05,
+      "en": "but he blocks her way.",
+      "zh_draft": "但他擋住了去路。",
+      "zh": "但他擋住了去路。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 46.38,
+      "end": 48.72,
+      "en": "Nearing the end of the bridge, she fakes him out",
+      "zh_draft": "快到橋尾時，她虛晃一招，",
+      "zh": "快到橋尾時，她虛晃一招，",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 48.8,
+      "end": 53.22,
+      "en": "and as his SUV grazes the right hand railing, Salander races ahead on his left.",
+      "zh_draft": "休旅車擦過右側護欄，莎蘭德從他左側衝到前面。",
+      "zh": "休旅車擦過右側護欄，莎蘭德從他左側衝到前面。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 53.35,
+      "end": 54.97,
+      "en": "She veers across his path.",
+      "zh_draft": "她切到他車前。",
+      "zh": "她切到他車前。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 55.14,
+      "end": 56.68,
+      "en": "He swerves through a wooden fence,",
+      "zh_draft": "他急轉撞穿木圍籬，",
+      "zh": "他急轉撞穿木圍籬，",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 56.68,
+      "end": 57.98,
+      "en": "bangs off a low stone wall",
+      "zh_draft": "撞上矮石牆，",
+      "zh": "撞上矮石牆，",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 57.98,
+      "end": 59.02,
+      "en": "and goes airborne.",
+      "zh_draft": "整輛車騰空。",
+      "zh": "整輛車騰空。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 59.27,
+      "end": 65.19,
+      "en": "As Salander skids off her bike, Martin's SUV grinds on its side into a fuel tank outside the grocery store.",
+      "zh_draft": "莎蘭德從機車上滑落，馬汀的休旅車側翻，擦地撞上雜貨店外的油槽。",
+      "zh": "莎蘭德從機車上滑落，馬汀的休旅車側翻，擦地撞上雜貨店外的油槽。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 65.36,
+      "end": 66.61,
+      "en": "Salander approaches.",
+      "zh_draft": "莎蘭德走近。",
+      "zh": "莎蘭德走近。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 66.98,
+      "end": 68.69,
+      "en": "Thick smoke rises from the wreck.",
+      "zh_draft": "殘骸冒出濃煙。",
+      "zh": "殘骸冒出濃煙。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 68.78,
+      "end": 71.95,
+      "en": "Approaching the vehicle, Salander removes the gun from her waistband",
+      "zh_draft": "莎蘭德走向車子，從腰間掏出槍，",
+      "zh": "莎蘭德走向車子，從腰間掏出槍，",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 71.95,
+      "end": 73.28,
+      "en": "and holds it at her side.",
+      "zh_draft": "垂握在身側。",
+      "zh": "垂握在身側。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 73.53,
+      "end": 76.79,
+      "en": "Inside the SUV, Martin watches through the windshield.",
+      "zh_draft": "休旅車裡，馬汀透過擋風玻璃看著。",
+      "zh": "休旅車裡，馬汀透過擋風玻璃看著。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 76.95,
+      "end": 82.29,
+      "en": "Still about 50 yards away, Salander continues her march toward the wreck through a gentle snowfall.",
+      "zh_draft": "莎蘭德在約五十碼外，冒著細雪繼續朝殘骸走去。",
+      "zh": "莎蘭德在約五十碼外，冒著細雪繼續朝殘骸走去。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 82.62,
+      "end": 84.71,
+      "en": "Martin watches her, his face bloody.",
+      "zh_draft": "馬汀滿臉是血，看著她。",
+      "zh": "馬汀滿臉是血，看著她。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 85.0,
+      "end": 87.13,
+      "en": "The pale woman's gaze remains fixed on him.",
+      "zh_draft": "蒼白的女子目光緊盯著他。",
+      "zh": "蒼白的女子目光緊盯著他。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 87.38,
+      "end": 88.34,
+      "en": "He sees a spark.",
+      "zh_draft": "他看見一道火花。",
+      "zh": "他看見一道火花。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 89.46,
+      "end": 93.14,
+      "en": "A fiery explosion erupts, rising over 50 feet high.",
+      "zh_draft": "一陣爆炸，火焰竄起超過五十英尺高。",
+      "zh": "一陣爆炸，火焰竄起超過五十英尺高。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 93.34,
+      "end": 96.39,
+      "en": "Salander steps back and watches the SUV burn.",
+      "zh_draft": "莎蘭德往後退，看著休旅車燃燒。",
+      "zh": "莎蘭德往後退，看著休旅車燃燒。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 96.72,
+      "end": 98.72,
+      "en": "The flames reach into the night sky.",
+      "zh_draft": "火焰直衝夜空。",
+      "zh": "火焰直衝夜空。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 98.97,
+      "end": 104.1,
+      "en": "Our view swings around behind the young woman, the burning wreck now visible over her shoulder.",
+      "zh_draft": "鏡頭轉到年輕女子身後，越過她的肩膀可見燃燒的殘骸。",
+      "zh": "鏡頭轉到年輕女子身後，越過她的肩膀可見燃燒的殘骸。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 104.19,
+      "end": 105.31,
+      "en": "She looks at the gun,",
+      "zh_draft": "她看了看手上的槍，",
+      "zh": "她看了看手上的槍，",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 105.48,
+      "end": 106.69,
+      "en": "releases its trigger,",
+      "zh_draft": "鬆開扳機，",
+      "zh": "鬆開扳機，",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 106.69,
+      "end": 107.77,
+      "en": "then turns away.",
+      "zh_draft": "然後轉身離開。",
+      "zh": "然後轉身離開。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 107.9,
+      "end": 109.9,
+      "en": "She marches back to her motorcycle.",
+      "zh_draft": "她大步走回機車。",
+      "zh": "她大步走回機車。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 110.53,
+      "end": 111.4,
+      "en": "Fade to black.",
+      "zh_draft": "畫面淡出至全黑。",
+      "zh": "畫面淡出至全黑。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     }
+    ],
+    "uk": [
+     {
+      "start": 5.63,
+      "end": 8.3,
+      "en": "The motorcycle starts to gain ground on the Range Rover.",
+      "zh_draft": "機車開始追近荒原路華。",
+      "zh": "機車開始追近荒原路華。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 8.59,
+      "end": 11.18,
+      "en": "Martin sees its headlights appear in his rear view mirror.",
+      "zh_draft": "馬汀看見後照鏡裡出現機車的車燈。",
+      "zh": "馬汀看見後照鏡裡出現機車的車燈。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 11.72,
+      "end": 15.89,
+      "en": "Lisbeth guns the bike’s engine, shrinking the gap between her and the car.",
+      "zh_draft": "莉絲貝催緊油門，拉近與車子的距離。",
+      "zh": "莉絲貝催緊油門，拉近與車子的距離。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 29.78,
+      "end": 32.49,
+      "en": "As they approached the bridge, she's right on Martin's tail.",
+      "zh_draft": "接近橋時，她緊咬在馬汀車後。",
+      "zh": "接近橋時，她緊咬在馬汀車後。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 32.82,
+      "end": 34.41,
+      "en": "He sees her try to come alongside him",
+      "zh_draft": "他看見她想從旁邊超上來，",
+      "zh": "他看見她想從旁邊超上來，",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 34.41,
+      "end": 35.79,
+      "en": "and swerves to block her path.",
+      "zh_draft": "便急轉擋住她。",
+      "zh": "便急轉擋住她。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 36.25,
+      "end": 37.41,
+      "en": "She makes another attempt",
+      "zh_draft": "她再試一次，",
+      "zh": "她再試一次，",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 37.5,
+      "end": 39.16,
+      "en": "and he slews back across the bridge.",
+      "zh_draft": "他又甩回橋的另一側。",
+      "zh": "他又甩回橋的另一側。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 39.87,
+      "end": 43.67,
+      "en": "The Range Rover’s gyrations become more violent as he tries to stop her passing",
+      "zh_draft": "為了不讓她超車，荒原路華甩動得越來越劇烈，",
+      "zh": "為了不讓她超車，荒原路華甩動得越來越劇烈，",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 43.92,
+      "end": 45.38,
+      "en": "and the back clips the bridge.",
+      "zh_draft": "車尾擦撞橋身。",
+      "zh": "車尾擦撞橋身。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 45.96,
+      "end": 49.42,
+      "en": "Lisbeth guns her engine and streaks through on Martin's left hand side.",
+      "zh_draft": "莉絲貝猛催油門，從馬汀左側疾衝而過。",
+      "zh": "莉絲貝猛催油門，從馬汀左側疾衝而過。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 50.05,
+      "end": 52.47,
+      "en": "He loses control as he comes off the end of the bridge",
+      "zh_draft": "他駛離橋尾時失控，",
+      "zh": "他駛離橋尾時失控，",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 52.59,
+      "end": 53.8,
+      "en": "and overturns the car.",
+      "zh_draft": "車子翻覆。",
+      "zh": "車子翻覆。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 54.39,
+      "end": 56.35,
+      "en": "It comes to rest on its side in the road.",
+      "zh_draft": "車子側躺在路中央。",
+      "zh": "車子側躺在路中央。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 56.68,
+      "end": 60.35,
+      "en": "Lisbeth comes to a skidding halt, dropping the bike in the process.",
+      "zh_draft": "莉絲貝滑行急停，機車也倒在地上。",
+      "zh": "莉絲貝滑行急停，機車也倒在地上。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 64.44,
+      "end": 65.48,
+      "en": "She takes a deep breath",
+      "zh_draft": "她深吸一口氣，",
+      "zh": "她深吸一口氣，",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 65.48,
+      "end": 68.57,
+      "en": "and walks towards the stricken Range Rover as smoke billows from it.",
+      "zh_draft": "走向冒著濃煙的荒原路華。",
+      "zh": "走向冒著濃煙的荒原路華。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 69.19,
+      "end": 70.65,
+      "en": "She takes the pistol from her pocket",
+      "zh_draft": "她從口袋掏出手槍，",
+      "zh": "她從口袋掏出手槍，",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 70.65,
+      "end": 71.32,
+      "en": "and cocks it.",
+      "zh_draft": "扳起擊錘。",
+      "zh": "扳起擊錘。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 72.2,
+      "end": 75.33,
+      "en": "Trapped inside the vehicle, Martin looks fearfully through the windscreen",
+      "zh_draft": "受困車內的馬汀驚恐地望向擋風玻璃外，",
+      "zh": "受困車內的馬汀驚恐地望向擋風玻璃外，",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 75.66,
+      "end": 77.54,
+      "en": "as Lisbeth walks towards him.",
+      "zh_draft": "莉絲貝正朝他走來。",
+      "zh": "莉絲貝正朝他走來。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 81.08,
+      "end": 87.63,
+      "en": "Something shorts out under the bonnet, igniting spilled fuel, and the Range Rover is engulfed in a massive fireball.",
+      "zh_draft": "引擎蓋下某處短路，點燃外洩的汽油，荒原路華被巨大火球吞沒。",
+      "zh": "引擎蓋下某處短路，點燃外洩的汽油，荒原路華被巨大火球吞沒。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 92.97,
+      "end": 98.18,
+      "en": "Lisbeth stops in her tracks and watches as the car and Martin are incinerated in front of her.",
+      "zh_draft": "莉絲貝停下腳步，看著車子和馬汀在眼前燒成灰燼。",
+      "zh": "莉絲貝停下腳步，看著車子和馬汀在眼前燒成灰燼。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 106.36,
+      "end": 109.19,
+      "en": "She uncocks the pistol and walks back to her bike.",
+      "zh_draft": "她放下擊錘，走回機車。",
+      "zh": "她放下擊錘，走回機車。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 109.9,
+      "end": 111.86,
+      "en": "The screen fades to black.",
+      "zh_draft": "畫面淡出至全黑。",
+      "zh": "畫面淡出至全黑。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     }
+    ]
+   }
+  },
+  "T9bfm2XbXjx_": {
+   "movie": "the_thing_2011",
+   "imdb_id": "tt0905372",
+   "duration": 153.62,
+   "video": "N:\\datasets\\reframed\\clips\\T9bfm2XbXjx_.mp4",
+   "subs": [
+    [
+     1.2,
+     2.99,
+     "Not all of us are human."
+    ],
+    [
+     5.03,
+     6.54,
+     "Just put him over there on the couch."
+    ],
+    [
+     22.76,
+     24.76,
+     "Help! Help me!"
+    ],
+    [
+     24.8,
+     26.64,
+     "- My God! - Get it off him!"
+    ],
+    [
+     28.14,
+     30.18,
+     "What the fuck is this shit, man?"
+    ],
+    [
+     40.86,
+     42.32,
+     "Carter, Carter!"
+    ],
+    [
+     42.45,
+     43.66,
+     "Carter, burn it, man!"
+    ],
+    [
+     44.95,
+     46.99,
+     "There's something wrong with it! Hold on!"
+    ],
+    [
+     47.08,
+     49.29,
+     "Goddamn it, Carter, burn it!"
+    ],
+    [
+     54.58,
+     56.08,
+     "Look out! Fuck!"
+    ],
+    [
+     57.09,
+     58.09,
+     "Adam!"
+    ],
+    [
+     65.3,
+     67.26,
+     "- Shit! - Carter, take it!"
+    ],
+    [
+     69.85,
+     70.89,
+     "Carter!"
+    ],
+    [
+     70.97,
+     72.61,
+     "There's something wrong with the pressure."
+    ],
+    [
+     73.23,
+     74.48,
+     "Put some air in the pipe."
+    ],
+    [
+     77.02,
+     78.02,
+     "Watch out!"
+    ],
+    [
+     79.94,
+     80.94,
+     "Carter!"
+    ],
+    [
+     92.58,
+     93.83,
+     "We gotta get the air up."
+    ],
+    [
+     100.92,
+     101.92,
+     "No."
+    ],
+    [
+     117.02,
+     118.02,
+     "No."
+    ],
+    [
+     118.27,
+     119.77,
+     "No."
+    ],
+    [
+     120.65,
+     121.65,
+     "God!"
+    ],
+    [
+     122.48,
+     123.74,
+     "No, God!"
+    ],
+    [
+     124.99,
+     126.11,
+     "Carter!"
+    ],
+    [
+     128.7,
+     129.91,
+     "No! No!"
+    ]
+   ],
+   "glossary": {
+    "Kate": "凱特",
+    "Jonas": "喬納斯",
+    "Colin": "柯林",
+    "Edvard": "艾德華",
+    "Carter": "卡特",
+    "Sander": "桑德",
+    "Jameson": "詹姆森",
+    "Adam": "亞當"
+   },
+   "versions": {
+    "us": [
+     {
+      "start": 7.84,
+      "end": 8.97,
+      "en": "Kate takes a seat.",
+      "zh_draft": "凱特坐下。",
+      "zh": "凱特坐下。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 9.93,
+      "end": 14.93,
+      "en": "As Jonas and Colin help Edvard around the pool table, the wounded man's left arm detaches",
+      "zh_draft": "喬納斯和柯林扶著艾德華繞過撞球桌時，傷者的左臂脫落，",
+      "zh": "喬納斯和柯林扶著艾德華繞過撞球桌時，傷者的左臂脫落，",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 14.93,
+      "end": 17.48,
+      "en": "and slides out his sleeve to reveal tentacles.",
+      "zh_draft": "從袖子滑出，露出觸手。",
+      "zh": "從袖子滑出，露出觸手。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 17.85,
+      "end": 19.6,
+      "en": "It crawls up Jonas's shoulder.",
+      "zh_draft": "它爬上喬納斯的肩膀。",
+      "zh": "它爬上喬納斯的肩膀。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 19.9,
+      "end": 22.94,
+      "en": "He grabs at the alien limb as it reaches for his face.",
+      "zh_draft": "異形肢體伸向他的臉，他一把抓住。",
+      "zh": "異形肢體伸向他的臉，他一把抓住。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 23.11,
+      "end": 24.32,
+      "en": "The others recoil.",
+      "zh_draft": "其他人往後退。",
+      "zh": "其他人往後退。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 26.32,
+      "end": 27.82,
+      "en": "Jonas backs into a shelf.",
+      "zh_draft": "喬納斯退撞到架子上。",
+      "zh": "喬納斯退撞到架子上。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 30.03,
+      "end": 33.58,
+      "en": "A mouth within the bloody stump attaches itself to Jonas's mouth,",
+      "zh_draft": "血淋淋斷肢裡的一張嘴吸住喬納斯的嘴，",
+      "zh": "血淋淋斷肢裡的一張嘴吸住喬納斯的嘴，",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 33.62,
+      "end": 35.79,
+      "en": "and the forearm ripples as if feeding him.",
+      "zh_draft": "前臂一陣蠕動，像在餵他東西。",
+      "zh": "前臂一陣蠕動，像在餵他東西。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 36.25,
+      "end": 38.71,
+      "en": "A bulge pokes up from underneath Edvard's sweater",
+      "zh_draft": "艾德華的毛衣底下鼓起一團，",
+      "zh": "艾德華的毛衣底下鼓起一團，",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 38.71,
+      "end": 40.71,
+      "en": "as his body convulses on the floor.",
+      "zh_draft": "他的身體在地上抽搐。",
+      "zh": "他的身體在地上抽搐。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 41.04,
+      "end": 43.0,
+      "en": "Carter struggles with his flamethrower.",
+      "zh_draft": "卡特手忙腳亂地弄火焰噴射器。",
+      "zh": "卡特手忙腳亂地弄火焰噴射器。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 48.97,
+      "end": 51.3,
+      "en": "A long tentacle emerges from Edvard's chest,",
+      "zh_draft": "一條長觸手從艾德華胸口竄出，",
+      "zh": "一條長觸手從艾德華胸口竄出，",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 51.43,
+      "end": 53.47,
+      "en": "snaps at the blond research assistant,",
+      "zh_draft": "甩向金髮研究助理，",
+      "zh": "甩向金髮研究助理，",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 53.6,
+      "end": 55.18,
+      "en": "then whips past Kate and Carter",
+      "zh_draft": "接著掃過凱特和卡特，",
+      "zh": "接著掃過凱特和卡特，",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 55.18,
+      "end": 57.06,
+      "en": "and takes out the pool table lamp.",
+      "zh_draft": "打掉撞球桌上方的燈。",
+      "zh": "打掉撞球桌上方的燈。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 57.98,
+      "end": 59.48,
+      "en": "He dodges toward an open door,",
+      "zh_draft": "他閃身衝向敞開的門，",
+      "zh": "他閃身衝向敞開的門，",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 59.48,
+      "end": 60.44,
+      "en": "but stumbles.",
+      "zh_draft": "卻絆了一跤。",
+      "zh": "卻絆了一跤。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 60.56,
+      "end": 62.23,
+      "en": "The tentacle pierces his chest,",
+      "zh_draft": "觸手刺穿他的胸口，",
+      "zh": "觸手刺穿他的胸口，",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 62.31,
+      "end": 64.57,
+      "en": "then retracts, spilling a gush of blood.",
+      "zh_draft": "隨即抽回，鮮血噴湧而出。",
+      "zh": "隨即抽回，鮮血噴湧而出。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 64.73,
+      "end": 65.98,
+      "en": "Sander escapes.",
+      "zh_draft": "桑德逃走了。",
+      "zh": "桑德逃走了。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 67.53,
+      "end": 70.03,
+      "en": "The two pilots flip the pool table on its side.",
+      "zh_draft": "兩名機師把撞球桌翻倒立起。",
+      "zh": "兩名機師把撞球桌翻倒立起。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 74.49,
+      "end": 76.29,
+      "en": "The tentacle whips around the room.",
+      "zh_draft": "觸手在房間裡四處揮舞。",
+      "zh": "觸手在房間裡四處揮舞。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 77.87,
+      "end": 79.58,
+      "en": "It breaks through the pool table.",
+      "zh_draft": "它擊穿撞球桌。",
+      "zh": "它擊穿撞球桌。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 80.87,
+      "end": 81.96,
+      "en": "Jameson stands up",
+      "zh_draft": "詹姆森站起來，",
+      "zh": "詹姆森站起來，",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 81.96,
+      "end": 82.88,
+      "en": "and shoots Edvard,",
+      "zh_draft": "朝艾德華開槍，",
+      "zh": "朝艾德華開槍，",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 82.96,
+      "end": 85.04,
+      "en": "but the tentacle pierces his chest.",
+      "zh_draft": "但觸手刺穿了他的胸口。",
+      "zh": "但觸手刺穿了他的胸口。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 85.38,
+      "end": 86.96,
+      "en": "Kate and his copilot look on",
+      "zh_draft": "凱特和他的副機師眼睜睜看著",
+      "zh": "凱特和他的副機師眼睜睜看著",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 86.96,
+      "end": 88.76,
+      "en": "as he slides down to the floor.",
+      "zh_draft": "他滑倒在地。",
+      "zh": "他滑倒在地。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 88.96,
+      "end": 90.97,
+      "en": "Carter takes off his flamethrower tank.",
+      "zh_draft": "卡特卸下火焰噴射器的燃料罐。",
+      "zh": "卡特卸下火焰噴射器的燃料罐。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 94.01,
+      "end": 95.1,
+      "en": "He tends to Jameson",
+      "zh_draft": "他照料詹姆森，",
+      "zh": "他照料詹姆森，",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 95.1,
+      "end": 96.93,
+      "en": "while Kate works on the flamethrower.",
+      "zh_draft": "凱特則忙著修火焰噴射器。",
+      "zh": "凱特則忙著修火焰噴射器。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 97.18,
+      "end": 99.6,
+      "en": "Edvard's face tilts backwards, eyeing Adam.",
+      "zh_draft": "艾德華的臉往後仰，盯著亞當。",
+      "zh": "艾德華的臉往後仰，盯著亞當。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 102.02,
+      "end": 103.52,
+      "en": "The Norwegian's body arches",
+      "zh_draft": "這名挪威人的身體向上弓起，",
+      "zh": "這名挪威人的身體向上弓起，",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 103.52,
+      "end": 104.94,
+      "en": "and his sweater rips open.",
+      "zh_draft": "毛衣被撐破。",
+      "zh": "毛衣被撐破。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 105.19,
+      "end": 107.23,
+      "en": "His right arm wrenches free from his sleeve",
+      "zh_draft": "他的右臂從袖子裡掙脫，",
+      "zh": "他的右臂從袖子裡掙脫，",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 107.23,
+      "end": 109.74,
+      "en": "and skitters off on eight legs like a crab.",
+      "zh_draft": "像螃蟹一樣用八隻腳竄走。",
+      "zh": "像螃蟹一樣用八隻腳竄走。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 110.15,
+      "end": 113.78,
+      "en": "Thick, sinewy limbs, slick with blood, grow from Edvard's bare chest",
+      "zh_draft": "沾滿鮮血、粗壯筋肉般的肢體從艾德華赤裸的胸口長出，",
+      "zh": "沾滿鮮血、粗壯筋肉般的肢體從艾德華赤裸的胸口長出，",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 113.99,
+      "end": 116.12,
+      "en": "and lift his back up off the floor.",
+      "zh_draft": "把他的背撐離地面。",
+      "zh": "把他的背撐離地面。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 117.66,
+      "end": 119.2,
+      "en": "Adam tries to scoot away,",
+      "zh_draft": "亞當想挪開逃走，",
+      "zh": "亞當想挪開逃走，",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 119.29,
+      "end": 122.41,
+      "en": "but the spider-like monstrosity crawls on top of him.",
+      "zh_draft": "但那隻蜘蛛般的怪物爬到他身上。",
+      "zh": "但那隻蜘蛛般的怪物爬到他身上。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 123.67,
+      "end": 125.54,
+      "en": "Kate releases pressure from a valve.",
+      "zh_draft": "凱特打開閥門洩壓。",
+      "zh": "凱特打開閥門洩壓。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 125.58,
+      "end": 127.21,
+      "en": "The creature pins Adam down.",
+      "zh_draft": "怪物把亞當壓制在地。",
+      "zh": "怪物把亞當壓制在地。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 129.3,
+      "end": 132.22,
+      "en": "He watches in horror as the alien's neck elongates.",
+      "zh_draft": "他驚恐地看著異形的脖子越伸越長。",
+      "zh": "他驚恐地看著異形的脖子越伸越長。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 132.47,
+      "end": 134.59,
+      "en": "Edvard's bearded face rolls against Adam's",
+      "zh_draft": "艾德華留著鬍子的臉貼上亞當的臉，",
+      "zh": "艾德華留著鬍子的臉貼上亞當的臉，",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 134.59,
+      "end": 136.39,
+      "en": "and their flesh fuses together.",
+      "zh_draft": "兩人的血肉融合在一起。",
+      "zh": "兩人的血肉融合在一起。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 136.72,
+      "end": 140.22,
+      "en": "Now conjoined at the cheek, they share an agonised scream.",
+      "zh_draft": "臉頰相連的兩人一起痛苦尖叫。",
+      "zh": "臉頰相連的兩人一起痛苦尖叫。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 142.23,
+      "end": 145.15,
+      "en": "With the flamethrower on her back, Kate rises to her feet.",
+      "zh_draft": "凱特揹著火焰噴射器站起身。",
+      "zh": "凱特揹著火焰噴射器站起身。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 145.35,
+      "end": 146.94,
+      "en": "She shoots a blast at the creature",
+      "zh_draft": "她朝怪物噴出一道火焰，",
+      "zh": "她朝怪物噴出一道火焰，",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 146.94,
+      "end": 148.77,
+      "en": "as it drags Adam out of the room.",
+      "zh_draft": "怪物正把亞當拖出房間。",
+      "zh": "怪物正把亞當拖出房間。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 150.78,
+      "end": 152.44,
+      "en": "She follows it through the doorway,",
+      "zh_draft": "她跟著穿過門口，",
+      "zh": "她跟著穿過門口，",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 152.44,
+      "end": 153.65,
+      "en": "then searches the hall.",
+      "zh_draft": "在走廊上搜尋。",
+      "zh": "在走廊上搜尋。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     }
+    ],
+    "uk": [
+     {
+      "start": 1.63,
+      "end": 3.13,
+      "en": "Kate turns to Carter.",
+      "zh_draft": "凱特轉向卡特。",
+      "zh": "凱特轉向卡特。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 9.89,
+      "end": 10.89,
+      "en": "Kate takes a seat",
+      "zh_draft": "凱特坐下，",
+      "zh": "凱特坐下，",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 10.89,
+      "end": 13.1,
+      "en": "as Colin and Jonas help Edvard to the couch.",
+      "zh_draft": "柯林和喬納斯扶艾德華到沙發上。",
+      "zh": "柯林和喬納斯扶艾德華到沙發上。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 13.68,
+      "end": 16.64,
+      "en": "Suddenly, his left arm detaches itself from the body.",
+      "zh_draft": "突然，他的左臂從身體脫落。",
+      "zh": "突然，他的左臂從身體脫落。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 16.98,
+      "end": 19.9,
+      "en": "Sprouting legs and tentacles, the arm clings to Jonas",
+      "zh_draft": "那隻手臂長出腳和觸手，緊抓住喬納斯，",
+      "zh": "那隻手臂長出腳和觸手，緊抓住喬納斯，",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 19.94,
+      "end": 21.61,
+      "en": "and tries to attack his face.",
+      "zh_draft": "想攻擊他的臉。",
+      "zh": "想攻擊他的臉。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 21.86,
+      "end": 23.86,
+      "en": "Jonas grapples with a mutating limb.",
+      "zh_draft": "喬納斯和不斷變異的肢體扭打。",
+      "zh": "喬納斯和不斷變異的肢體扭打。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 29.45,
+      "end": 31.24,
+      "en": "Jonas backs over to a bookcase.",
+      "zh_draft": "喬納斯退到書櫃旁。",
+      "zh": "喬納斯退到書櫃旁。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 31.41,
+      "end": 33.33,
+      "en": "A mouth opens within the severed stump",
+      "zh_draft": "斷肢裡張開一張嘴，",
+      "zh": "斷肢裡張開一張嘴，",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 33.53,
+      "end": 36.5,
+      "en": "and using tentacles, it clamps itself over Jonas's mouth.",
+      "zh_draft": "用觸手把自己緊緊扣在喬納斯嘴上。",
+      "zh": "用觸手把自己緊緊扣在喬納斯嘴上。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 36.66,
+      "end": 38.37,
+      "en": "It forces something down his gullet.",
+      "zh_draft": "它把某種東西硬塞進他的喉嚨。",
+      "zh": "它把某種東西硬塞進他的喉嚨。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 38.62,
+      "end": 40.25,
+      "en": "Edvard's body begins to convulse.",
+      "zh_draft": "艾德華的身體開始抽搐。",
+      "zh": "艾德華的身體開始抽搐。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 40.42,
+      "end": 41.71,
+      "en": "Carter makes to torch it,",
+      "zh_draft": "卡特想用火燒它，",
+      "zh": "卡特想用火燒它，",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 41.83,
+      "end": 43.71,
+      "en": "but the flamethrower fails.",
+      "zh_draft": "但火焰噴射器失靈。",
+      "zh": "但火焰噴射器失靈。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 52.97,
+      "end": 55.68,
+      "en": "A large pink tentacle erupts out of Edvard's chest",
+      "zh_draft": "一條粗大的粉紅觸手從艾德華胸口爆出，",
+      "zh": "一條粗大的粉紅觸手從艾德華胸口爆出，",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 55.68,
+      "end": 57.02,
+      "en": "and flares around the room.",
+      "zh_draft": "在房間裡四處亂甩。",
+      "zh": "在房間裡四處亂甩。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 57.14,
+      "end": 57.77,
+      "en": "Adam ducks,",
+      "zh_draft": "亞當低頭閃躲，",
+      "zh": "亞當低頭閃躲，",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 57.77,
+      "end": 59.31,
+      "en": "then picks himself up off the floor",
+      "zh_draft": "接著從地上爬起來，",
+      "zh": "接著從地上爬起來，",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 59.31,
+      "end": 60.19,
+      "en": "and makes a run for it.",
+      "zh_draft": "拔腿就跑。",
+      "zh": "拔腿就跑。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 60.27,
+      "end": 61.4,
+      "en": "He trips and falls.",
+      "zh_draft": "他絆倒在地。",
+      "zh": "他絆倒在地。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 61.52,
+      "end": 63.9,
+      "en": "The tentacle rips a hole in his abdomen.",
+      "zh_draft": "觸手在他腹部撕開一個洞。",
+      "zh": "觸手在他腹部撕開一個洞。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 70.53,
+      "end": 73.28,
+      "en": "Carter and Jameson overturn the pool table for cover.",
+      "zh_draft": "卡特和詹姆森翻倒撞球桌當掩護。",
+      "zh": "卡特和詹姆森翻倒撞球桌當掩護。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 75.62,
+      "end": 77.2,
+      "en": "The tentacle punches through the table,",
+      "zh_draft": "觸手擊穿桌子，",
+      "zh": "觸手擊穿桌子，",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 77.2,
+      "end": 78.41,
+      "en": "knocking Carter over.",
+      "zh_draft": "把卡特撞倒。",
+      "zh": "把卡特撞倒。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 83.88,
+      "end": 84.67,
+      "en": "Jameson jumps up",
+      "zh_draft": "詹姆森跳起來，",
+      "zh": "詹姆森跳起來，",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 84.67,
+      "end": 85.71,
+      "en": "and shoots at Edvard.",
+      "zh_draft": "朝艾德華開槍。",
+      "zh": "朝艾德華開槍。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 88.67,
+      "end": 89.92,
+      "en": "The tentacle whips at Jameson",
+      "zh_draft": "觸手甩向詹姆森，",
+      "zh": "觸手甩向詹姆森，",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 89.92,
+      "end": 91.47,
+      "en": "and punches a hole in his chest.",
+      "zh_draft": "在他胸口打穿一個洞。",
+      "zh": "在他胸口打穿一個洞。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 92.26,
+      "end": 93.18,
+      "en": "He collapses.",
+      "zh_draft": "他倒了下去。",
+      "zh": "他倒了下去。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 97.89,
+      "end": 99.47,
+      "en": "As Carter tends to Jameson,",
+      "zh_draft": "卡特照料詹姆森的同時，",
+      "zh": "卡特照料詹姆森的同時，",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 99.47,
+      "end": 101.64,
+      "en": "Kate tries to get the flamethrower going again.",
+      "zh_draft": "凱特試著讓火焰噴射器重新運作。",
+      "zh": "凱特試著讓火焰噴射器重新運作。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 102.23,
+      "end": 104.44,
+      "en": "The alien turns its attention back to Adam,",
+      "zh_draft": "異形把注意力轉回亞當身上，",
+      "zh": "異形把注意力轉回亞當身上，",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 104.52,
+      "end": 106.82,
+      "en": "who's severely wounded and trying to back away from it.",
+      "zh_draft": "亞當身受重傷，正努力往後退。",
+      "zh": "亞當身受重傷，正努力往後退。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 107.57,
+      "end": 109.15,
+      "en": "Edvard's right arm breaks off",
+      "zh_draft": "艾德華的右臂斷落，",
+      "zh": "艾德華的右臂斷落，",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 109.23,
+      "end": 111.07,
+      "en": "and runs away on spindly legs.",
+      "zh_draft": "用細長的腳逃走。",
+      "zh": "用細長的腳逃走。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 111.49,
+      "end": 113.57,
+      "en": "The rest of the body continues to mutate,",
+      "zh_draft": "身體其餘部分持續變異，",
+      "zh": "身體其餘部分持續變異，",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 113.66,
+      "end": 116.87,
+      "en": "sprouting pink and glistening insect-like limbs.",
+      "zh_draft": "長出粉紅發亮、像昆蟲般的肢體。",
+      "zh": "長出粉紅發亮、像昆蟲般的肢體。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 117.24,
+      "end": 118.62,
+      "en": "It crawls towards Adam.",
+      "zh_draft": "它爬向亞當。",
+      "zh": "它爬向亞當。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 118.99,
+      "end": 121.46,
+      "en": "The nightmare creature lowers itself on top of him,",
+      "zh_draft": "這隻夢魘般的怪物壓到他身上，",
+      "zh": "這隻夢魘般的怪物壓到他身上，",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 121.62,
+      "end": 125.0,
+      "en": "and pushes Edvard's pulsating face towards his.",
+      "zh_draft": "把艾德華不斷搏動的臉推向他的臉。",
+      "zh": "把艾德華不斷搏動的臉推向他的臉。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 136.39,
+      "end": 138.35,
+      "en": "It rubs Edvard's face against Adam's,",
+      "zh_draft": "它把艾德華的臉在亞當臉上摩擦，",
+      "zh": "它把艾德華的臉在亞當臉上摩擦，",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 138.35,
+      "end": 141.98,
+      "en": "and the two fuse together like conjoined Siamese twins.",
+      "zh_draft": "兩張臉像連體嬰一樣融合在一起。",
+      "zh": "兩張臉像連體嬰一樣融合在一起。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 147.23,
+      "end": 148.65,
+      "en": "Kate gets the flamethrower going",
+      "zh_draft": "凱特讓火焰噴射器重新噴火，",
+      "zh": "凱特讓火焰噴射器重新噴火，",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 148.65,
+      "end": 149.36,
+      "en": "and breaks cover",
+      "zh_draft": "從掩護後衝出，",
+      "zh": "從掩護後衝出，",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     },
+     {
+      "start": 149.36,
+      "end": 152.95,
+      "en": "just as the now combined alien and Adam scuttles out of the room.",
+      "zh_draft": "這時已和亞當合體的異形正急急竄出房間。",
+      "zh": "這時已和亞當合體的異形正急急竄出房間。",
+      "status": "draft",
+      "note": "",
+      "updated": null,
+      "history": []
+     }
+    ]
+   }
+  }
+ }
+}

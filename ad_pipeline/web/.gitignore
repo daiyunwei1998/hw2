@@ -1,0 +1,3 @@
+﻿*.local.json
+.vercel
+node_modules

@@ -1,0 +1,5382 @@
+{
+ "version": "hw2-v2-2026-10-29",
+ "chain": "mix-v1|pre3.0|post2.0|bg-26.0|duck-10.0|0.2/0.3|mp3-96k-mono|v1:trim-50dB|rubberband|loudnorm2pass",
+ "voice": "zh-TW-HsiaoChenNeural",
+ "rates": [
+  1.0,
+  1.0489,
+  1.1002,
+  1.1541,
+  1.2105,
+  1.2698,
+  1.3319,
+  1.397,
+  1.4654,
+  1.5371,
+  1.6123,
+  1.6912,
+  1.7739,
+  1.8607,
+  1.9517,
+  2.0472,
+  2.1474,
+  2.2524,
+  2.3626,
+  2.4782,
+  2.5995,
+  2.7267,
+  2.8601,
+  3.0
+ ],
+ "n_bins": 6,
+ "bin_of_k": [
+  0,
+  0,
+  0,
+  0,
+  1,
+  1,
+  1,
+  1,
+  2,
+  2,
+  2,
+  2,
+  3,
+  3,
+  3,
+  3,
+  4,
+  4,
+  4,
+  4,
+  5,
+  5,
+  5,
+  5
+ ],
+ "groups": [
+  [
+   "L1",
+   "L7",
+   "D4",
+   "T2"
+  ],
+  [
+   "L2",
+   "L8",
+   "D5",
+   "T3"
+  ],
+  [
+   "L3",
+   "L9",
+   "D6",
+   "T4"
+  ],
+  [
+   "L4",
+   "D1",
+   "D7",
+   "T5"
+  ],
+  [
+   "L5",
+   "D2",
+   "D8",
+   "T6"
+  ],
+  [
+   "L6",
+   "D3",
+   "T1",
+   "T7"
+  ]
+ ],
+ "n_lists": 6,
+ "main": [
+  {
+   "id": "L1",
+   "clip": "UMBOdTivgjBj",
+   "ver": "us",
+   "cues": [
+    3,
+    4
+   ],
+   "text": "黛娜湊過去，對柯爾先生耳語。",
+   "chars": 12,
+   "onset_in_clip": 31.82,
+   "window": 6.05,
+   "excerpt_len": 7.617,
+   "narr_onset": 3.0,
+   "fits_gap_at_1x": true,
+   "stimuli": [
+    {
+     "k": 0,
+     "rate": 1.0,
+     "file": "s_83cd67df83f5.mp3",
+     "narr_dur": 2.617,
+     "syl_per_s": 4.585
+    },
+    {
+     "k": 1,
+     "rate": 1.0489,
+     "file": "s_394fffe7dd3c.mp3",
+     "narr_dur": 2.495,
+     "syl_per_s": 4.81
+    },
+    {
+     "k": 2,
+     "rate": 1.1002,
+     "file": "s_bb8f9cdcaa20.mp3",
+     "narr_dur": 2.378,
+     "syl_per_s": 5.045
+    },
+    {
+     "k": 3,
+     "rate": 1.1541,
+     "file": "s_9f16a3bfd0db.mp3",
+     "narr_dur": 2.267,
+     "syl_per_s": 5.293
+    },
+    {
+     "k": 4,
+     "rate": 1.2105,
+     "file": "s_6ad719ced39c.mp3",
+     "narr_dur": 2.162,
+     "syl_per_s": 5.551
+    },
+    {
+     "k": 5,
+     "rate": 1.2698,
+     "file": "s_bb13c04eb4dc.mp3",
+     "narr_dur": 2.061,
+     "syl_per_s": 5.823
+    },
+    {
+     "k": 6,
+     "rate": 1.3319,
+     "file": "s_616df6f1771f.mp3",
+     "narr_dur": 1.965,
+     "syl_per_s": 6.108
+    },
+    {
+     "k": 7,
+     "rate": 1.397,
+     "file": "s_80cf95dc8c7c.mp3",
+     "narr_dur": 1.873,
+     "syl_per_s": 6.407
+    },
+    {
+     "k": 8,
+     "rate": 1.4654,
+     "file": "s_0478e464480b.mp3",
+     "narr_dur": 1.786,
+     "syl_per_s": 6.72
+    },
+    {
+     "k": 9,
+     "rate": 1.5371,
+     "file": "s_45adca7f32ea.mp3",
+     "narr_dur": 1.702,
+     "syl_per_s": 7.049
+    },
+    {
+     "k": 10,
+     "rate": 1.6123,
+     "file": "s_510e0dc3bf3f.mp3",
+     "narr_dur": 1.623,
+     "syl_per_s": 7.394
+    },
+    {
+     "k": 11,
+     "rate": 1.6912,
+     "file": "s_48549d1cc72e.mp3",
+     "narr_dur": 1.547,
+     "syl_per_s": 7.756
+    },
+    {
+     "k": 12,
+     "rate": 1.7739,
+     "file": "s_3e330cc30ba5.mp3",
+     "narr_dur": 1.475,
+     "syl_per_s": 8.135
+    },
+    {
+     "k": 13,
+     "rate": 1.8607,
+     "file": "s_f52d8ef4d7f5.mp3",
+     "narr_dur": 1.406,
+     "syl_per_s": 8.533
+    },
+    {
+     "k": 14,
+     "rate": 1.9517,
+     "file": "s_821fcf577fce.mp3",
+     "narr_dur": 1.341,
+     "syl_per_s": 8.95
+    },
+    {
+     "k": 15,
+     "rate": 2.0472,
+     "file": "s_bca211c7a63a.mp3",
+     "narr_dur": 1.278,
+     "syl_per_s": 9.388
+    },
+    {
+     "k": 16,
+     "rate": 2.1474,
+     "file": "s_2554ff782d7e.mp3",
+     "narr_dur": 1.219,
+     "syl_per_s": 9.848
+    },
+    {
+     "k": 17,
+     "rate": 2.2524,
+     "file": "s_035de91a3d66.mp3",
+     "narr_dur": 1.162,
+     "syl_per_s": 10.329
+    },
+    {
+     "k": 18,
+     "rate": 2.3626,
+     "file": "s_47ecdf8a28e5.mp3",
+     "narr_dur": 1.108,
+     "syl_per_s": 10.835
+    },
+    {
+     "k": 19,
+     "rate": 2.4782,
+     "file": "s_6e083a900bea.mp3",
+     "narr_dur": 1.056,
+     "syl_per_s": 11.365
+    },
+    {
+     "k": 20,
+     "rate": 2.5995,
+     "file": "s_1e4c6bf8274e.mp3",
+     "narr_dur": 1.007,
+     "syl_per_s": 11.921
+    },
+    {
+     "k": 21,
+     "rate": 2.7267,
+     "file": "s_0f84ec2c2c79.mp3",
+     "narr_dur": 0.96,
+     "syl_per_s": 12.504
+    },
+    {
+     "k": 22,
+     "rate": 2.8601,
+     "file": "s_622dfa8217f7.mp3",
+     "narr_dur": 0.915,
+     "syl_per_s": 13.116
+    },
+    {
+     "k": 23,
+     "rate": 3.0,
+     "file": "s_101abc91ca57.mp3",
+     "narr_dur": 0.872,
+     "syl_per_s": 13.758
+    }
+   ],
+   "q": "黛娜做了什麼？",
+   "options": [
+    "對柯爾先生耳語",
+    "起身離開法庭",
+    "拍手大笑",
+    "把文件遞給法官"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "L2",
+   "clip": "UMBOdTivgjBj",
+   "ver": "uk",
+   "cues": [
+    2,
+    3
+   ],
+   "text": "廁所裡，他身體前傾靠在小便斗上，抬頭盯著高高的天花板。",
+   "chars": 24,
+   "onset_in_clip": 33.58,
+   "window": 8.46,
+   "excerpt_len": 10.205,
+   "narr_onset": 3.0,
+   "fits_gap_at_1x": true,
+   "stimuli": [
+    {
+     "k": 0,
+     "rate": 1.0,
+     "file": "s_0d68226e64f8.mp3",
+     "narr_dur": 5.205,
+     "syl_per_s": 4.611
+    },
+    {
+     "k": 1,
+     "rate": 1.0489,
+     "file": "s_de75a9c5bc6e.mp3",
+     "narr_dur": 4.962,
+     "syl_per_s": 4.837
+    },
+    {
+     "k": 2,
+     "rate": 1.1002,
+     "file": "s_be7486ae77fe.mp3",
+     "narr_dur": 4.731,
+     "syl_per_s": 5.073
+    },
+    {
+     "k": 3,
+     "rate": 1.1541,
+     "file": "s_3fd9fa3678ea.mp3",
+     "narr_dur": 4.51,
+     "syl_per_s": 5.322
+    },
+    {
+     "k": 4,
+     "rate": 1.2105,
+     "file": "s_e5d9e0c3d607.mp3",
+     "narr_dur": 4.3,
+     "syl_per_s": 5.582
+    },
+    {
+     "k": 5,
+     "rate": 1.2698,
+     "file": "s_46cd30ad04a9.mp3",
+     "narr_dur": 4.099,
+     "syl_per_s": 5.855
+    },
+    {
+     "k": 6,
+     "rate": 1.3319,
+     "file": "s_69d96c311813.mp3",
+     "narr_dur": 3.908,
+     "syl_per_s": 6.141
+    },
+    {
+     "k": 7,
+     "rate": 1.397,
+     "file": "s_3abc671781cb.mp3",
+     "narr_dur": 3.726,
+     "syl_per_s": 6.442
+    },
+    {
+     "k": 8,
+     "rate": 1.4654,
+     "file": "s_bdb7b67e9647.mp3",
+     "narr_dur": 3.552,
+     "syl_per_s": 6.757
+    },
+    {
+     "k": 9,
+     "rate": 1.5371,
+     "file": "s_97fc656a9256.mp3",
+     "narr_dur": 3.386,
+     "syl_per_s": 7.088
+    },
+    {
+     "k": 10,
+     "rate": 1.6123,
+     "file": "s_7565f32601e5.mp3",
+     "narr_dur": 3.228,
+     "syl_per_s": 7.434
+    },
+    {
+     "k": 11,
+     "rate": 1.6912,
+     "file": "s_5c64bdcb4992.mp3",
+     "narr_dur": 3.078,
+     "syl_per_s": 7.798
+    },
+    {
+     "k": 12,
+     "rate": 1.7739,
+     "file": "s_ff3afacc7530.mp3",
+     "narr_dur": 2.934,
+     "syl_per_s": 8.18
+    },
+    {
+     "k": 13,
+     "rate": 1.8607,
+     "file": "s_b9405c38816a.mp3",
+     "narr_dur": 2.797,
+     "syl_per_s": 8.58
+    },
+    {
+     "k": 14,
+     "rate": 1.9517,
+     "file": "s_bb34cad98dbe.mp3",
+     "narr_dur": 2.667,
+     "syl_per_s": 8.999
+    },
+    {
+     "k": 15,
+     "rate": 2.0472,
+     "file": "s_12686922a455.mp3",
+     "narr_dur": 2.542,
+     "syl_per_s": 9.44
+    },
+    {
+     "k": 16,
+     "rate": 2.1474,
+     "file": "s_5b589609570f.mp3",
+     "narr_dur": 2.424,
+     "syl_per_s": 9.902
+    },
+    {
+     "k": 17,
+     "rate": 2.2524,
+     "file": "s_98ad54251f1f.mp3",
+     "narr_dur": 2.311,
+     "syl_per_s": 10.386
+    },
+    {
+     "k": 18,
+     "rate": 2.3626,
+     "file": "s_0ffe252a62f7.mp3",
+     "narr_dur": 2.203,
+     "syl_per_s": 10.894
+    },
+    {
+     "k": 19,
+     "rate": 2.4782,
+     "file": "s_98681263c1ec.mp3",
+     "narr_dur": 2.1,
+     "syl_per_s": 11.427
+    },
+    {
+     "k": 20,
+     "rate": 2.5995,
+     "file": "s_7cd6f863189a.mp3",
+     "narr_dur": 2.002,
+     "syl_per_s": 11.987
+    },
+    {
+     "k": 21,
+     "rate": 2.7267,
+     "file": "s_e8fbf007efd5.mp3",
+     "narr_dur": 1.909,
+     "syl_per_s": 12.573
+    },
+    {
+     "k": 22,
+     "rate": 2.8601,
+     "file": "s_ca80b60f4db3.mp3",
+     "narr_dur": 1.82,
+     "syl_per_s": 13.188
+    },
+    {
+     "k": 23,
+     "rate": 3.0,
+     "file": "s_8d8c00f03530.mp3",
+     "narr_dur": 1.735,
+     "syl_per_s": 13.833
+    }
+   ],
+   "q": "他在廁所裡抬頭盯著哪裡？",
+   "options": [
+    "天花板",
+    "鏡子",
+    "門口",
+    "窗外"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "L3",
+   "clip": "UMBOdTivgjBj",
+   "ver": "uk",
+   "cues": [
+    5,
+    7
+   ],
+   "text": "佛萊契拉上拉鍊，快步走到鏡子前，開始往自己臉上猛打。",
+   "chars": 23,
+   "onset_in_clip": 60.02,
+   "window": 5.55,
+   "excerpt_len": 9.986,
+   "narr_onset": 3.0,
+   "fits_gap_at_1x": true,
+   "stimuli": [
+    {
+     "k": 0,
+     "rate": 1.0,
+     "file": "s_3dd6061a97e4.mp3",
+     "narr_dur": 4.986,
+     "syl_per_s": 4.613
+    },
+    {
+     "k": 1,
+     "rate": 1.0489,
+     "file": "s_c8d3ad81f690.mp3",
+     "narr_dur": 4.754,
+     "syl_per_s": 4.838
+    },
+    {
+     "k": 2,
+     "rate": 1.1002,
+     "file": "s_f1ae78369c62.mp3",
+     "narr_dur": 4.532,
+     "syl_per_s": 5.075
+    },
+    {
+     "k": 3,
+     "rate": 1.1541,
+     "file": "s_b0daca5bee04.mp3",
+     "narr_dur": 4.321,
+     "syl_per_s": 5.323
+    },
+    {
+     "k": 4,
+     "rate": 1.2105,
+     "file": "s_d54a226d36a8.mp3",
+     "narr_dur": 4.119,
+     "syl_per_s": 5.584
+    },
+    {
+     "k": 5,
+     "rate": 1.2698,
+     "file": "s_50297715289a.mp3",
+     "narr_dur": 3.927,
+     "syl_per_s": 5.857
+    },
+    {
+     "k": 6,
+     "rate": 1.3319,
+     "file": "s_cba7641ad0a9.mp3",
+     "narr_dur": 3.744,
+     "syl_per_s": 6.144
+    },
+    {
+     "k": 7,
+     "rate": 1.397,
+     "file": "s_3354bb884230.mp3",
+     "narr_dur": 3.569,
+     "syl_per_s": 6.444
+    },
+    {
+     "k": 8,
+     "rate": 1.4654,
+     "file": "s_a254bf4664ee.mp3",
+     "narr_dur": 3.402,
+     "syl_per_s": 6.76
+    },
+    {
+     "k": 9,
+     "rate": 1.5371,
+     "file": "s_1c39f3964d60.mp3",
+     "narr_dur": 3.244,
+     "syl_per_s": 7.091
+    },
+    {
+     "k": 10,
+     "rate": 1.6123,
+     "file": "s_dffd90a9ff0a.mp3",
+     "narr_dur": 3.092,
+     "syl_per_s": 7.437
+    },
+    {
+     "k": 11,
+     "rate": 1.6912,
+     "file": "s_e5ee6428cc5a.mp3",
+     "narr_dur": 2.948,
+     "syl_per_s": 7.801
+    },
+    {
+     "k": 12,
+     "rate": 1.7739,
+     "file": "s_d46fd319c767.mp3",
+     "narr_dur": 2.811,
+     "syl_per_s": 8.183
+    },
+    {
+     "k": 13,
+     "rate": 1.8607,
+     "file": "s_4e90baac9ba9.mp3",
+     "narr_dur": 2.68,
+     "syl_per_s": 8.583
+    },
+    {
+     "k": 14,
+     "rate": 1.9517,
+     "file": "s_557acce6b70c.mp3",
+     "narr_dur": 2.555,
+     "syl_per_s": 9.003
+    },
+    {
+     "k": 15,
+     "rate": 2.0472,
+     "file": "s_255d5fb816bf.mp3",
+     "narr_dur": 2.436,
+     "syl_per_s": 9.444
+    },
+    {
+     "k": 16,
+     "rate": 2.1474,
+     "file": "s_e957c6a22845.mp3",
+     "narr_dur": 2.322,
+     "syl_per_s": 9.906
+    },
+    {
+     "k": 17,
+     "rate": 2.2524,
+     "file": "s_f07e87aef537.mp3",
+     "narr_dur": 2.214,
+     "syl_per_s": 10.39
+    },
+    {
+     "k": 18,
+     "rate": 2.3626,
+     "file": "s_eed89c853ae7.mp3",
+     "narr_dur": 2.11,
+     "syl_per_s": 10.898
+    },
+    {
+     "k": 19,
+     "rate": 2.4782,
+     "file": "s_691790343cbe.mp3",
+     "narr_dur": 2.012,
+     "syl_per_s": 11.432
+    },
+    {
+     "k": 20,
+     "rate": 2.5995,
+     "file": "s_d0c0fb36ff9f.mp3",
+     "narr_dur": 1.918,
+     "syl_per_s": 11.991
+    },
+    {
+     "k": 21,
+     "rate": 2.7267,
+     "file": "s_e34cbf49a808.mp3",
+     "narr_dur": 1.829,
+     "syl_per_s": 12.578
+    },
+    {
+     "k": 22,
+     "rate": 2.8601,
+     "file": "s_a4e1a584ecc4.mp3",
+     "narr_dur": 1.743,
+     "syl_per_s": 13.193
+    },
+    {
+     "k": 23,
+     "rate": 3.0,
+     "file": "s_cc6d4ac20fa6.mp3",
+     "narr_dur": 1.662,
+     "syl_per_s": 13.839
+    }
+   ],
+   "q": "他走到鏡子前做了什麼？",
+   "options": [
+    "往自己臉上猛打",
+    "整理頭髮",
+    "洗臉",
+    "對著鏡子大笑"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "L4",
+   "clip": "UMBOdTivgjBj",
+   "ver": "uk",
+   "cues": [
+    8,
+    8
+   ],
+   "text": "接著，他從給皂機擠出洗手乳，抹進雙眼。",
+   "chars": 16,
+   "onset_in_clip": 65.57,
+   "window": 7.3,
+   "excerpt_len": 8.893,
+   "narr_onset": 3.0,
+   "fits_gap_at_1x": true,
+   "stimuli": [
+    {
+     "k": 0,
+     "rate": 1.0,
+     "file": "s_f90f4b7e32b5.mp3",
+     "narr_dur": 3.893,
+     "syl_per_s": 4.109
+    },
+    {
+     "k": 1,
+     "rate": 1.0489,
+     "file": "s_0c4b60b59d3f.mp3",
+     "narr_dur": 3.712,
+     "syl_per_s": 4.31
+    },
+    {
+     "k": 2,
+     "rate": 1.1002,
+     "file": "s_2122f9837405.mp3",
+     "narr_dur": 3.539,
+     "syl_per_s": 4.521
+    },
+    {
+     "k": 3,
+     "rate": 1.1541,
+     "file": "s_c560b46b532e.mp3",
+     "narr_dur": 3.374,
+     "syl_per_s": 4.743
+    },
+    {
+     "k": 4,
+     "rate": 1.2105,
+     "file": "s_a1c1f996517b.mp3",
+     "narr_dur": 3.217,
+     "syl_per_s": 4.974
+    },
+    {
+     "k": 5,
+     "rate": 1.2698,
+     "file": "s_ab3de278370c.mp3",
+     "narr_dur": 3.066,
+     "syl_per_s": 5.218
+    },
+    {
+     "k": 6,
+     "rate": 1.3319,
+     "file": "s_6b2fb0d694f1.mp3",
+     "narr_dur": 2.923,
+     "syl_per_s": 5.473
+    },
+    {
+     "k": 7,
+     "rate": 1.397,
+     "file": "s_169cf7af9ec5.mp3",
+     "narr_dur": 2.787,
+     "syl_per_s": 5.741
+    },
+    {
+     "k": 8,
+     "rate": 1.4654,
+     "file": "s_957a96d2cf3d.mp3",
+     "narr_dur": 2.657,
+     "syl_per_s": 6.022
+    },
+    {
+     "k": 9,
+     "rate": 1.5371,
+     "file": "s_b1e76963b345.mp3",
+     "narr_dur": 2.533,
+     "syl_per_s": 6.317
+    },
+    {
+     "k": 10,
+     "rate": 1.6123,
+     "file": "s_cb0c22639a20.mp3",
+     "narr_dur": 2.415,
+     "syl_per_s": 6.626
+    },
+    {
+     "k": 11,
+     "rate": 1.6912,
+     "file": "s_85e0f8983111.mp3",
+     "narr_dur": 2.302,
+     "syl_per_s": 6.95
+    },
+    {
+     "k": 12,
+     "rate": 1.7739,
+     "file": "s_702b1b4596c6.mp3",
+     "narr_dur": 2.195,
+     "syl_per_s": 7.29
+    },
+    {
+     "k": 13,
+     "rate": 1.8607,
+     "file": "s_a0f59b2376be.mp3",
+     "narr_dur": 2.092,
+     "syl_per_s": 7.646
+    },
+    {
+     "k": 14,
+     "rate": 1.9517,
+     "file": "s_fa654ff7b7c9.mp3",
+     "narr_dur": 1.995,
+     "syl_per_s": 8.02
+    },
+    {
+     "k": 15,
+     "rate": 2.0472,
+     "file": "s_5a24a3bb154d.mp3",
+     "narr_dur": 1.902,
+     "syl_per_s": 8.413
+    },
+    {
+     "k": 16,
+     "rate": 2.1474,
+     "file": "s_b5d6ed4b9f9f.mp3",
+     "narr_dur": 1.813,
+     "syl_per_s": 8.825
+    },
+    {
+     "k": 17,
+     "rate": 2.2524,
+     "file": "s_fbfe983a350a.mp3",
+     "narr_dur": 1.729,
+     "syl_per_s": 9.254
+    },
+    {
+     "k": 18,
+     "rate": 2.3626,
+     "file": "s_5896a6f668b2.mp3",
+     "narr_dur": 1.648,
+     "syl_per_s": 9.709
+    },
+    {
+     "k": 19,
+     "rate": 2.4782,
+     "file": "s_d5a81a0193bc.mp3",
+     "narr_dur": 1.571,
+     "syl_per_s": 10.184
+    },
+    {
+     "k": 20,
+     "rate": 2.5995,
+     "file": "s_9e726f33ea60.mp3",
+     "narr_dur": 1.498,
+     "syl_per_s": 10.683
+    },
+    {
+     "k": 21,
+     "rate": 2.7267,
+     "file": "s_2281876465c3.mp3",
+     "narr_dur": 1.428,
+     "syl_per_s": 11.205
+    },
+    {
+     "k": 22,
+     "rate": 2.8601,
+     "file": "s_d9ea871843dc.mp3",
+     "narr_dur": 1.361,
+     "syl_per_s": 11.754
+    },
+    {
+     "k": 23,
+     "rate": 3.0,
+     "file": "s_fef9e9dc43f7.mp3",
+     "narr_dur": 1.298,
+     "syl_per_s": 12.328
+    }
+   ],
+   "q": "他把什麼抹進眼睛？",
+   "options": [
+    "洗手乳",
+    "清水",
+    "衛生紙",
+    "鹽巴"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "L5",
+   "clip": "UMBOdTivgjBj",
+   "ver": "us",
+   "cues": [
+    23,
+    25
+   ],
+   "text": "佛萊契拍掉垃圾桶的蓋子，把垃圾桶倒過來，垃圾倒了自己一身。",
+   "chars": 26,
+   "onset_in_clip": 85.67,
+   "window": 6.01,
+   "excerpt_len": 10.268,
+   "narr_onset": 3.0,
+   "fits_gap_at_1x": true,
+   "stimuli": [
+    {
+     "k": 0,
+     "rate": 1.0,
+     "file": "s_def2f653a146.mp3",
+     "narr_dur": 5.268,
+     "syl_per_s": 4.935
+    },
+    {
+     "k": 1,
+     "rate": 1.0489,
+     "file": "s_d8775fb440c3.mp3",
+     "narr_dur": 5.022,
+     "syl_per_s": 5.177
+    },
+    {
+     "k": 2,
+     "rate": 1.1002,
+     "file": "s_798f55194cc2.mp3",
+     "narr_dur": 4.788,
+     "syl_per_s": 5.43
+    },
+    {
+     "k": 3,
+     "rate": 1.1541,
+     "file": "s_22da30da243f.mp3",
+     "narr_dur": 4.565,
+     "syl_per_s": 5.696
+    },
+    {
+     "k": 4,
+     "rate": 1.2105,
+     "file": "s_940ea237b58e.mp3",
+     "narr_dur": 4.352,
+     "syl_per_s": 5.974
+    },
+    {
+     "k": 5,
+     "rate": 1.2698,
+     "file": "s_ddc68f9562a2.mp3",
+     "narr_dur": 4.149,
+     "syl_per_s": 6.267
+    },
+    {
+     "k": 6,
+     "rate": 1.3319,
+     "file": "s_a622514fc578.mp3",
+     "narr_dur": 3.955,
+     "syl_per_s": 6.573
+    },
+    {
+     "k": 7,
+     "rate": 1.397,
+     "file": "s_7a4e4251e617.mp3",
+     "narr_dur": 3.771,
+     "syl_per_s": 6.895
+    },
+    {
+     "k": 8,
+     "rate": 1.4654,
+     "file": "s_77c170477098.mp3",
+     "narr_dur": 3.595,
+     "syl_per_s": 7.232
+    },
+    {
+     "k": 9,
+     "rate": 1.5371,
+     "file": "s_9b0f26362ff7.mp3",
+     "narr_dur": 3.427,
+     "syl_per_s": 7.586
+    },
+    {
+     "k": 10,
+     "rate": 1.6123,
+     "file": "s_5f9e341b0fb2.mp3",
+     "narr_dur": 3.267,
+     "syl_per_s": 7.957
+    },
+    {
+     "k": 11,
+     "rate": 1.6912,
+     "file": "s_531a84b1eb8e.mp3",
+     "narr_dur": 3.115,
+     "syl_per_s": 8.347
+    },
+    {
+     "k": 12,
+     "rate": 1.7739,
+     "file": "s_f6b99417b2c7.mp3",
+     "narr_dur": 2.97,
+     "syl_per_s": 8.755
+    },
+    {
+     "k": 13,
+     "rate": 1.8607,
+     "file": "s_82d7021676b9.mp3",
+     "narr_dur": 2.831,
+     "syl_per_s": 9.183
+    },
+    {
+     "k": 14,
+     "rate": 1.9517,
+     "file": "s_b64cfdfb24c5.mp3",
+     "narr_dur": 2.699,
+     "syl_per_s": 9.632
+    },
+    {
+     "k": 15,
+     "rate": 2.0472,
+     "file": "s_fd7a8c32562c.mp3",
+     "narr_dur": 2.573,
+     "syl_per_s": 10.104
+    },
+    {
+     "k": 16,
+     "rate": 2.1474,
+     "file": "s_8a34161f3c35.mp3",
+     "narr_dur": 2.453,
+     "syl_per_s": 10.598
+    },
+    {
+     "k": 17,
+     "rate": 2.2524,
+     "file": "s_832b4a31eb44.mp3",
+     "narr_dur": 2.339,
+     "syl_per_s": 11.116
+    },
+    {
+     "k": 18,
+     "rate": 2.3626,
+     "file": "s_0644096a4625.mp3",
+     "narr_dur": 2.23,
+     "syl_per_s": 11.66
+    },
+    {
+     "k": 19,
+     "rate": 2.4782,
+     "file": "s_bc5e555e5fcd.mp3",
+     "narr_dur": 2.126,
+     "syl_per_s": 12.231
+    },
+    {
+     "k": 20,
+     "rate": 2.5995,
+     "file": "s_ca0ce899cfe4.mp3",
+     "narr_dur": 2.027,
+     "syl_per_s": 12.829
+    },
+    {
+     "k": 21,
+     "rate": 2.7267,
+     "file": "s_b44339eb8a21.mp3",
+     "narr_dur": 1.932,
+     "syl_per_s": 13.457
+    },
+    {
+     "k": 22,
+     "rate": 2.8601,
+     "file": "s_c5676416e7f7.mp3",
+     "narr_dur": 1.842,
+     "syl_per_s": 14.116
+    },
+    {
+     "k": 23,
+     "rate": 3.0,
+     "file": "s_eb6ed75659dc.mp3",
+     "narr_dur": 1.756,
+     "syl_per_s": 14.806
+    }
+   ],
+   "q": "垃圾桶裡的垃圾最後怎麼了？",
+   "options": [
+    "倒了他自己一身",
+    "灑滿整個地板",
+    "被丟出窗外",
+    "被收進袋子裡"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "L6",
+   "clip": "UMBOdTivgjBj",
+   "ver": "uk",
+   "cues": [
+    17,
+    17
+   ],
+   "text": "再用木製馬桶座一次次砸向自己那張橡皮般的臉。",
+   "chars": 21,
+   "onset_in_clip": 94.51,
+   "window": 6.3,
+   "excerpt_len": 8.953,
+   "narr_onset": 3.0,
+   "fits_gap_at_1x": true,
+   "stimuli": [
+    {
+     "k": 0,
+     "rate": 1.0,
+     "file": "s_38c8fa6ab9ce.mp3",
+     "narr_dur": 3.953,
+     "syl_per_s": 5.313
+    },
+    {
+     "k": 1,
+     "rate": 1.0489,
+     "file": "s_cad2ef86c7d8.mp3",
+     "narr_dur": 3.769,
+     "syl_per_s": 5.572
+    },
+    {
+     "k": 2,
+     "rate": 1.1002,
+     "file": "s_af4c9b35ad53.mp3",
+     "narr_dur": 3.593,
+     "syl_per_s": 5.845
+    },
+    {
+     "k": 3,
+     "rate": 1.1541,
+     "file": "s_09de6e1949dd.mp3",
+     "narr_dur": 3.425,
+     "syl_per_s": 6.131
+    },
+    {
+     "k": 4,
+     "rate": 1.2105,
+     "file": "s_3451dfd6f640.mp3",
+     "narr_dur": 3.265,
+     "syl_per_s": 6.431
+    },
+    {
+     "k": 5,
+     "rate": 1.2698,
+     "file": "s_55badcc13fb7.mp3",
+     "narr_dur": 3.113,
+     "syl_per_s": 6.746
+    },
+    {
+     "k": 6,
+     "rate": 1.3319,
+     "file": "s_70cb6f52dfe0.mp3",
+     "narr_dur": 2.968,
+     "syl_per_s": 7.076
+    },
+    {
+     "k": 7,
+     "rate": 1.397,
+     "file": "s_bcd71f88b51a.mp3",
+     "narr_dur": 2.83,
+     "syl_per_s": 7.422
+    },
+    {
+     "k": 8,
+     "rate": 1.4654,
+     "file": "s_3178bcd1b364.mp3",
+     "narr_dur": 2.697,
+     "syl_per_s": 7.785
+    },
+    {
+     "k": 9,
+     "rate": 1.5371,
+     "file": "s_9c852d26f295.mp3",
+     "narr_dur": 2.572,
+     "syl_per_s": 8.166
+    },
+    {
+     "k": 10,
+     "rate": 1.6123,
+     "file": "s_dd89bd9ba589.mp3",
+     "narr_dur": 2.452,
+     "syl_per_s": 8.565
+    },
+    {
+     "k": 11,
+     "rate": 1.6912,
+     "file": "s_4d24bfab38a6.mp3",
+     "narr_dur": 2.337,
+     "syl_per_s": 8.985
+    },
+    {
+     "k": 12,
+     "rate": 1.7739,
+     "file": "s_54c86112736d.mp3",
+     "narr_dur": 2.228,
+     "syl_per_s": 9.424
+    },
+    {
+     "k": 13,
+     "rate": 1.8607,
+     "file": "s_a89e8b90b937.mp3",
+     "narr_dur": 2.124,
+     "syl_per_s": 9.885
+    },
+    {
+     "k": 14,
+     "rate": 1.9517,
+     "file": "s_473e8dba6885.mp3",
+     "narr_dur": 2.025,
+     "syl_per_s": 10.369
+    },
+    {
+     "k": 15,
+     "rate": 2.0472,
+     "file": "s_b6acefae8441.mp3",
+     "narr_dur": 1.931,
+     "syl_per_s": 10.876
+    },
+    {
+     "k": 16,
+     "rate": 2.1474,
+     "file": "s_24b8cc29ebfa.mp3",
+     "narr_dur": 1.841,
+     "syl_per_s": 11.408
+    },
+    {
+     "k": 17,
+     "rate": 2.2524,
+     "file": "s_81a3fb11f666.mp3",
+     "narr_dur": 1.755,
+     "syl_per_s": 11.966
+    },
+    {
+     "k": 18,
+     "rate": 2.3626,
+     "file": "s_6234ca18186e.mp3",
+     "narr_dur": 1.673,
+     "syl_per_s": 12.552
+    },
+    {
+     "k": 19,
+     "rate": 2.4782,
+     "file": "s_3c2a1469fb7a.mp3",
+     "narr_dur": 1.595,
+     "syl_per_s": 13.166
+    },
+    {
+     "k": 20,
+     "rate": 2.5995,
+     "file": "s_9f6d0ac1e545.mp3",
+     "narr_dur": 1.521,
+     "syl_per_s": 13.81
+    },
+    {
+     "k": 21,
+     "rate": 2.7267,
+     "file": "s_678b68e38c92.mp3",
+     "narr_dur": 1.45,
+     "syl_per_s": 14.486
+    },
+    {
+     "k": 22,
+     "rate": 2.8601,
+     "file": "s_c87e9d2d4ae5.mp3",
+     "narr_dur": 1.382,
+     "syl_per_s": 15.194
+    },
+    {
+     "k": 23,
+     "rate": 3.0,
+     "file": "s_48b1f5a0f811.mp3",
+     "narr_dur": 1.318,
+     "syl_per_s": 15.938
+    }
+   ],
+   "q": "他用什麼砸自己的臉？",
+   "options": [
+    "木製馬桶座",
+    "垃圾桶蓋",
+    "廁所門",
+    "洗手台"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "L7",
+   "clip": "UMBOdTivgjBj",
+   "ver": "uk",
+   "cues": [
+    18,
+    19
+   ],
+   "text": "最後，在看傻了的男子驚愕注視下，他從隔間走出來，往自己腳上一踩。",
+   "chars": 28,
+   "onset_in_clip": 100.81,
+   "window": 9.96,
+   "excerpt_len": 11.327,
+   "narr_onset": 3.0,
+   "fits_gap_at_1x": true,
+   "stimuli": [
+    {
+     "k": 0,
+     "rate": 1.0,
+     "file": "s_d5fe66afc52a.mp3",
+     "narr_dur": 6.327,
+     "syl_per_s": 4.425
+    },
+    {
+     "k": 1,
+     "rate": 1.0489,
+     "file": "s_962fba77ff6b.mp3",
+     "narr_dur": 6.032,
+     "syl_per_s": 4.642
+    },
+    {
+     "k": 2,
+     "rate": 1.1002,
+     "file": "s_7b9f0b1b0794.mp3",
+     "narr_dur": 5.751,
+     "syl_per_s": 4.869
+    },
+    {
+     "k": 3,
+     "rate": 1.1541,
+     "file": "s_d620b5aa3d33.mp3",
+     "narr_dur": 5.483,
+     "syl_per_s": 5.107
+    },
+    {
+     "k": 4,
+     "rate": 1.2105,
+     "file": "s_26366cd83a03.mp3",
+     "narr_dur": 5.227,
+     "syl_per_s": 5.357
+    },
+    {
+     "k": 5,
+     "rate": 1.2698,
+     "file": "s_666117e3a587.mp3",
+     "narr_dur": 4.983,
+     "syl_per_s": 5.619
+    },
+    {
+     "k": 6,
+     "rate": 1.3319,
+     "file": "s_044eec35a246.mp3",
+     "narr_dur": 4.751,
+     "syl_per_s": 5.894
+    },
+    {
+     "k": 7,
+     "rate": 1.397,
+     "file": "s_50b835736985.mp3",
+     "narr_dur": 4.529,
+     "syl_per_s": 6.182
+    },
+    {
+     "k": 8,
+     "rate": 1.4654,
+     "file": "s_e90027760f4e.mp3",
+     "narr_dur": 4.318,
+     "syl_per_s": 6.485
+    },
+    {
+     "k": 9,
+     "rate": 1.5371,
+     "file": "s_d4bdfc4cdfcd.mp3",
+     "narr_dur": 4.117,
+     "syl_per_s": 6.802
+    },
+    {
+     "k": 10,
+     "rate": 1.6123,
+     "file": "s_d265b4503841.mp3",
+     "narr_dur": 3.925,
+     "syl_per_s": 7.135
+    },
+    {
+     "k": 11,
+     "rate": 1.6912,
+     "file": "s_5db3f0a66236.mp3",
+     "narr_dur": 3.741,
+     "syl_per_s": 7.484
+    },
+    {
+     "k": 12,
+     "rate": 1.7739,
+     "file": "s_f081ab990f12.mp3",
+     "narr_dur": 3.567,
+     "syl_per_s": 7.85
+    },
+    {
+     "k": 13,
+     "rate": 1.8607,
+     "file": "s_b8b97a947134.mp3",
+     "narr_dur": 3.401,
+     "syl_per_s": 8.234
+    },
+    {
+     "k": 14,
+     "rate": 1.9517,
+     "file": "s_dfdfcf9159b7.mp3",
+     "narr_dur": 3.242,
+     "syl_per_s": 8.637
+    },
+    {
+     "k": 15,
+     "rate": 2.0472,
+     "file": "s_20233d390d8a.mp3",
+     "narr_dur": 3.091,
+     "syl_per_s": 9.059
+    },
+    {
+     "k": 16,
+     "rate": 2.1474,
+     "file": "s_ba1c6e1050b3.mp3",
+     "narr_dur": 2.947,
+     "syl_per_s": 9.503
+    },
+    {
+     "k": 17,
+     "rate": 2.2524,
+     "file": "s_67dcab006796.mp3",
+     "narr_dur": 2.809,
+     "syl_per_s": 9.967
+    },
+    {
+     "k": 18,
+     "rate": 2.3626,
+     "file": "s_9ca895e05488.mp3",
+     "narr_dur": 2.678,
+     "syl_per_s": 10.455
+    },
+    {
+     "k": 19,
+     "rate": 2.4782,
+     "file": "s_49434f170699.mp3",
+     "narr_dur": 2.553,
+     "syl_per_s": 10.966
+    },
+    {
+     "k": 20,
+     "rate": 2.5995,
+     "file": "s_55670f2ffe06.mp3",
+     "narr_dur": 2.434,
+     "syl_per_s": 11.503
+    },
+    {
+     "k": 21,
+     "rate": 2.7267,
+     "file": "s_37d94cfba6f5.mp3",
+     "narr_dur": 2.321,
+     "syl_per_s": 12.066
+    },
+    {
+     "k": 22,
+     "rate": 2.8601,
+     "file": "s_d3687dad62fa.mp3",
+     "narr_dur": 2.212,
+     "syl_per_s": 12.656
+    },
+    {
+     "k": 23,
+     "rate": 3.0,
+     "file": "s_c58d50b74f6b.mp3",
+     "narr_dur": 2.109,
+     "syl_per_s": 13.276
+    }
+   ],
+   "q": "他從隔間走出來後做了什麼？",
+   "options": [
+    "往自己腳上一踩",
+    "跟男子握手",
+    "坐在地上",
+    "打開水龍頭"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "L8",
+   "clip": "UMBOdTivgjBj",
+   "ver": "us",
+   "cues": [
+    36,
+    39
+   ],
+   "text": "男子踉蹌退向門口，搖了搖頭。佛萊契用身體撞牆，男子跌跌撞撞逃出廁所。",
+   "chars": 30,
+   "onset_in_clip": 118.62,
+   "window": 7.63,
+   "excerpt_len": 12.612,
+   "narr_onset": 3.0,
+   "fits_gap_at_1x": true,
+   "stimuli": [
+    {
+     "k": 0,
+     "rate": 1.0,
+     "file": "s_1412ffdd6bdd.mp3",
+     "narr_dur": 7.612,
+     "syl_per_s": 3.941
+    },
+    {
+     "k": 1,
+     "rate": 1.0489,
+     "file": "s_9916b394663b.mp3",
+     "narr_dur": 7.257,
+     "syl_per_s": 4.134
+    },
+    {
+     "k": 2,
+     "rate": 1.1002,
+     "file": "s_ccea76aa2365.mp3",
+     "narr_dur": 6.919,
+     "syl_per_s": 4.336
+    },
+    {
+     "k": 3,
+     "rate": 1.1541,
+     "file": "s_6c8c24949ffd.mp3",
+     "narr_dur": 6.596,
+     "syl_per_s": 4.548
+    },
+    {
+     "k": 4,
+     "rate": 1.2105,
+     "file": "s_fc0efb2a20b0.mp3",
+     "narr_dur": 6.289,
+     "syl_per_s": 4.77
+    },
+    {
+     "k": 5,
+     "rate": 1.2698,
+     "file": "s_03bcc9376db5.mp3",
+     "narr_dur": 5.995,
+     "syl_per_s": 5.004
+    },
+    {
+     "k": 6,
+     "rate": 1.3319,
+     "file": "s_f140ae286d4e.mp3",
+     "narr_dur": 5.715,
+     "syl_per_s": 5.249
+    },
+    {
+     "k": 7,
+     "rate": 1.397,
+     "file": "s_b6ad0f42693c.mp3",
+     "narr_dur": 5.449,
+     "syl_per_s": 5.506
+    },
+    {
+     "k": 8,
+     "rate": 1.4654,
+     "file": "s_50d00d9a5f78.mp3",
+     "narr_dur": 5.195,
+     "syl_per_s": 5.775
+    },
+    {
+     "k": 9,
+     "rate": 1.5371,
+     "file": "s_ea0527728c89.mp3",
+     "narr_dur": 4.952,
+     "syl_per_s": 6.058
+    },
+    {
+     "k": 10,
+     "rate": 1.6123,
+     "file": "s_ab657f6f5b3e.mp3",
+     "narr_dur": 4.721,
+     "syl_per_s": 6.354
+    },
+    {
+     "k": 11,
+     "rate": 1.6912,
+     "file": "s_cd860d6e2434.mp3",
+     "narr_dur": 4.501,
+     "syl_per_s": 6.665
+    },
+    {
+     "k": 12,
+     "rate": 1.7739,
+     "file": "s_f9574440f51e.mp3",
+     "narr_dur": 4.291,
+     "syl_per_s": 6.991
+    },
+    {
+     "k": 13,
+     "rate": 1.8607,
+     "file": "s_1b8ec6275d65.mp3",
+     "narr_dur": 4.091,
+     "syl_per_s": 7.333
+    },
+    {
+     "k": 14,
+     "rate": 1.9517,
+     "file": "s_3193389ef803.mp3",
+     "narr_dur": 3.9,
+     "syl_per_s": 7.692
+    },
+    {
+     "k": 15,
+     "rate": 2.0472,
+     "file": "s_a2dc853b83ff.mp3",
+     "narr_dur": 3.718,
+     "syl_per_s": 8.068
+    },
+    {
+     "k": 16,
+     "rate": 2.1474,
+     "file": "s_ca336d6f44fa.mp3",
+     "narr_dur": 3.545,
+     "syl_per_s": 8.463
+    },
+    {
+     "k": 17,
+     "rate": 2.2524,
+     "file": "s_e57799a7b5fe.mp3",
+     "narr_dur": 3.38,
+     "syl_per_s": 8.877
+    },
+    {
+     "k": 18,
+     "rate": 2.3626,
+     "file": "s_3607b0cd9ff2.mp3",
+     "narr_dur": 3.222,
+     "syl_per_s": 9.311
+    },
+    {
+     "k": 19,
+     "rate": 2.4782,
+     "file": "s_8a0d9dbbc21b.mp3",
+     "narr_dur": 3.072,
+     "syl_per_s": 9.767
+    },
+    {
+     "k": 20,
+     "rate": 2.5995,
+     "file": "s_0352ae174983.mp3",
+     "narr_dur": 2.929,
+     "syl_per_s": 10.242
+    },
+    {
+     "k": 21,
+     "rate": 2.7267,
+     "file": "s_b8dbe3fe54f7.mp3",
+     "narr_dur": 2.792,
+     "syl_per_s": 10.746
+    },
+    {
+     "k": 22,
+     "rate": 2.8601,
+     "file": "s_cde5386bc5d0.mp3",
+     "narr_dur": 2.662,
+     "syl_per_s": 11.272
+    },
+    {
+     "k": 23,
+     "rate": 3.0,
+     "file": "s_2d2cd25b30c1.mp3",
+     "narr_dur": 2.537,
+     "syl_per_s": 11.823
+    }
+   ],
+   "q": "那名男子最後怎麼了？",
+   "options": [
+    "逃出廁所",
+    "上前扶起佛萊契",
+    "打電話報警",
+    "躲進隔間"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "L9",
+   "clip": "UMBOdTivgjBj",
+   "ver": "us",
+   "cues": [
+    40,
+    41
+   ],
+   "text": "佛萊契整個人飛撲撞向牆壁，仰倒在地，昏了過去。",
+   "chars": 20,
+   "onset_in_clip": 126.25,
+   "window": 6.13,
+   "excerpt_len": 9.604,
+   "narr_onset": 3.0,
+   "fits_gap_at_1x": true,
+   "stimuli": [
+    {
+     "k": 0,
+     "rate": 1.0,
+     "file": "s_ace43d855d30.mp3",
+     "narr_dur": 4.604,
+     "syl_per_s": 4.344
+    },
+    {
+     "k": 1,
+     "rate": 1.0489,
+     "file": "s_4b0dcab06455.mp3",
+     "narr_dur": 4.389,
+     "syl_per_s": 4.557
+    },
+    {
+     "k": 2,
+     "rate": 1.1002,
+     "file": "s_427464a0b683.mp3",
+     "narr_dur": 4.184,
+     "syl_per_s": 4.78
+    },
+    {
+     "k": 3,
+     "rate": 1.1541,
+     "file": "s_37c17c889c94.mp3",
+     "narr_dur": 3.989,
+     "syl_per_s": 5.014
+    },
+    {
+     "k": 4,
+     "rate": 1.2105,
+     "file": "s_825298b58bf3.mp3",
+     "narr_dur": 3.803,
+     "syl_per_s": 5.259
+    },
+    {
+     "k": 5,
+     "rate": 1.2698,
+     "file": "s_a93d517f9584.mp3",
+     "narr_dur": 3.625,
+     "syl_per_s": 5.517
+    },
+    {
+     "k": 6,
+     "rate": 1.3319,
+     "file": "s_94a5833ba531.mp3",
+     "narr_dur": 3.457,
+     "syl_per_s": 5.785
+    },
+    {
+     "k": 7,
+     "rate": 1.397,
+     "file": "s_af18d2170e57.mp3",
+     "narr_dur": 3.295,
+     "syl_per_s": 6.069
+    },
+    {
+     "k": 8,
+     "rate": 1.4654,
+     "file": "s_45b40d83fec6.mp3",
+     "narr_dur": 3.142,
+     "syl_per_s": 6.366
+    },
+    {
+     "k": 9,
+     "rate": 1.5371,
+     "file": "s_8caa74db72e2.mp3",
+     "narr_dur": 2.995,
+     "syl_per_s": 6.678
+    },
+    {
+     "k": 10,
+     "rate": 1.6123,
+     "file": "s_87d26d7f3e25.mp3",
+     "narr_dur": 2.855,
+     "syl_per_s": 7.005
+    },
+    {
+     "k": 11,
+     "rate": 1.6912,
+     "file": "s_f2a05ce20c23.mp3",
+     "narr_dur": 2.722,
+     "syl_per_s": 7.347
+    },
+    {
+     "k": 12,
+     "rate": 1.7739,
+     "file": "s_f2558d5650fb.mp3",
+     "narr_dur": 2.595,
+     "syl_per_s": 7.707
+    },
+    {
+     "k": 13,
+     "rate": 1.8607,
+     "file": "s_a877cdc8c8a2.mp3",
+     "narr_dur": 2.474,
+     "syl_per_s": 8.084
+    },
+    {
+     "k": 14,
+     "rate": 1.9517,
+     "file": "s_cf1b2d77687b.mp3",
+     "narr_dur": 2.359,
+     "syl_per_s": 8.479
+    },
+    {
+     "k": 15,
+     "rate": 2.0472,
+     "file": "s_b5547c1200fa.mp3",
+     "narr_dur": 2.249,
+     "syl_per_s": 8.894
+    },
+    {
+     "k": 16,
+     "rate": 2.1474,
+     "file": "s_3bea49c505a5.mp3",
+     "narr_dur": 2.144,
+     "syl_per_s": 9.329
+    },
+    {
+     "k": 17,
+     "rate": 2.2524,
+     "file": "s_265b006435d9.mp3",
+     "narr_dur": 2.044,
+     "syl_per_s": 9.785
+    },
+    {
+     "k": 18,
+     "rate": 2.3626,
+     "file": "s_743289314177.mp3",
+     "narr_dur": 1.949,
+     "syl_per_s": 10.264
+    },
+    {
+     "k": 19,
+     "rate": 2.4782,
+     "file": "s_908ea81cad9f.mp3",
+     "narr_dur": 1.858,
+     "syl_per_s": 10.766
+    },
+    {
+     "k": 20,
+     "rate": 2.5995,
+     "file": "s_9cfc34605889.mp3",
+     "narr_dur": 1.771,
+     "syl_per_s": 11.293
+    },
+    {
+     "k": 21,
+     "rate": 2.7267,
+     "file": "s_dcdf1f868101.mp3",
+     "narr_dur": 1.688,
+     "syl_per_s": 11.846
+    },
+    {
+     "k": 22,
+     "rate": 2.8601,
+     "file": "s_7514574a036c.mp3",
+     "narr_dur": 1.61,
+     "syl_per_s": 12.426
+    },
+    {
+     "k": 23,
+     "rate": 3.0,
+     "file": "s_1a928f3dc167.mp3",
+     "narr_dur": 1.535,
+     "syl_per_s": 13.033
+    }
+   ],
+   "q": "佛萊契撞牆之後怎麼了？",
+   "options": [
+    "仰倒在地昏了過去",
+    "跑出廁所",
+    "對著鏡子大笑",
+    "爬進隔間"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "D1",
+   "clip": "CQEeb6wSS97K",
+   "ver": "uk",
+   "cues": [
+    0,
+    1
+   ],
+   "text": "機車開始追近荒原路華。馬汀看見後照鏡裡出現機車的車燈。",
+   "chars": 25,
+   "onset_in_clip": 5.63,
+   "window": 6.09,
+   "excerpt_len": 10.986,
+   "narr_onset": 3.0,
+   "fits_gap_at_1x": true,
+   "stimuli": [
+    {
+     "k": 0,
+     "rate": 1.0,
+     "file": "s_a71e430bbfa0.mp3",
+     "narr_dur": 5.986,
+     "syl_per_s": 4.176
+    },
+    {
+     "k": 1,
+     "rate": 1.0489,
+     "file": "s_aa4cb64cbdbb.mp3",
+     "narr_dur": 5.707,
+     "syl_per_s": 4.38
+    },
+    {
+     "k": 2,
+     "rate": 1.1002,
+     "file": "s_6d2b62de509a.mp3",
+     "narr_dur": 5.441,
+     "syl_per_s": 4.595
+    },
+    {
+     "k": 3,
+     "rate": 1.1541,
+     "file": "s_9aecd4c716ed.mp3",
+     "narr_dur": 5.187,
+     "syl_per_s": 4.82
+    },
+    {
+     "k": 4,
+     "rate": 1.2105,
+     "file": "s_7ea1935469db.mp3",
+     "narr_dur": 4.945,
+     "syl_per_s": 5.055
+    },
+    {
+     "k": 5,
+     "rate": 1.2698,
+     "file": "s_0e92badd7cae.mp3",
+     "narr_dur": 4.714,
+     "syl_per_s": 5.303
+    },
+    {
+     "k": 6,
+     "rate": 1.3319,
+     "file": "s_7397cc17db6f.mp3",
+     "narr_dur": 4.495,
+     "syl_per_s": 5.562
+    },
+    {
+     "k": 7,
+     "rate": 1.397,
+     "file": "s_3627e3a5e34a.mp3",
+     "narr_dur": 4.285,
+     "syl_per_s": 5.834
+    },
+    {
+     "k": 8,
+     "rate": 1.4654,
+     "file": "s_0605b1c044e3.mp3",
+     "narr_dur": 4.085,
+     "syl_per_s": 6.12
+    },
+    {
+     "k": 9,
+     "rate": 1.5371,
+     "file": "s_3c73a152a6ad.mp3",
+     "narr_dur": 3.895,
+     "syl_per_s": 6.419
+    },
+    {
+     "k": 10,
+     "rate": 1.6123,
+     "file": "s_11729e4aa61b.mp3",
+     "narr_dur": 3.713,
+     "syl_per_s": 6.733
+    },
+    {
+     "k": 11,
+     "rate": 1.6912,
+     "file": "s_a9b0dfeddd74.mp3",
+     "narr_dur": 3.54,
+     "syl_per_s": 7.063
+    },
+    {
+     "k": 12,
+     "rate": 1.7739,
+     "file": "s_81e557586b77.mp3",
+     "narr_dur": 3.375,
+     "syl_per_s": 7.408
+    },
+    {
+     "k": 13,
+     "rate": 1.8607,
+     "file": "s_6887968fb7a5.mp3",
+     "narr_dur": 3.217,
+     "syl_per_s": 7.77
+    },
+    {
+     "k": 14,
+     "rate": 1.9517,
+     "file": "s_1995b06f4372.mp3",
+     "narr_dur": 3.067,
+     "syl_per_s": 8.15
+    },
+    {
+     "k": 15,
+     "rate": 2.0472,
+     "file": "s_43a9d4d6aa4a.mp3",
+     "narr_dur": 2.924,
+     "syl_per_s": 8.549
+    },
+    {
+     "k": 16,
+     "rate": 2.1474,
+     "file": "s_dbdf9754d85c.mp3",
+     "narr_dur": 2.788,
+     "syl_per_s": 8.968
+    },
+    {
+     "k": 17,
+     "rate": 2.2524,
+     "file": "s_c2e00991a61d.mp3",
+     "narr_dur": 2.658,
+     "syl_per_s": 9.406
+    },
+    {
+     "k": 18,
+     "rate": 2.3626,
+     "file": "s_d0c1c9697f58.mp3",
+     "narr_dur": 2.534,
+     "syl_per_s": 9.866
+    },
+    {
+     "k": 19,
+     "rate": 2.4782,
+     "file": "s_f6a85b680642.mp3",
+     "narr_dur": 2.416,
+     "syl_per_s": 10.349
+    },
+    {
+     "k": 20,
+     "rate": 2.5995,
+     "file": "s_81198f35f91d.mp3",
+     "narr_dur": 2.303,
+     "syl_per_s": 10.856
+    },
+    {
+     "k": 21,
+     "rate": 2.7267,
+     "file": "s_9167c227599d.mp3",
+     "narr_dur": 2.196,
+     "syl_per_s": 11.387
+    },
+    {
+     "k": 22,
+     "rate": 2.8601,
+     "file": "s_7ef4e9943ca8.mp3",
+     "narr_dur": 2.093,
+     "syl_per_s": 11.944
+    },
+    {
+     "k": 23,
+     "rate": 3.0,
+     "file": "s_44b4f949ec4d.mp3",
+     "narr_dur": 1.995,
+     "syl_per_s": 12.528
+    }
+   ],
+   "q": "馬汀從哪裡看到機車的車燈？",
+   "options": [
+    "後照鏡",
+    "擋風玻璃",
+    "側邊車窗",
+    "手機螢幕"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "D2",
+   "clip": "CQEeb6wSS97K",
+   "ver": "uk",
+   "cues": [
+    3,
+    3
+   ],
+   "text": "接近橋時，她緊咬在馬汀車後。",
+   "chars": 12,
+   "onset_in_clip": 29.78,
+   "window": 3.04,
+   "excerpt_len": 7.755,
+   "narr_onset": 3.0,
+   "fits_gap_at_1x": true,
+   "stimuli": [
+    {
+     "k": 0,
+     "rate": 1.0,
+     "file": "s_9910468e6936.mp3",
+     "narr_dur": 2.755,
+     "syl_per_s": 4.357
+    },
+    {
+     "k": 1,
+     "rate": 1.0489,
+     "file": "s_0c4a30310751.mp3",
+     "narr_dur": 2.626,
+     "syl_per_s": 4.57
+    },
+    {
+     "k": 2,
+     "rate": 1.1002,
+     "file": "s_e45d2c581e8d.mp3",
+     "narr_dur": 2.504,
+     "syl_per_s": 4.793
+    },
+    {
+     "k": 3,
+     "rate": 1.1541,
+     "file": "s_dc2216bd1918.mp3",
+     "narr_dur": 2.387,
+     "syl_per_s": 5.028
+    },
+    {
+     "k": 4,
+     "rate": 1.2105,
+     "file": "s_30f6298cfd71.mp3",
+     "narr_dur": 2.276,
+     "syl_per_s": 5.274
+    },
+    {
+     "k": 5,
+     "rate": 1.2698,
+     "file": "s_64b956bb70cc.mp3",
+     "narr_dur": 2.169,
+     "syl_per_s": 5.532
+    },
+    {
+     "k": 6,
+     "rate": 1.3319,
+     "file": "s_c10897cf2916.mp3",
+     "narr_dur": 2.068,
+     "syl_per_s": 5.802
+    },
+    {
+     "k": 7,
+     "rate": 1.397,
+     "file": "s_ad21d3f2862e.mp3",
+     "narr_dur": 1.972,
+     "syl_per_s": 6.086
+    },
+    {
+     "k": 8,
+     "rate": 1.4654,
+     "file": "s_5c8f4aae6cc8.mp3",
+     "narr_dur": 1.88,
+     "syl_per_s": 6.384
+    },
+    {
+     "k": 9,
+     "rate": 1.5371,
+     "file": "s_1b363294a7f9.mp3",
+     "narr_dur": 1.792,
+     "syl_per_s": 6.696
+    },
+    {
+     "k": 10,
+     "rate": 1.6123,
+     "file": "s_848c6e7b00be.mp3",
+     "narr_dur": 1.708,
+     "syl_per_s": 7.024
+    },
+    {
+     "k": 11,
+     "rate": 1.6912,
+     "file": "s_174c76fd5f02.mp3",
+     "narr_dur": 1.629,
+     "syl_per_s": 7.368
+    },
+    {
+     "k": 12,
+     "rate": 1.7739,
+     "file": "s_f0e2b9f5d1db.mp3",
+     "narr_dur": 1.553,
+     "syl_per_s": 7.728
+    },
+    {
+     "k": 13,
+     "rate": 1.8607,
+     "file": "s_6137f17d4a85.mp3",
+     "narr_dur": 1.48,
+     "syl_per_s": 8.106
+    },
+    {
+     "k": 14,
+     "rate": 1.9517,
+     "file": "s_50b8f6c0c085.mp3",
+     "narr_dur": 1.411,
+     "syl_per_s": 8.503
+    },
+    {
+     "k": 15,
+     "rate": 2.0472,
+     "file": "s_f7bd8cf93fb4.mp3",
+     "narr_dur": 1.345,
+     "syl_per_s": 8.919
+    },
+    {
+     "k": 16,
+     "rate": 2.1474,
+     "file": "s_94d7e3cb3181.mp3",
+     "narr_dur": 1.283,
+     "syl_per_s": 9.355
+    },
+    {
+     "k": 17,
+     "rate": 2.2524,
+     "file": "s_a19d345280bf.mp3",
+     "narr_dur": 1.223,
+     "syl_per_s": 9.813
+    },
+    {
+     "k": 18,
+     "rate": 2.3626,
+     "file": "s_16e1e55d2e19.mp3",
+     "narr_dur": 1.166,
+     "syl_per_s": 10.293
+    },
+    {
+     "k": 19,
+     "rate": 2.4782,
+     "file": "s_a1c8eabb2f43.mp3",
+     "narr_dur": 1.111,
+     "syl_per_s": 10.796
+    },
+    {
+     "k": 20,
+     "rate": 2.5995,
+     "file": "s_47b33ad66cc3.mp3",
+     "narr_dur": 1.06,
+     "syl_per_s": 11.325
+    },
+    {
+     "k": 21,
+     "rate": 2.7267,
+     "file": "s_a65210a97d64.mp3",
+     "narr_dur": 1.01,
+     "syl_per_s": 11.879
+    },
+    {
+     "k": 22,
+     "rate": 2.8601,
+     "file": "s_79492fe56355.mp3",
+     "narr_dur": 0.963,
+     "syl_per_s": 12.46
+    },
+    {
+     "k": 23,
+     "rate": 3.0,
+     "file": "s_c6f9cebacbc9.mp3",
+     "narr_dur": 0.918,
+     "syl_per_s": 13.07
+    }
+   ],
+   "q": "接近橋時，她在哪裡？",
+   "options": [
+    "緊跟在馬汀車後",
+    "停在路邊",
+    "超到馬汀前面",
+    "騎下河岸"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "D3",
+   "clip": "CQEeb6wSS97K",
+   "ver": "uk",
+   "cues": [
+    8,
+    9
+   ],
+   "text": "為了不讓她超車，荒原路華甩動得越來越劇烈，車尾擦撞橋身。",
+   "chars": 25,
+   "onset_in_clip": 39.87,
+   "window": 6.09,
+   "excerpt_len": 10.447,
+   "narr_onset": 3.0,
+   "fits_gap_at_1x": true,
+   "stimuli": [
+    {
+     "k": 0,
+     "rate": 1.0,
+     "file": "s_59f2cd2e7cc2.mp3",
+     "narr_dur": 5.447,
+     "syl_per_s": 4.59
+    },
+    {
+     "k": 1,
+     "rate": 1.0489,
+     "file": "s_cf51984586aa.mp3",
+     "narr_dur": 5.193,
+     "syl_per_s": 4.814
+    },
+    {
+     "k": 2,
+     "rate": 1.1002,
+     "file": "s_0160880e44fa.mp3",
+     "narr_dur": 4.951,
+     "syl_per_s": 5.049
+    },
+    {
+     "k": 3,
+     "rate": 1.1541,
+     "file": "s_581ae0bca583.mp3",
+     "narr_dur": 4.72,
+     "syl_per_s": 5.297
+    },
+    {
+     "k": 4,
+     "rate": 1.2105,
+     "file": "s_5043b0e83e12.mp3",
+     "narr_dur": 4.5,
+     "syl_per_s": 5.556
+    },
+    {
+     "k": 5,
+     "rate": 1.2698,
+     "file": "s_61a6a776a0b3.mp3",
+     "narr_dur": 4.29,
+     "syl_per_s": 5.828
+    },
+    {
+     "k": 6,
+     "rate": 1.3319,
+     "file": "s_d6bef55dfcec.mp3",
+     "narr_dur": 4.09,
+     "syl_per_s": 6.113
+    },
+    {
+     "k": 7,
+     "rate": 1.397,
+     "file": "s_4d5f34e89c6c.mp3",
+     "narr_dur": 3.899,
+     "syl_per_s": 6.412
+    },
+    {
+     "k": 8,
+     "rate": 1.4654,
+     "file": "s_54dc39d7fd92.mp3",
+     "narr_dur": 3.717,
+     "syl_per_s": 6.726
+    },
+    {
+     "k": 9,
+     "rate": 1.5371,
+     "file": "s_691568bd4f8c.mp3",
+     "narr_dur": 3.544,
+     "syl_per_s": 7.055
+    },
+    {
+     "k": 10,
+     "rate": 1.6123,
+     "file": "s_0ab7cb6b2c94.mp3",
+     "narr_dur": 3.378,
+     "syl_per_s": 7.4
+    },
+    {
+     "k": 11,
+     "rate": 1.6912,
+     "file": "s_d20e9b35b0e7.mp3",
+     "narr_dur": 3.221,
+     "syl_per_s": 7.762
+    },
+    {
+     "k": 12,
+     "rate": 1.7739,
+     "file": "s_f7dbb097dd28.mp3",
+     "narr_dur": 3.071,
+     "syl_per_s": 8.141
+    },
+    {
+     "k": 13,
+     "rate": 1.8607,
+     "file": "s_51bc782eadb5.mp3",
+     "narr_dur": 2.927,
+     "syl_per_s": 8.54
+    },
+    {
+     "k": 14,
+     "rate": 1.9517,
+     "file": "s_01e2aca90400.mp3",
+     "narr_dur": 2.791,
+     "syl_per_s": 8.957
+    },
+    {
+     "k": 15,
+     "rate": 2.0472,
+     "file": "s_f222cf3b7018.mp3",
+     "narr_dur": 2.661,
+     "syl_per_s": 9.396
+    },
+    {
+     "k": 16,
+     "rate": 2.1474,
+     "file": "s_dcfa3759d8ea.mp3",
+     "narr_dur": 2.537,
+     "syl_per_s": 9.856
+    },
+    {
+     "k": 17,
+     "rate": 2.2524,
+     "file": "s_b2f5cb2e931a.mp3",
+     "narr_dur": 2.418,
+     "syl_per_s": 10.338
+    },
+    {
+     "k": 18,
+     "rate": 2.3626,
+     "file": "s_95258931874f.mp3",
+     "narr_dur": 2.306,
+     "syl_per_s": 10.843
+    },
+    {
+     "k": 19,
+     "rate": 2.4782,
+     "file": "s_17d76e9f8c72.mp3",
+     "narr_dur": 2.198,
+     "syl_per_s": 11.374
+    },
+    {
+     "k": 20,
+     "rate": 2.5995,
+     "file": "s_9cf50338fea8.mp3",
+     "narr_dur": 2.095,
+     "syl_per_s": 11.931
+    },
+    {
+     "k": 21,
+     "rate": 2.7267,
+     "file": "s_56f889ddb948.mp3",
+     "narr_dur": 1.998,
+     "syl_per_s": 12.514
+    },
+    {
+     "k": 22,
+     "rate": 2.8601,
+     "file": "s_7be81cd33e6a.mp3",
+     "narr_dur": 1.905,
+     "syl_per_s": 13.127
+    },
+    {
+     "k": 23,
+     "rate": 3.0,
+     "file": "s_edf55025faa4.mp3",
+     "narr_dur": 1.816,
+     "syl_per_s": 13.769
+    }
+   ],
+   "q": "車子最後擦撞到什麼？",
+   "options": [
+    "橋身",
+    "加油站",
+    "另一輛車",
+    "路邊的樹"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "D4",
+   "clip": "CQEeb6wSS97K",
+   "ver": "uk",
+   "cues": [
+    10,
+    10
+   ],
+   "text": "莉絲貝猛催油門，從馬汀左側疾衝而過。",
+   "chars": 16,
+   "onset_in_clip": 45.96,
+   "window": 4.09,
+   "excerpt_len": 8.607,
+   "narr_onset": 3.0,
+   "fits_gap_at_1x": true,
+   "stimuli": [
+    {
+     "k": 0,
+     "rate": 1.0,
+     "file": "s_e2346d29dff7.mp3",
+     "narr_dur": 3.607,
+     "syl_per_s": 4.436
+    },
+    {
+     "k": 1,
+     "rate": 1.0489,
+     "file": "s_2c0f3e1575ea.mp3",
+     "narr_dur": 3.439,
+     "syl_per_s": 4.653
+    },
+    {
+     "k": 2,
+     "rate": 1.1002,
+     "file": "s_4309b63a5dcd.mp3",
+     "narr_dur": 3.278,
+     "syl_per_s": 4.88
+    },
+    {
+     "k": 3,
+     "rate": 1.1541,
+     "file": "s_fb525ba6723c.mp3",
+     "narr_dur": 3.125,
+     "syl_per_s": 5.119
+    },
+    {
+     "k": 4,
+     "rate": 1.2105,
+     "file": "s_72a2857b297d.mp3",
+     "narr_dur": 2.98,
+     "syl_per_s": 5.37
+    },
+    {
+     "k": 5,
+     "rate": 1.2698,
+     "file": "s_5621455ffe05.mp3",
+     "narr_dur": 2.841,
+     "syl_per_s": 5.633
+    },
+    {
+     "k": 6,
+     "rate": 1.3319,
+     "file": "s_55236d5ac818.mp3",
+     "narr_dur": 2.708,
+     "syl_per_s": 5.908
+    },
+    {
+     "k": 7,
+     "rate": 1.397,
+     "file": "s_be4f30bbd322.mp3",
+     "narr_dur": 2.582,
+     "syl_per_s": 6.197
+    },
+    {
+     "k": 8,
+     "rate": 1.4654,
+     "file": "s_35b3d6dfdac1.mp3",
+     "narr_dur": 2.461,
+     "syl_per_s": 6.5
+    },
+    {
+     "k": 9,
+     "rate": 1.5371,
+     "file": "s_90898eb31ccc.mp3",
+     "narr_dur": 2.347,
+     "syl_per_s": 6.818
+    },
+    {
+     "k": 10,
+     "rate": 1.6123,
+     "file": "s_63269ce55329.mp3",
+     "narr_dur": 2.237,
+     "syl_per_s": 7.152
+    },
+    {
+     "k": 11,
+     "rate": 1.6912,
+     "file": "s_147b5df61f2c.mp3",
+     "narr_dur": 2.133,
+     "syl_per_s": 7.502
+    },
+    {
+     "k": 12,
+     "rate": 1.7739,
+     "file": "s_4ed06504ab1d.mp3",
+     "narr_dur": 2.033,
+     "syl_per_s": 7.869
+    },
+    {
+     "k": 13,
+     "rate": 1.8607,
+     "file": "s_68009e3e376c.mp3",
+     "narr_dur": 1.938,
+     "syl_per_s": 8.254
+    },
+    {
+     "k": 14,
+     "rate": 1.9517,
+     "file": "s_8ae92d273209.mp3",
+     "narr_dur": 1.849,
+     "syl_per_s": 8.653
+    },
+    {
+     "k": 15,
+     "rate": 2.0472,
+     "file": "s_5d0026fbcd7c.mp3",
+     "narr_dur": 1.762,
+     "syl_per_s": 9.081
+    },
+    {
+     "k": 16,
+     "rate": 2.1474,
+     "file": "s_aa6df84a5f29.mp3",
+     "narr_dur": 1.68,
+     "syl_per_s": 9.526
+    },
+    {
+     "k": 17,
+     "rate": 2.2524,
+     "file": "s_301738c8b0da.mp3",
+     "narr_dur": 1.601,
+     "syl_per_s": 9.991
+    },
+    {
+     "k": 18,
+     "rate": 2.3626,
+     "file": "s_99965e0cd5e1.mp3",
+     "narr_dur": 1.527,
+     "syl_per_s": 10.48
+    },
+    {
+     "k": 19,
+     "rate": 2.4782,
+     "file": "s_9e8ad82fae42.mp3",
+     "narr_dur": 1.455,
+     "syl_per_s": 10.993
+    },
+    {
+     "k": 20,
+     "rate": 2.5995,
+     "file": "s_ba10f9b4dcd7.mp3",
+     "narr_dur": 1.388,
+     "syl_per_s": 11.531
+    },
+    {
+     "k": 21,
+     "rate": 2.7267,
+     "file": "s_cc163dbe0948.mp3",
+     "narr_dur": 1.323,
+     "syl_per_s": 12.095
+    },
+    {
+     "k": 22,
+     "rate": 2.8601,
+     "file": "s_f800f027ae05.mp3",
+     "narr_dur": 1.261,
+     "syl_per_s": 12.687
+    },
+    {
+     "k": 23,
+     "rate": 3.0,
+     "file": "s_f9658911db84.mp3",
+     "narr_dur": 1.202,
+     "syl_per_s": 13.308
+    }
+   ],
+   "q": "莉絲貝從哪一側超過馬汀？",
+   "options": [
+    "左側",
+    "右側",
+    "從後面撞上去",
+    "沒有超過"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "D5",
+   "clip": "CQEeb6wSS97K",
+   "ver": "uk",
+   "cues": [
+    11,
+    12
+   ],
+   "text": "他駛離橋尾時失控，車子翻覆。",
+   "chars": 12,
+   "onset_in_clip": 50.05,
+   "window": 4.34,
+   "excerpt_len": 7.792,
+   "narr_onset": 3.0,
+   "fits_gap_at_1x": true,
+   "stimuli": [
+    {
+     "k": 0,
+     "rate": 1.0,
+     "file": "s_c961c711bce6.mp3",
+     "narr_dur": 2.792,
+     "syl_per_s": 4.299
+    },
+    {
+     "k": 1,
+     "rate": 1.0489,
+     "file": "s_5dc90d796e6c.mp3",
+     "narr_dur": 2.661,
+     "syl_per_s": 4.509
+    },
+    {
+     "k": 2,
+     "rate": 1.1002,
+     "file": "s_13c9ca75e0cc.mp3",
+     "narr_dur": 2.537,
+     "syl_per_s": 4.729
+    },
+    {
+     "k": 3,
+     "rate": 1.1541,
+     "file": "s_2c00953c06ee.mp3",
+     "narr_dur": 2.419,
+     "syl_per_s": 4.961
+    },
+    {
+     "k": 4,
+     "rate": 1.2105,
+     "file": "s_52e6a37de719.mp3",
+     "narr_dur": 2.306,
+     "syl_per_s": 5.204
+    },
+    {
+     "k": 5,
+     "rate": 1.2698,
+     "file": "s_01918838890f.mp3",
+     "narr_dur": 2.198,
+     "syl_per_s": 5.459
+    },
+    {
+     "k": 6,
+     "rate": 1.3319,
+     "file": "s_9c51409f817c.mp3",
+     "narr_dur": 2.096,
+     "syl_per_s": 5.726
+    },
+    {
+     "k": 7,
+     "rate": 1.397,
+     "file": "s_9190600dc523.mp3",
+     "narr_dur": 1.998,
+     "syl_per_s": 6.005
+    },
+    {
+     "k": 8,
+     "rate": 1.4654,
+     "file": "s_2fea39455732.mp3",
+     "narr_dur": 1.905,
+     "syl_per_s": 6.299
+    },
+    {
+     "k": 9,
+     "rate": 1.5371,
+     "file": "s_1e24d2e201a7.mp3",
+     "narr_dur": 1.816,
+     "syl_per_s": 6.608
+    },
+    {
+     "k": 10,
+     "rate": 1.6123,
+     "file": "s_e0140b8f11e4.mp3",
+     "narr_dur": 1.731,
+     "syl_per_s": 6.931
+    },
+    {
+     "k": 11,
+     "rate": 1.6912,
+     "file": "s_d799e21b9f2f.mp3",
+     "narr_dur": 1.651,
+     "syl_per_s": 7.27
+    },
+    {
+     "k": 12,
+     "rate": 1.7739,
+     "file": "s_ad48899652de.mp3",
+     "narr_dur": 1.574,
+     "syl_per_s": 7.626
+    },
+    {
+     "k": 13,
+     "rate": 1.8607,
+     "file": "s_6c7705433dd2.mp3",
+     "narr_dur": 1.5,
+     "syl_per_s": 7.999
+    },
+    {
+     "k": 14,
+     "rate": 1.9517,
+     "file": "s_b96427078d6e.mp3",
+     "narr_dur": 1.43,
+     "syl_per_s": 8.39
+    },
+    {
+     "k": 15,
+     "rate": 2.0472,
+     "file": "s_52ec7458aa3e.mp3",
+     "narr_dur": 1.364,
+     "syl_per_s": 8.8
+    },
+    {
+     "k": 16,
+     "rate": 2.1474,
+     "file": "s_4cf271c80f7e.mp3",
+     "narr_dur": 1.3,
+     "syl_per_s": 9.231
+    },
+    {
+     "k": 17,
+     "rate": 2.2524,
+     "file": "s_feca6f953823.mp3",
+     "narr_dur": 1.239,
+     "syl_per_s": 9.682
+    },
+    {
+     "k": 18,
+     "rate": 2.3626,
+     "file": "s_0a383fa20fae.mp3",
+     "narr_dur": 1.182,
+     "syl_per_s": 10.156
+    },
+    {
+     "k": 19,
+     "rate": 2.4782,
+     "file": "s_f1039fa8336f.mp3",
+     "narr_dur": 1.126,
+     "syl_per_s": 10.653
+    },
+    {
+     "k": 20,
+     "rate": 2.5995,
+     "file": "s_b1a8261ac05d.mp3",
+     "narr_dur": 1.074,
+     "syl_per_s": 11.175
+    },
+    {
+     "k": 21,
+     "rate": 2.7267,
+     "file": "s_c27d249a1e53.mp3",
+     "narr_dur": 1.024,
+     "syl_per_s": 11.721
+    },
+    {
+     "k": 22,
+     "rate": 2.8601,
+     "file": "s_925f9f945202.mp3",
+     "narr_dur": 0.976,
+     "syl_per_s": 12.295
+    },
+    {
+     "k": 23,
+     "rate": 3.0,
+     "file": "s_cde8cd25affd.mp3",
+     "narr_dur": 0.93,
+     "syl_per_s": 12.896
+    }
+   ],
+   "q": "馬汀的車子怎麼了？",
+   "options": [
+    "翻覆",
+    "掉進河裡",
+    "撞上卡車",
+    "順利開走"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "D6",
+   "clip": "CQEeb6wSS97K",
+   "ver": "uk",
+   "cues": [
+    15,
+    16
+   ],
+   "text": "她深吸一口氣，走向冒著濃煙的荒原路華。",
+   "chars": 17,
+   "onset_in_clip": 64.44,
+   "window": 4.75,
+   "excerpt_len": 8.579,
+   "narr_onset": 3.0,
+   "fits_gap_at_1x": true,
+   "stimuli": [
+    {
+     "k": 0,
+     "rate": 1.0,
+     "file": "s_4e9da8eaf296.mp3",
+     "narr_dur": 3.579,
+     "syl_per_s": 4.75
+    },
+    {
+     "k": 1,
+     "rate": 1.0489,
+     "file": "s_c44f7a77e609.mp3",
+     "narr_dur": 3.412,
+     "syl_per_s": 4.983
+    },
+    {
+     "k": 2,
+     "rate": 1.1002,
+     "file": "s_249fbdf716d8.mp3",
+     "narr_dur": 3.253,
+     "syl_per_s": 5.226
+    },
+    {
+     "k": 3,
+     "rate": 1.1541,
+     "file": "s_060276ee91a1.mp3",
+     "narr_dur": 3.101,
+     "syl_per_s": 5.482
+    },
+    {
+     "k": 4,
+     "rate": 1.2105,
+     "file": "s_ea5515b8f228.mp3",
+     "narr_dur": 2.956,
+     "syl_per_s": 5.75
+    },
+    {
+     "k": 5,
+     "rate": 1.2698,
+     "file": "s_eff2aacb37a1.mp3",
+     "narr_dur": 2.818,
+     "syl_per_s": 6.032
+    },
+    {
+     "k": 6,
+     "rate": 1.3319,
+     "file": "s_8205e64fed58.mp3",
+     "narr_dur": 2.687,
+     "syl_per_s": 6.327
+    },
+    {
+     "k": 7,
+     "rate": 1.397,
+     "file": "s_3ca95e0441ac.mp3",
+     "narr_dur": 2.562,
+     "syl_per_s": 6.636
+    },
+    {
+     "k": 8,
+     "rate": 1.4654,
+     "file": "s_4af65c4ca033.mp3",
+     "narr_dur": 2.442,
+     "syl_per_s": 6.961
+    },
+    {
+     "k": 9,
+     "rate": 1.5371,
+     "file": "s_d939b6dc5782.mp3",
+     "narr_dur": 2.329,
+     "syl_per_s": 7.299
+    },
+    {
+     "k": 10,
+     "rate": 1.6123,
+     "file": "s_6e8d7c248982.mp3",
+     "narr_dur": 2.22,
+     "syl_per_s": 7.659
+    },
+    {
+     "k": 11,
+     "rate": 1.6912,
+     "file": "s_f692b51a53bc.mp3",
+     "narr_dur": 2.116,
+     "syl_per_s": 8.034
+    },
+    {
+     "k": 12,
+     "rate": 1.7739,
+     "file": "s_54b0ba7fd15e.mp3",
+     "narr_dur": 2.017,
+     "syl_per_s": 8.426
+    },
+    {
+     "k": 13,
+     "rate": 1.8607,
+     "file": "s_8413cf6790e7.mp3",
+     "narr_dur": 1.923,
+     "syl_per_s": 8.839
+    },
+    {
+     "k": 14,
+     "rate": 1.9517,
+     "file": "s_786dd358e5ce.mp3",
+     "narr_dur": 1.834,
+     "syl_per_s": 9.271
+    },
+    {
+     "k": 15,
+     "rate": 2.0472,
+     "file": "s_75a3ce07d71e.mp3",
+     "narr_dur": 1.748,
+     "syl_per_s": 9.725
+    },
+    {
+     "k": 16,
+     "rate": 2.1474,
+     "file": "s_367fd6fd1f5e.mp3",
+     "narr_dur": 1.667,
+     "syl_per_s": 10.201
+    },
+    {
+     "k": 17,
+     "rate": 2.2524,
+     "file": "s_55f403587996.mp3",
+     "narr_dur": 1.589,
+     "syl_per_s": 10.699
+    },
+    {
+     "k": 18,
+     "rate": 2.3626,
+     "file": "s_30a291130f34.mp3",
+     "narr_dur": 1.515,
+     "syl_per_s": 11.223
+    },
+    {
+     "k": 19,
+     "rate": 2.4782,
+     "file": "s_da89fda72dae.mp3",
+     "narr_dur": 1.444,
+     "syl_per_s": 11.772
+    },
+    {
+     "k": 20,
+     "rate": 2.5995,
+     "file": "s_feb2fd4a0beb.mp3",
+     "narr_dur": 1.377,
+     "syl_per_s": 12.348
+    },
+    {
+     "k": 21,
+     "rate": 2.7267,
+     "file": "s_0b27aadbd5e6.mp3",
+     "narr_dur": 1.312,
+     "syl_per_s": 12.952
+    },
+    {
+     "k": 22,
+     "rate": 2.8601,
+     "file": "s_383fb37396e8.mp3",
+     "narr_dur": 1.251,
+     "syl_per_s": 13.586
+    },
+    {
+     "k": 23,
+     "rate": 3.0,
+     "file": "s_300fad97a9ac.mp3",
+     "narr_dur": 1.193,
+     "syl_per_s": 14.251
+    }
+   ],
+   "q": "她深吸一口氣後走向哪裡？",
+   "options": [
+    "冒著濃煙的車子",
+    "一棟房子",
+    "她的機車",
+    "橋的另一端"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "D7",
+   "clip": "CQEeb6wSS97K",
+   "ver": "uk",
+   "cues": [
+    17,
+    18
+   ],
+   "text": "她從口袋掏出手槍，扳起擊錘。",
+   "chars": 12,
+   "onset_in_clip": 69.19,
+   "window": 3.01,
+   "excerpt_len": 7.807,
+   "narr_onset": 3.0,
+   "fits_gap_at_1x": true,
+   "stimuli": [
+    {
+     "k": 0,
+     "rate": 1.0,
+     "file": "s_5b84efa47e54.mp3",
+     "narr_dur": 2.807,
+     "syl_per_s": 4.275
+    },
+    {
+     "k": 1,
+     "rate": 1.0489,
+     "file": "s_03db67966c75.mp3",
+     "narr_dur": 2.676,
+     "syl_per_s": 4.484
+    },
+    {
+     "k": 2,
+     "rate": 1.1002,
+     "file": "s_8775c78c9174.mp3",
+     "narr_dur": 2.551,
+     "syl_per_s": 4.704
+    },
+    {
+     "k": 3,
+     "rate": 1.1541,
+     "file": "s_5916662c793a.mp3",
+     "narr_dur": 2.432,
+     "syl_per_s": 4.934
+    },
+    {
+     "k": 4,
+     "rate": 1.2105,
+     "file": "s_212de3669b52.mp3",
+     "narr_dur": 2.319,
+     "syl_per_s": 5.175
+    },
+    {
+     "k": 5,
+     "rate": 1.2698,
+     "file": "s_e68ecaf1cf63.mp3",
+     "narr_dur": 2.211,
+     "syl_per_s": 5.429
+    },
+    {
+     "k": 6,
+     "rate": 1.3319,
+     "file": "s_352cd38b27e7.mp3",
+     "narr_dur": 2.107,
+     "syl_per_s": 5.694
+    },
+    {
+     "k": 7,
+     "rate": 1.397,
+     "file": "s_6f2eacde55f9.mp3",
+     "narr_dur": 2.009,
+     "syl_per_s": 5.972
+    },
+    {
+     "k": 8,
+     "rate": 1.4654,
+     "file": "s_c1300bea93f2.mp3",
+     "narr_dur": 1.915,
+     "syl_per_s": 6.265
+    },
+    {
+     "k": 9,
+     "rate": 1.5371,
+     "file": "s_7eb03eead8e0.mp3",
+     "narr_dur": 1.826,
+     "syl_per_s": 6.571
+    },
+    {
+     "k": 10,
+     "rate": 1.6123,
+     "file": "s_8cd7a1eb6921.mp3",
+     "narr_dur": 1.741,
+     "syl_per_s": 6.893
+    },
+    {
+     "k": 11,
+     "rate": 1.6912,
+     "file": "s_73a6fd993a62.mp3",
+     "narr_dur": 1.66,
+     "syl_per_s": 7.23
+    },
+    {
+     "k": 12,
+     "rate": 1.7739,
+     "file": "s_f80cd9eac6d3.mp3",
+     "narr_dur": 1.582,
+     "syl_per_s": 7.584
+    },
+    {
+     "k": 13,
+     "rate": 1.8607,
+     "file": "s_62613e46c7cf.mp3",
+     "narr_dur": 1.509,
+     "syl_per_s": 7.955
+    },
+    {
+     "k": 14,
+     "rate": 1.9517,
+     "file": "s_b0ff642f1f9c.mp3",
+     "narr_dur": 1.438,
+     "syl_per_s": 8.344
+    },
+    {
+     "k": 15,
+     "rate": 2.0472,
+     "file": "s_ee9a0b72d8d2.mp3",
+     "narr_dur": 1.371,
+     "syl_per_s": 8.752
+    },
+    {
+     "k": 16,
+     "rate": 2.1474,
+     "file": "s_a6dd765def29.mp3",
+     "narr_dur": 1.307,
+     "syl_per_s": 9.18
+    },
+    {
+     "k": 17,
+     "rate": 2.2524,
+     "file": "s_b31aaa14b16b.mp3",
+     "narr_dur": 1.246,
+     "syl_per_s": 9.629
+    },
+    {
+     "k": 18,
+     "rate": 2.3626,
+     "file": "s_8ebf112b7d89.mp3",
+     "narr_dur": 1.188,
+     "syl_per_s": 10.1
+    },
+    {
+     "k": 19,
+     "rate": 2.4782,
+     "file": "s_1d9e54db6814.mp3",
+     "narr_dur": 1.133,
+     "syl_per_s": 10.595
+    },
+    {
+     "k": 20,
+     "rate": 2.5995,
+     "file": "s_0cd453cff09e.mp3",
+     "narr_dur": 1.08,
+     "syl_per_s": 11.113
+    },
+    {
+     "k": 21,
+     "rate": 2.7267,
+     "file": "s_12b4f29b5e85.mp3",
+     "narr_dur": 1.029,
+     "syl_per_s": 11.657
+    },
+    {
+     "k": 22,
+     "rate": 2.8601,
+     "file": "s_73ffd09b1144.mp3",
+     "narr_dur": 0.981,
+     "syl_per_s": 12.227
+    },
+    {
+     "k": 23,
+     "rate": 3.0,
+     "file": "s_759a2d8cf4fb.mp3",
+     "narr_dur": 0.936,
+     "syl_per_s": 12.825
+    }
+   ],
+   "q": "她從口袋拿出什麼？",
+   "options": [
+    "手槍",
+    "手機",
+    "鑰匙",
+    "打火機"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "D8",
+   "clip": "CQEeb6wSS97K",
+   "ver": "uk",
+   "cues": [
+    22,
+    22
+   ],
+   "text": "莉絲貝停下腳步，看著車子和馬汀在眼前燒成灰燼。",
+   "chars": 21,
+   "onset_in_clip": 92.97,
+   "window": 13.39,
+   "excerpt_len": 9.555,
+   "narr_onset": 3.0,
+   "fits_gap_at_1x": true,
+   "stimuli": [
+    {
+     "k": 0,
+     "rate": 1.0,
+     "file": "s_c35206c0108c.mp3",
+     "narr_dur": 4.555,
+     "syl_per_s": 4.611
+    },
+    {
+     "k": 1,
+     "rate": 1.0489,
+     "file": "s_84af542ce2b3.mp3",
+     "narr_dur": 4.342,
+     "syl_per_s": 4.836
+    },
+    {
+     "k": 2,
+     "rate": 1.1002,
+     "file": "s_49a948a4edd4.mp3",
+     "narr_dur": 4.14,
+     "syl_per_s": 5.073
+    },
+    {
+     "k": 3,
+     "rate": 1.1541,
+     "file": "s_6b5635c519bd.mp3",
+     "narr_dur": 3.946,
+     "syl_per_s": 5.321
+    },
+    {
+     "k": 4,
+     "rate": 1.2105,
+     "file": "s_0128f93e2666.mp3",
+     "narr_dur": 3.763,
+     "syl_per_s": 5.581
+    },
+    {
+     "k": 5,
+     "rate": 1.2698,
+     "file": "s_01ff9dc7c367.mp3",
+     "narr_dur": 3.587,
+     "syl_per_s": 5.855
+    },
+    {
+     "k": 6,
+     "rate": 1.3319,
+     "file": "s_b45c179ecf6c.mp3",
+     "narr_dur": 3.42,
+     "syl_per_s": 6.141
+    },
+    {
+     "k": 7,
+     "rate": 1.397,
+     "file": "s_75be0afc9df5.mp3",
+     "narr_dur": 3.26,
+     "syl_per_s": 6.441
+    },
+    {
+     "k": 8,
+     "rate": 1.4654,
+     "file": "s_950ce4d328ca.mp3",
+     "narr_dur": 3.108,
+     "syl_per_s": 6.757
+    },
+    {
+     "k": 9,
+     "rate": 1.5371,
+     "file": "s_11839457c865.mp3",
+     "narr_dur": 2.963,
+     "syl_per_s": 7.087
+    },
+    {
+     "k": 10,
+     "rate": 1.6123,
+     "file": "s_80a62cb46893.mp3",
+     "narr_dur": 2.825,
+     "syl_per_s": 7.434
+    },
+    {
+     "k": 11,
+     "rate": 1.6912,
+     "file": "s_0fd1a589d59c.mp3",
+     "narr_dur": 2.693,
+     "syl_per_s": 7.798
+    },
+    {
+     "k": 12,
+     "rate": 1.7739,
+     "file": "s_6ee53876e310.mp3",
+     "narr_dur": 2.568,
+     "syl_per_s": 8.179
+    },
+    {
+     "k": 13,
+     "rate": 1.8607,
+     "file": "s_160b56d1475f.mp3",
+     "narr_dur": 2.448,
+     "syl_per_s": 8.579
+    },
+    {
+     "k": 14,
+     "rate": 1.9517,
+     "file": "s_0f3ee2e0c0be.mp3",
+     "narr_dur": 2.334,
+     "syl_per_s": 8.999
+    },
+    {
+     "k": 15,
+     "rate": 2.0472,
+     "file": "s_bda853299178.mp3",
+     "narr_dur": 2.225,
+     "syl_per_s": 9.439
+    },
+    {
+     "k": 16,
+     "rate": 2.1474,
+     "file": "s_3d7d32a8dc41.mp3",
+     "narr_dur": 2.121,
+     "syl_per_s": 9.901
+    },
+    {
+     "k": 17,
+     "rate": 2.2524,
+     "file": "s_316c3b62c8e3.mp3",
+     "narr_dur": 2.022,
+     "syl_per_s": 10.385
+    },
+    {
+     "k": 18,
+     "rate": 2.3626,
+     "file": "s_ffb45fdc049f.mp3",
+     "narr_dur": 1.928,
+     "syl_per_s": 10.893
+    },
+    {
+     "k": 19,
+     "rate": 2.4782,
+     "file": "s_0ab13ee96fa8.mp3",
+     "narr_dur": 1.838,
+     "syl_per_s": 11.426
+    },
+    {
+     "k": 20,
+     "rate": 2.5995,
+     "file": "s_e00295bdbfd1.mp3",
+     "narr_dur": 1.753,
+     "syl_per_s": 11.98
+    },
+    {
+     "k": 21,
+     "rate": 2.7267,
+     "file": "s_52dac754d321.mp3",
+     "narr_dur": 1.67,
+     "syl_per_s": 12.572
+    },
+    {
+     "k": 22,
+     "rate": 2.8601,
+     "file": "s_b2a23bad1cfd.mp3",
+     "narr_dur": 1.592,
+     "syl_per_s": 13.187
+    },
+    {
+     "k": 23,
+     "rate": 3.0,
+     "file": "s_0f9dfe171aff.mp3",
+     "narr_dur": 1.518,
+     "syl_per_s": 13.832
+    }
+   ],
+   "q": "莉絲貝停下腳步後做了什麼？",
+   "options": [
+    "看著車子和馬汀燒成灰燼",
+    "朝車子開槍",
+    "打電話報警",
+    "跑回機車"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "T1",
+   "clip": "T9bfm2XbXjx_",
+   "ver": "us",
+   "cues": [
+    9,
+    10
+   ],
+   "text": "艾德華的毛衣底下鼓起一團，他的身體在地上抽搐。",
+   "chars": 21,
+   "onset_in_clip": 36.25,
+   "window": 4.61,
+   "excerpt_len": 9.164,
+   "narr_onset": 3.0,
+   "fits_gap_at_1x": true,
+   "stimuli": [
+    {
+     "k": 0,
+     "rate": 1.0,
+     "file": "s_1f7b4a566554.mp3",
+     "narr_dur": 4.164,
+     "syl_per_s": 5.043
+    },
+    {
+     "k": 1,
+     "rate": 1.0489,
+     "file": "s_100ea2dd973d.mp3",
+     "narr_dur": 3.97,
+     "syl_per_s": 5.289
+    },
+    {
+     "k": 2,
+     "rate": 1.1002,
+     "file": "s_e87f71bc1391.mp3",
+     "narr_dur": 3.785,
+     "syl_per_s": 5.548
+    },
+    {
+     "k": 3,
+     "rate": 1.1541,
+     "file": "s_f24242077d68.mp3",
+     "narr_dur": 3.608,
+     "syl_per_s": 5.82
+    },
+    {
+     "k": 4,
+     "rate": 1.2105,
+     "file": "s_60959f4fee32.mp3",
+     "narr_dur": 3.44,
+     "syl_per_s": 6.104
+    },
+    {
+     "k": 5,
+     "rate": 1.2698,
+     "file": "s_f6165b8200ac.mp3",
+     "narr_dur": 3.28,
+     "syl_per_s": 6.403
+    },
+    {
+     "k": 6,
+     "rate": 1.3319,
+     "file": "s_e7abc07bd12c.mp3",
+     "narr_dur": 3.127,
+     "syl_per_s": 6.716
+    },
+    {
+     "k": 7,
+     "rate": 1.397,
+     "file": "s_fb9018669b9d.mp3",
+     "narr_dur": 2.981,
+     "syl_per_s": 7.045
+    },
+    {
+     "k": 8,
+     "rate": 1.4654,
+     "file": "s_133fd455f9ce.mp3",
+     "narr_dur": 2.842,
+     "syl_per_s": 7.39
+    },
+    {
+     "k": 9,
+     "rate": 1.5371,
+     "file": "s_32a4ab54323a.mp3",
+     "narr_dur": 2.709,
+     "syl_per_s": 7.751
+    },
+    {
+     "k": 10,
+     "rate": 1.6123,
+     "file": "s_08e530262ad2.mp3",
+     "narr_dur": 2.583,
+     "syl_per_s": 8.13
+    },
+    {
+     "k": 11,
+     "rate": 1.6912,
+     "file": "s_86e3417911ec.mp3",
+     "narr_dur": 2.462,
+     "syl_per_s": 8.528
+    },
+    {
+     "k": 12,
+     "rate": 1.7739,
+     "file": "s_b02b335692a6.mp3",
+     "narr_dur": 2.348,
+     "syl_per_s": 8.945
+    },
+    {
+     "k": 13,
+     "rate": 1.8607,
+     "file": "s_bc48ad84d6c1.mp3",
+     "narr_dur": 2.238,
+     "syl_per_s": 9.383
+    },
+    {
+     "k": 14,
+     "rate": 1.9517,
+     "file": "s_5a4e5f8b688e.mp3",
+     "narr_dur": 2.134,
+     "syl_per_s": 9.842
+    },
+    {
+     "k": 15,
+     "rate": 2.0472,
+     "file": "s_a6bfac555f8a.mp3",
+     "narr_dur": 2.034,
+     "syl_per_s": 10.323
+    },
+    {
+     "k": 16,
+     "rate": 2.1474,
+     "file": "s_3d6a48fbd27e.mp3",
+     "narr_dur": 1.939,
+     "syl_per_s": 10.829
+    },
+    {
+     "k": 17,
+     "rate": 2.2524,
+     "file": "s_1ee61f41f011.mp3",
+     "narr_dur": 1.849,
+     "syl_per_s": 11.358
+    },
+    {
+     "k": 18,
+     "rate": 2.3626,
+     "file": "s_76645b64dbaa.mp3",
+     "narr_dur": 1.763,
+     "syl_per_s": 11.914
+    },
+    {
+     "k": 19,
+     "rate": 2.4782,
+     "file": "s_a7ec40c15144.mp3",
+     "narr_dur": 1.681,
+     "syl_per_s": 12.493
+    },
+    {
+     "k": 20,
+     "rate": 2.5995,
+     "file": "s_4696f7103ac8.mp3",
+     "narr_dur": 1.602,
+     "syl_per_s": 13.109
+    },
+    {
+     "k": 21,
+     "rate": 2.7267,
+     "file": "s_b8f1f82aa06a.mp3",
+     "narr_dur": 1.527,
+     "syl_per_s": 13.75
+    },
+    {
+     "k": 22,
+     "rate": 2.8601,
+     "file": "s_bf3250c4bf7f.mp3",
+     "narr_dur": 1.456,
+     "syl_per_s": 14.423
+    },
+    {
+     "k": 23,
+     "rate": 3.0,
+     "file": "s_caa86f5dbdd3.mp3",
+     "narr_dur": 1.388,
+     "syl_per_s": 15.128
+    }
+   ],
+   "q": "艾德華的身體出現什麼狀況？",
+   "options": [
+    "毛衣下鼓起一團、在地上抽搐",
+    "突然站起來逃跑",
+    "全身著火",
+    "完全不動"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "T2",
+   "clip": "T9bfm2XbXjx_",
+   "ver": "uk",
+   "cues": [
+    24,
+    25
+   ],
+   "text": "詹姆森跳起來，朝艾德華開槍。",
+   "chars": 12,
+   "onset_in_clip": 83.88,
+   "window": 4.79,
+   "excerpt_len": 7.764,
+   "narr_onset": 3.0,
+   "fits_gap_at_1x": true,
+   "stimuli": [
+    {
+     "k": 0,
+     "rate": 1.0,
+     "file": "s_4a177a766585.mp3",
+     "narr_dur": 2.764,
+     "syl_per_s": 4.341
+    },
+    {
+     "k": 1,
+     "rate": 1.0489,
+     "file": "s_0da53d0915b8.mp3",
+     "narr_dur": 2.635,
+     "syl_per_s": 4.553
+    },
+    {
+     "k": 2,
+     "rate": 1.1002,
+     "file": "s_cb07a55fd4a6.mp3",
+     "narr_dur": 2.513,
+     "syl_per_s": 4.776
+    },
+    {
+     "k": 3,
+     "rate": 1.1541,
+     "file": "s_bb4bcf7fa04c.mp3",
+     "narr_dur": 2.395,
+     "syl_per_s": 5.01
+    },
+    {
+     "k": 4,
+     "rate": 1.2105,
+     "file": "s_21b23b652f0a.mp3",
+     "narr_dur": 2.284,
+     "syl_per_s": 5.255
+    },
+    {
+     "k": 5,
+     "rate": 1.2698,
+     "file": "s_16903f1bd362.mp3",
+     "narr_dur": 2.177,
+     "syl_per_s": 5.512
+    },
+    {
+     "k": 6,
+     "rate": 1.3319,
+     "file": "s_2fe76d37f7cb.mp3",
+     "narr_dur": 2.076,
+     "syl_per_s": 5.782
+    },
+    {
+     "k": 7,
+     "rate": 1.397,
+     "file": "s_fec5c8ca0177.mp3",
+     "narr_dur": 1.979,
+     "syl_per_s": 6.064
+    },
+    {
+     "k": 8,
+     "rate": 1.4654,
+     "file": "s_10fbfae86b0a.mp3",
+     "narr_dur": 1.886,
+     "syl_per_s": 6.361
+    },
+    {
+     "k": 9,
+     "rate": 1.5371,
+     "file": "s_aaaeaf1a11c0.mp3",
+     "narr_dur": 1.798,
+     "syl_per_s": 6.672
+    },
+    {
+     "k": 10,
+     "rate": 1.6123,
+     "file": "s_4269d71f6afd.mp3",
+     "narr_dur": 1.715,
+     "syl_per_s": 6.999
+    },
+    {
+     "k": 11,
+     "rate": 1.6912,
+     "file": "s_b4bf9f397b19.mp3",
+     "narr_dur": 1.635,
+     "syl_per_s": 7.341
+    },
+    {
+     "k": 12,
+     "rate": 1.7739,
+     "file": "s_e1131fe4b7f5.mp3",
+     "narr_dur": 1.558,
+     "syl_per_s": 7.7
+    },
+    {
+     "k": 13,
+     "rate": 1.8607,
+     "file": "s_e465802f7609.mp3",
+     "narr_dur": 1.486,
+     "syl_per_s": 8.077
+    },
+    {
+     "k": 14,
+     "rate": 1.9517,
+     "file": "s_61c253691cb3.mp3",
+     "narr_dur": 1.417,
+     "syl_per_s": 8.469
+    },
+    {
+     "k": 15,
+     "rate": 2.0472,
+     "file": "s_fdc14996d2bb.mp3",
+     "narr_dur": 1.35,
+     "syl_per_s": 8.887
+    },
+    {
+     "k": 16,
+     "rate": 2.1474,
+     "file": "s_d743f2bdabc6.mp3",
+     "narr_dur": 1.287,
+     "syl_per_s": 9.322
+    },
+    {
+     "k": 17,
+     "rate": 2.2524,
+     "file": "s_272d623992d0.mp3",
+     "narr_dur": 1.227,
+     "syl_per_s": 9.778
+    },
+    {
+     "k": 18,
+     "rate": 2.3626,
+     "file": "s_7ee091b54a3d.mp3",
+     "narr_dur": 1.17,
+     "syl_per_s": 10.256
+    },
+    {
+     "k": 19,
+     "rate": 2.4782,
+     "file": "s_a7626a39f010.mp3",
+     "narr_dur": 1.115,
+     "syl_per_s": 10.758
+    },
+    {
+     "k": 20,
+     "rate": 2.5995,
+     "file": "s_0f3665aea03d.mp3",
+     "narr_dur": 1.063,
+     "syl_per_s": 11.284
+    },
+    {
+     "k": 21,
+     "rate": 2.7267,
+     "file": "s_05ae7cecf21c.mp3",
+     "narr_dur": 1.014,
+     "syl_per_s": 11.837
+    },
+    {
+     "k": 22,
+     "rate": 2.8601,
+     "file": "s_d50484159404.mp3",
+     "narr_dur": 0.967,
+     "syl_per_s": 12.416
+    },
+    {
+     "k": 23,
+     "rate": 3.0,
+     "file": "s_fdfb103e6f94.mp3",
+     "narr_dur": 0.921,
+     "syl_per_s": 13.023
+    }
+   ],
+   "q": "詹姆森跳起來後做了什麼？",
+   "options": [
+    "朝艾德華開槍",
+    "往門外跑",
+    "拿起火焰噴射器",
+    "扶起艾德華"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "T3",
+   "clip": "T9bfm2XbXjx_",
+   "ver": "uk",
+   "cues": [
+    26,
+    27
+   ],
+   "text": "觸手甩向詹姆森，在他胸口打穿一個洞。",
+   "chars": 16,
+   "onset_in_clip": 88.67,
+   "window": 3.59,
+   "excerpt_len": 8.395,
+   "narr_onset": 3.0,
+   "fits_gap_at_1x": true,
+   "stimuli": [
+    {
+     "k": 0,
+     "rate": 1.0,
+     "file": "s_cd519026b7a1.mp3",
+     "narr_dur": 3.395,
+     "syl_per_s": 4.713
+    },
+    {
+     "k": 1,
+     "rate": 1.0489,
+     "file": "s_108e1e66dc17.mp3",
+     "narr_dur": 3.237,
+     "syl_per_s": 4.943
+    },
+    {
+     "k": 2,
+     "rate": 1.1002,
+     "file": "s_4ce05c040bc1.mp3",
+     "narr_dur": 3.086,
+     "syl_per_s": 5.185
+    },
+    {
+     "k": 3,
+     "rate": 1.1541,
+     "file": "s_29f558807d2f.mp3",
+     "narr_dur": 2.942,
+     "syl_per_s": 5.439
+    },
+    {
+     "k": 4,
+     "rate": 1.2105,
+     "file": "s_b97f281b0b41.mp3",
+     "narr_dur": 2.805,
+     "syl_per_s": 5.705
+    },
+    {
+     "k": 5,
+     "rate": 1.2698,
+     "file": "s_35a01d29080f.mp3",
+     "narr_dur": 2.674,
+     "syl_per_s": 5.984
+    },
+    {
+     "k": 6,
+     "rate": 1.3319,
+     "file": "s_8e5348ebfa1d.mp3",
+     "narr_dur": 2.549,
+     "syl_per_s": 6.277
+    },
+    {
+     "k": 7,
+     "rate": 1.397,
+     "file": "s_a6c688b5ec3a.mp3",
+     "narr_dur": 2.43,
+     "syl_per_s": 6.584
+    },
+    {
+     "k": 8,
+     "rate": 1.4654,
+     "file": "s_6c34cea7309a.mp3",
+     "narr_dur": 2.317,
+     "syl_per_s": 6.906
+    },
+    {
+     "k": 9,
+     "rate": 1.5371,
+     "file": "s_1a30e30f67be.mp3",
+     "narr_dur": 2.209,
+     "syl_per_s": 7.243
+    },
+    {
+     "k": 10,
+     "rate": 1.6123,
+     "file": "s_8c9860153283.mp3",
+     "narr_dur": 2.106,
+     "syl_per_s": 7.598
+    },
+    {
+     "k": 11,
+     "rate": 1.6912,
+     "file": "s_0e60e6f6c1e5.mp3",
+     "narr_dur": 2.007,
+     "syl_per_s": 7.97
+    },
+    {
+     "k": 12,
+     "rate": 1.7739,
+     "file": "s_5a60725201cc.mp3",
+     "narr_dur": 1.914,
+     "syl_per_s": 8.36
+    },
+    {
+     "k": 13,
+     "rate": 1.8607,
+     "file": "s_45d08b74a605.mp3",
+     "narr_dur": 1.825,
+     "syl_per_s": 8.767
+    },
+    {
+     "k": 14,
+     "rate": 1.9517,
+     "file": "s_ecbfdbf3ba90.mp3",
+     "narr_dur": 1.74,
+     "syl_per_s": 9.198
+    },
+    {
+     "k": 15,
+     "rate": 2.0472,
+     "file": "s_3278cbab5fe2.mp3",
+     "narr_dur": 1.658,
+     "syl_per_s": 9.648
+    },
+    {
+     "k": 16,
+     "rate": 2.1474,
+     "file": "s_a72bd6769639.mp3",
+     "narr_dur": 1.581,
+     "syl_per_s": 10.12
+    },
+    {
+     "k": 17,
+     "rate": 2.2524,
+     "file": "s_9f1606b30cef.mp3",
+     "narr_dur": 1.507,
+     "syl_per_s": 10.615
+    },
+    {
+     "k": 18,
+     "rate": 2.3626,
+     "file": "s_a5fd293ca634.mp3",
+     "narr_dur": 1.437,
+     "syl_per_s": 11.134
+    },
+    {
+     "k": 19,
+     "rate": 2.4782,
+     "file": "s_13f0ddab2561.mp3",
+     "narr_dur": 1.37,
+     "syl_per_s": 11.679
+    },
+    {
+     "k": 20,
+     "rate": 2.5995,
+     "file": "s_aabda7f961a6.mp3",
+     "narr_dur": 1.306,
+     "syl_per_s": 12.251
+    },
+    {
+     "k": 21,
+     "rate": 2.7267,
+     "file": "s_afe91713f2d6.mp3",
+     "narr_dur": 1.245,
+     "syl_per_s": 12.85
+    },
+    {
+     "k": 22,
+     "rate": 2.8601,
+     "file": "s_548e1568e2a1.mp3",
+     "narr_dur": 1.187,
+     "syl_per_s": 13.479
+    },
+    {
+     "k": 23,
+     "rate": 3.0,
+     "file": "s_d3f6b9eca8f8.mp3",
+     "narr_dur": 1.132,
+     "syl_per_s": 14.138
+    }
+   ],
+   "q": "觸手在他身上哪裡打穿一個洞？",
+   "options": [
+    "胸口",
+    "腹部",
+    "肩膀",
+    "手臂"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "T4",
+   "clip": "T9bfm2XbXjx_",
+   "ver": "uk",
+   "cues": [
+    31,
+    32
+   ],
+   "text": "異形把注意力轉回亞當身上，亞當身受重傷，正努力往後退。",
+   "chars": 24,
+   "onset_in_clip": 102.23,
+   "window": 5.34,
+   "excerpt_len": 10.275,
+   "narr_onset": 3.0,
+   "fits_gap_at_1x": true,
+   "stimuli": [
+    {
+     "k": 0,
+     "rate": 1.0,
+     "file": "s_dd9cdf9a4302.mp3",
+     "narr_dur": 5.275,
+     "syl_per_s": 4.55
+    },
+    {
+     "k": 1,
+     "rate": 1.0489,
+     "file": "s_56be6d362c50.mp3",
+     "narr_dur": 5.029,
+     "syl_per_s": 4.772
+    },
+    {
+     "k": 2,
+     "rate": 1.1002,
+     "file": "s_dba286574303.mp3",
+     "narr_dur": 4.795,
+     "syl_per_s": 5.005
+    },
+    {
+     "k": 3,
+     "rate": 1.1541,
+     "file": "s_89d5af19e450.mp3",
+     "narr_dur": 4.571,
+     "syl_per_s": 5.251
+    },
+    {
+     "k": 4,
+     "rate": 1.2105,
+     "file": "s_4f4348c1ae68.mp3",
+     "narr_dur": 4.358,
+     "syl_per_s": 5.507
+    },
+    {
+     "k": 5,
+     "rate": 1.2698,
+     "file": "s_d73ac389d14d.mp3",
+     "narr_dur": 4.154,
+     "syl_per_s": 5.777
+    },
+    {
+     "k": 6,
+     "rate": 1.3319,
+     "file": "s_38cdd32cf641.mp3",
+     "narr_dur": 3.961,
+     "syl_per_s": 6.059
+    },
+    {
+     "k": 7,
+     "rate": 1.397,
+     "file": "s_71562091c78d.mp3",
+     "narr_dur": 3.776,
+     "syl_per_s": 6.356
+    },
+    {
+     "k": 8,
+     "rate": 1.4654,
+     "file": "s_25a10dfc798a.mp3",
+     "narr_dur": 3.6,
+     "syl_per_s": 6.667
+    },
+    {
+     "k": 9,
+     "rate": 1.5371,
+     "file": "s_904de4f3036a.mp3",
+     "narr_dur": 3.432,
+     "syl_per_s": 6.993
+    },
+    {
+     "k": 10,
+     "rate": 1.6123,
+     "file": "s_ad7871bf48eb.mp3",
+     "narr_dur": 3.272,
+     "syl_per_s": 7.335
+    },
+    {
+     "k": 11,
+     "rate": 1.6912,
+     "file": "s_0efda3ff2ea4.mp3",
+     "narr_dur": 3.119,
+     "syl_per_s": 7.694
+    },
+    {
+     "k": 12,
+     "rate": 1.7739,
+     "file": "s_78acdc324c33.mp3",
+     "narr_dur": 2.974,
+     "syl_per_s": 8.07
+    },
+    {
+     "k": 13,
+     "rate": 1.8607,
+     "file": "s_55d6b543c018.mp3",
+     "narr_dur": 2.835,
+     "syl_per_s": 8.465
+    },
+    {
+     "k": 14,
+     "rate": 1.9517,
+     "file": "s_54077d3ebd11.mp3",
+     "narr_dur": 2.703,
+     "syl_per_s": 8.879
+    },
+    {
+     "k": 15,
+     "rate": 2.0472,
+     "file": "s_cb412a60be3f.mp3",
+     "narr_dur": 2.577,
+     "syl_per_s": 9.314
+    },
+    {
+     "k": 16,
+     "rate": 2.1474,
+     "file": "s_6c40b26d8058.mp3",
+     "narr_dur": 2.457,
+     "syl_per_s": 9.77
+    },
+    {
+     "k": 17,
+     "rate": 2.2524,
+     "file": "s_77d76d847c02.mp3",
+     "narr_dur": 2.342,
+     "syl_per_s": 10.247
+    },
+    {
+     "k": 18,
+     "rate": 2.3626,
+     "file": "s_0ad39d253611.mp3",
+     "narr_dur": 2.233,
+     "syl_per_s": 10.748
+    },
+    {
+     "k": 19,
+     "rate": 2.4782,
+     "file": "s_79af1681b130.mp3",
+     "narr_dur": 2.129,
+     "syl_per_s": 11.275
+    },
+    {
+     "k": 20,
+     "rate": 2.5995,
+     "file": "s_5e84a551daf7.mp3",
+     "narr_dur": 2.029,
+     "syl_per_s": 11.827
+    },
+    {
+     "k": 21,
+     "rate": 2.7267,
+     "file": "s_45d567728001.mp3",
+     "narr_dur": 1.935,
+     "syl_per_s": 12.405
+    },
+    {
+     "k": 22,
+     "rate": 2.8601,
+     "file": "s_4591857ba708.mp3",
+     "narr_dur": 1.844,
+     "syl_per_s": 13.012
+    },
+    {
+     "k": 23,
+     "rate": 3.0,
+     "file": "s_5513c7874ad5.mp3",
+     "narr_dur": 1.758,
+     "syl_per_s": 13.649
+    }
+   ],
+   "q": "亞當當時的狀況如何？",
+   "options": [
+    "身受重傷、努力往後退",
+    "躲在桌子底下",
+    "拿槍反擊",
+    "已經逃出房間"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "T5",
+   "clip": "T9bfm2XbXjx_",
+   "ver": "uk",
+   "cues": [
+    33,
+    34
+   ],
+   "text": "艾德華的右臂斷落，用細長的腳逃走。",
+   "chars": 15,
+   "onset_in_clip": 107.57,
+   "window": 3.92,
+   "excerpt_len": 8.097,
+   "narr_onset": 3.0,
+   "fits_gap_at_1x": true,
+   "stimuli": [
+    {
+     "k": 0,
+     "rate": 1.0,
+     "file": "s_0088e3734c70.mp3",
+     "narr_dur": 3.097,
+     "syl_per_s": 4.843
+    },
+    {
+     "k": 1,
+     "rate": 1.0489,
+     "file": "s_570872397141.mp3",
+     "narr_dur": 2.953,
+     "syl_per_s": 5.08
+    },
+    {
+     "k": 2,
+     "rate": 1.1002,
+     "file": "s_ce68b09ed4b5.mp3",
+     "narr_dur": 2.814,
+     "syl_per_s": 5.33
+    },
+    {
+     "k": 3,
+     "rate": 1.1541,
+     "file": "s_d13746e9c19a.mp3",
+     "narr_dur": 2.683,
+     "syl_per_s": 5.591
+    },
+    {
+     "k": 4,
+     "rate": 1.2105,
+     "file": "s_a896a5d0a18f.mp3",
+     "narr_dur": 2.558,
+     "syl_per_s": 5.864
+    },
+    {
+     "k": 5,
+     "rate": 1.2698,
+     "file": "s_cc3fcac88918.mp3",
+     "narr_dur": 2.438,
+     "syl_per_s": 6.151
+    },
+    {
+     "k": 6,
+     "rate": 1.3319,
+     "file": "s_4f55caa1181b.mp3",
+     "narr_dur": 2.325,
+     "syl_per_s": 6.452
+    },
+    {
+     "k": 7,
+     "rate": 1.397,
+     "file": "s_654e8031d9f8.mp3",
+     "narr_dur": 2.216,
+     "syl_per_s": 6.767
+    },
+    {
+     "k": 8,
+     "rate": 1.4654,
+     "file": "s_bba4b326dfd4.mp3",
+     "narr_dur": 2.113,
+     "syl_per_s": 7.099
+    },
+    {
+     "k": 9,
+     "rate": 1.5371,
+     "file": "s_6eec21ed2aa1.mp3",
+     "narr_dur": 2.014,
+     "syl_per_s": 7.446
+    },
+    {
+     "k": 10,
+     "rate": 1.6123,
+     "file": "s_75eb4c243274.mp3",
+     "narr_dur": 1.921,
+     "syl_per_s": 7.809
+    },
+    {
+     "k": 11,
+     "rate": 1.6912,
+     "file": "s_cbc8f7f44a04.mp3",
+     "narr_dur": 1.831,
+     "syl_per_s": 8.193
+    },
+    {
+     "k": 12,
+     "rate": 1.7739,
+     "file": "s_6464e17fe67e.mp3",
+     "narr_dur": 1.746,
+     "syl_per_s": 8.593
+    },
+    {
+     "k": 13,
+     "rate": 1.8607,
+     "file": "s_955c33f7637b.mp3",
+     "narr_dur": 1.664,
+     "syl_per_s": 9.014
+    },
+    {
+     "k": 14,
+     "rate": 1.9517,
+     "file": "s_dc2b61d5e96e.mp3",
+     "narr_dur": 1.587,
+     "syl_per_s": 9.455
+    },
+    {
+     "k": 15,
+     "rate": 2.0472,
+     "file": "s_1bb38a22f7ac.mp3",
+     "narr_dur": 1.513,
+     "syl_per_s": 9.914
+    },
+    {
+     "k": 16,
+     "rate": 2.1474,
+     "file": "s_d8024c92b4f1.mp3",
+     "narr_dur": 1.442,
+     "syl_per_s": 10.403
+    },
+    {
+     "k": 17,
+     "rate": 2.2524,
+     "file": "s_8ce4aa12866b.mp3",
+     "narr_dur": 1.375,
+     "syl_per_s": 10.911
+    },
+    {
+     "k": 18,
+     "rate": 2.3626,
+     "file": "s_4e6e323d98ac.mp3",
+     "narr_dur": 1.311,
+     "syl_per_s": 11.445
+    },
+    {
+     "k": 19,
+     "rate": 2.4782,
+     "file": "s_4e7980d40d05.mp3",
+     "narr_dur": 1.249,
+     "syl_per_s": 12.005
+    },
+    {
+     "k": 20,
+     "rate": 2.5995,
+     "file": "s_adf021d4964f.mp3",
+     "narr_dur": 1.191,
+     "syl_per_s": 12.593
+    },
+    {
+     "k": 21,
+     "rate": 2.7267,
+     "file": "s_869559a4212f.mp3",
+     "narr_dur": 1.136,
+     "syl_per_s": 13.209
+    },
+    {
+     "k": 22,
+     "rate": 2.8601,
+     "file": "s_24d552a03ddf.mp3",
+     "narr_dur": 1.083,
+     "syl_per_s": 13.855
+    },
+    {
+     "k": 23,
+     "rate": 3.0,
+     "file": "s_8fff132bb2c3.mp3",
+     "narr_dur": 1.033,
+     "syl_per_s": 14.521
+    }
+   ],
+   "q": "斷落的右臂做了什麼？",
+   "options": [
+    "用細長的腳逃走",
+    "抓住凱特",
+    "鑽進牆裡",
+    "停在原地不動"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "T6",
+   "clip": "T9bfm2XbXjx_",
+   "ver": "uk",
+   "cues": [
+    35,
+    36
+   ],
+   "text": "身體其餘部分持續變異，長出粉紅發亮、像昆蟲般的肢體。",
+   "chars": 23,
+   "onset_in_clip": 111.49,
+   "window": 5.53,
+   "excerpt_len": 10.178,
+   "narr_onset": 3.0,
+   "fits_gap_at_1x": true,
+   "stimuli": [
+    {
+     "k": 0,
+     "rate": 1.0,
+     "file": "s_d7fda0e49389.mp3",
+     "narr_dur": 5.178,
+     "syl_per_s": 4.442
+    },
+    {
+     "k": 1,
+     "rate": 1.0489,
+     "file": "s_4f0854587ef8.mp3",
+     "narr_dur": 4.937,
+     "syl_per_s": 4.659
+    },
+    {
+     "k": 2,
+     "rate": 1.1002,
+     "file": "s_983f73acc4a0.mp3",
+     "narr_dur": 4.707,
+     "syl_per_s": 4.887
+    },
+    {
+     "k": 3,
+     "rate": 1.1541,
+     "file": "s_5d96c2e866d7.mp3",
+     "narr_dur": 4.487,
+     "syl_per_s": 5.126
+    },
+    {
+     "k": 4,
+     "rate": 1.2105,
+     "file": "s_aee65693b7bc.mp3",
+     "narr_dur": 4.278,
+     "syl_per_s": 5.377
+    },
+    {
+     "k": 5,
+     "rate": 1.2698,
+     "file": "s_4490808c888e.mp3",
+     "narr_dur": 4.078,
+     "syl_per_s": 5.64
+    },
+    {
+     "k": 6,
+     "rate": 1.3319,
+     "file": "s_82cd2536c99a.mp3",
+     "narr_dur": 3.888,
+     "syl_per_s": 5.916
+    },
+    {
+     "k": 7,
+     "rate": 1.397,
+     "file": "s_f26b365a6101.mp3",
+     "narr_dur": 3.707,
+     "syl_per_s": 6.205
+    },
+    {
+     "k": 8,
+     "rate": 1.4654,
+     "file": "s_c39bc5e878b7.mp3",
+     "narr_dur": 3.534,
+     "syl_per_s": 6.509
+    },
+    {
+     "k": 9,
+     "rate": 1.5371,
+     "file": "s_dc088f78e76b.mp3",
+     "narr_dur": 3.369,
+     "syl_per_s": 6.827
+    },
+    {
+     "k": 10,
+     "rate": 1.6123,
+     "file": "s_00f1cd86e5ec.mp3",
+     "narr_dur": 3.212,
+     "syl_per_s": 7.161
+    },
+    {
+     "k": 11,
+     "rate": 1.6912,
+     "file": "s_e45e232133ec.mp3",
+     "narr_dur": 3.062,
+     "syl_per_s": 7.512
+    },
+    {
+     "k": 12,
+     "rate": 1.7739,
+     "file": "s_501cbe121045.mp3",
+     "narr_dur": 2.919,
+     "syl_per_s": 7.879
+    },
+    {
+     "k": 13,
+     "rate": 1.8607,
+     "file": "s_a76d1f329b68.mp3",
+     "narr_dur": 2.783,
+     "syl_per_s": 8.265
+    },
+    {
+     "k": 14,
+     "rate": 1.9517,
+     "file": "s_7f501bd0ab3e.mp3",
+     "narr_dur": 2.653,
+     "syl_per_s": 8.669
+    },
+    {
+     "k": 15,
+     "rate": 2.0472,
+     "file": "s_6a87369f3b32.mp3",
+     "narr_dur": 2.529,
+     "syl_per_s": 9.093
+    },
+    {
+     "k": 16,
+     "rate": 2.1474,
+     "file": "s_e5d391ad16dc.mp3",
+     "narr_dur": 2.411,
+     "syl_per_s": 9.538
+    },
+    {
+     "k": 17,
+     "rate": 2.2524,
+     "file": "s_785f39b036d1.mp3",
+     "narr_dur": 2.299,
+     "syl_per_s": 10.004
+    },
+    {
+     "k": 18,
+     "rate": 2.3626,
+     "file": "s_d7ac86cb7ace.mp3",
+     "narr_dur": 2.192,
+     "syl_per_s": 10.494
+    },
+    {
+     "k": 19,
+     "rate": 2.4782,
+     "file": "s_b569918caaf8.mp3",
+     "narr_dur": 2.09,
+     "syl_per_s": 11.007
+    },
+    {
+     "k": 20,
+     "rate": 2.5995,
+     "file": "s_82f2ec0a47e3.mp3",
+     "narr_dur": 1.993,
+     "syl_per_s": 11.541
+    },
+    {
+     "k": 21,
+     "rate": 2.7267,
+     "file": "s_e2da5deb5929.mp3",
+     "narr_dur": 1.899,
+     "syl_per_s": 12.111
+    },
+    {
+     "k": 22,
+     "rate": 2.8601,
+     "file": "s_a4edbea3c7c0.mp3",
+     "narr_dur": 1.811,
+     "syl_per_s": 12.704
+    },
+    {
+     "k": 23,
+     "rate": 3.0,
+     "file": "s_367e3d6f0f84.mp3",
+     "narr_dur": 1.726,
+     "syl_per_s": 13.325
+    }
+   ],
+   "q": "身體其餘部分長出了什麼？",
+   "options": [
+    "像昆蟲般的肢體",
+    "一對翅膀",
+    "第二顆頭",
+    "一層鱗片"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "T7",
+   "clip": "T9bfm2XbXjx_",
+   "ver": "uk",
+   "cues": [
+    40,
+    41
+   ],
+   "text": "它把艾德華的臉在亞當臉上摩擦，兩張臉像連體嬰一樣融合在一起。",
+   "chars": 28,
+   "onset_in_clip": 136.39,
+   "window": 10.84,
+   "excerpt_len": 10.494,
+   "narr_onset": 3.0,
+   "fits_gap_at_1x": true,
+   "stimuli": [
+    {
+     "k": 0,
+     "rate": 1.0,
+     "file": "s_42023f2407cf.mp3",
+     "narr_dur": 5.494,
+     "syl_per_s": 5.097
+    },
+    {
+     "k": 1,
+     "rate": 1.0489,
+     "file": "s_3d45e92858bc.mp3",
+     "narr_dur": 5.238,
+     "syl_per_s": 5.346
+    },
+    {
+     "k": 2,
+     "rate": 1.1002,
+     "file": "s_b5823478a1d0.mp3",
+     "narr_dur": 4.993,
+     "syl_per_s": 5.607
+    },
+    {
+     "k": 3,
+     "rate": 1.1541,
+     "file": "s_c858311d9e9a.mp3",
+     "narr_dur": 4.76,
+     "syl_per_s": 5.882
+    },
+    {
+     "k": 4,
+     "rate": 1.2105,
+     "file": "s_f186e7ea35f8.mp3",
+     "narr_dur": 4.538,
+     "syl_per_s": 6.17
+    },
+    {
+     "k": 5,
+     "rate": 1.2698,
+     "file": "s_a3d01f4cbfef.mp3",
+     "narr_dur": 4.326,
+     "syl_per_s": 6.472
+    },
+    {
+     "k": 6,
+     "rate": 1.3319,
+     "file": "s_34aa06e51fe0.mp3",
+     "narr_dur": 4.125,
+     "syl_per_s": 6.788
+    },
+    {
+     "k": 7,
+     "rate": 1.397,
+     "file": "s_a1a06708c8b1.mp3",
+     "narr_dur": 3.933,
+     "syl_per_s": 7.12
+    },
+    {
+     "k": 8,
+     "rate": 1.4654,
+     "file": "s_2cd5e78d3c98.mp3",
+     "narr_dur": 3.749,
+     "syl_per_s": 7.469
+    },
+    {
+     "k": 9,
+     "rate": 1.5371,
+     "file": "s_12156a1b8a18.mp3",
+     "narr_dur": 3.574,
+     "syl_per_s": 7.834
+    },
+    {
+     "k": 10,
+     "rate": 1.6123,
+     "file": "s_f3c26d4acba3.mp3",
+     "narr_dur": 3.407,
+     "syl_per_s": 8.217
+    },
+    {
+     "k": 11,
+     "rate": 1.6912,
+     "file": "s_9662ca18c4cf.mp3",
+     "narr_dur": 3.248,
+     "syl_per_s": 8.62
+    },
+    {
+     "k": 12,
+     "rate": 1.7739,
+     "file": "s_e46634687d9c.mp3",
+     "narr_dur": 3.097,
+     "syl_per_s": 9.041
+    },
+    {
+     "k": 13,
+     "rate": 1.8607,
+     "file": "s_ad7456fa012f.mp3",
+     "narr_dur": 2.953,
+     "syl_per_s": 9.482
+    },
+    {
+     "k": 14,
+     "rate": 1.9517,
+     "file": "s_14534bb80bb2.mp3",
+     "narr_dur": 2.815,
+     "syl_per_s": 9.947
+    },
+    {
+     "k": 15,
+     "rate": 2.0472,
+     "file": "s_f16fe1cb2062.mp3",
+     "narr_dur": 2.684,
+     "syl_per_s": 10.434
+    },
+    {
+     "k": 16,
+     "rate": 2.1474,
+     "file": "s_299bd5fa79bc.mp3",
+     "narr_dur": 2.558,
+     "syl_per_s": 10.945
+    },
+    {
+     "k": 17,
+     "rate": 2.2524,
+     "file": "s_4904654ea245.mp3",
+     "narr_dur": 2.439,
+     "syl_per_s": 11.48
+    },
+    {
+     "k": 18,
+     "rate": 2.3626,
+     "file": "s_3014f85ce26e.mp3",
+     "narr_dur": 2.325,
+     "syl_per_s": 12.042
+    },
+    {
+     "k": 19,
+     "rate": 2.4782,
+     "file": "s_1e28c3d1c04a.mp3",
+     "narr_dur": 2.217,
+     "syl_per_s": 12.631
+    },
+    {
+     "k": 20,
+     "rate": 2.5995,
+     "file": "s_ea67726856d4.mp3",
+     "narr_dur": 2.113,
+     "syl_per_s": 13.249
+    },
+    {
+     "k": 21,
+     "rate": 2.7267,
+     "file": "s_716973e12169.mp3",
+     "narr_dur": 2.015,
+     "syl_per_s": 13.897
+    },
+    {
+     "k": 22,
+     "rate": 2.8601,
+     "file": "s_29a6ba4e24ea.mp3",
+     "narr_dur": 1.921,
+     "syl_per_s": 14.576
+    },
+    {
+     "k": 23,
+     "rate": 3.0,
+     "file": "s_5672518f01f0.mp3",
+     "narr_dur": 1.831,
+     "syl_per_s": 15.29
+    }
+   ],
+   "q": "兩張臉最後怎麼了？",
+   "options": [
+    "融合在一起",
+    "互相撞擊",
+    "被火燒焦",
+    "分開了"
+   ],
+   "answer": 0
+  }
+ ],
+ "adjust": [
+  {
+   "id": "A1",
+   "clip": "UMBOdTivgjBj",
+   "ver": "uk",
+   "cues": [
+    25,
+    25
+   ],
+   "text": "突然，一名警衛拖著遍體鱗傷的佛萊契進來。",
+   "chars": 18,
+   "onset_in_clip": 138.93,
+   "window": 4.08,
+   "excerpt_len": 8.788,
+   "narr_onset": 3.0,
+   "fits_gap_at_1x": true,
+   "stimuli": [
+    {
+     "k": 0,
+     "rate": 1.0,
+     "file": "s_66d7bca5c5ac.mp3",
+     "narr_dur": 3.788,
+     "syl_per_s": 4.752
+    },
+    {
+     "k": 1,
+     "rate": 1.0489,
+     "file": "s_0cebfdea1f77.mp3",
+     "narr_dur": 3.611,
+     "syl_per_s": 4.985
+    },
+    {
+     "k": 2,
+     "rate": 1.1002,
+     "file": "s_7630890be2b7.mp3",
+     "narr_dur": 3.443,
+     "syl_per_s": 5.229
+    },
+    {
+     "k": 3,
+     "rate": 1.1541,
+     "file": "s_31d92240f1f2.mp3",
+     "narr_dur": 3.282,
+     "syl_per_s": 5.485
+    },
+    {
+     "k": 4,
+     "rate": 1.2105,
+     "file": "s_f8062ba545fb.mp3",
+     "narr_dur": 3.129,
+     "syl_per_s": 5.753
+    },
+    {
+     "k": 5,
+     "rate": 1.2698,
+     "file": "s_050d48602800.mp3",
+     "narr_dur": 2.983,
+     "syl_per_s": 6.034
+    },
+    {
+     "k": 6,
+     "rate": 1.3319,
+     "file": "s_d7e0ccd11f5e.mp3",
+     "narr_dur": 2.844,
+     "syl_per_s": 6.33
+    },
+    {
+     "k": 7,
+     "rate": 1.397,
+     "file": "s_f6bf962bed36.mp3",
+     "narr_dur": 2.711,
+     "syl_per_s": 6.639
+    },
+    {
+     "k": 8,
+     "rate": 1.4654,
+     "file": "s_acda27fc561e.mp3",
+     "narr_dur": 2.585,
+     "syl_per_s": 6.964
+    },
+    {
+     "k": 9,
+     "rate": 1.5371,
+     "file": "s_73655cfbd491.mp3",
+     "narr_dur": 2.464,
+     "syl_per_s": 7.305
+    },
+    {
+     "k": 10,
+     "rate": 1.6123,
+     "file": "s_b55222153abd.mp3",
+     "narr_dur": 2.349,
+     "syl_per_s": 7.662
+    },
+    {
+     "k": 11,
+     "rate": 1.6912,
+     "file": "s_257f5fbfc7f9.mp3",
+     "narr_dur": 2.24,
+     "syl_per_s": 8.037
+    },
+    {
+     "k": 12,
+     "rate": 1.7739,
+     "file": "s_654daafcf884.mp3",
+     "narr_dur": 2.135,
+     "syl_per_s": 8.43
+    },
+    {
+     "k": 13,
+     "rate": 1.8607,
+     "file": "s_fd414d628bad.mp3",
+     "narr_dur": 2.036,
+     "syl_per_s": 8.843
+    },
+    {
+     "k": 14,
+     "rate": 1.9517,
+     "file": "s_394980d39ffd.mp3",
+     "narr_dur": 1.941,
+     "syl_per_s": 9.275
+    },
+    {
+     "k": 15,
+     "rate": 2.0472,
+     "file": "s_8ce0862c0bca.mp3",
+     "narr_dur": 1.85,
+     "syl_per_s": 9.729
+    },
+    {
+     "k": 16,
+     "rate": 2.1474,
+     "file": "s_6cc3258c2982.mp3",
+     "narr_dur": 1.764,
+     "syl_per_s": 10.205
+    },
+    {
+     "k": 17,
+     "rate": 2.2524,
+     "file": "s_a45c816bda49.mp3",
+     "narr_dur": 1.682,
+     "syl_per_s": 10.704
+    },
+    {
+     "k": 18,
+     "rate": 2.3626,
+     "file": "s_9650eb6cc808.mp3",
+     "narr_dur": 1.603,
+     "syl_per_s": 11.228
+    },
+    {
+     "k": 19,
+     "rate": 2.4782,
+     "file": "s_00d032998788.mp3",
+     "narr_dur": 1.528,
+     "syl_per_s": 11.777
+    },
+    {
+     "k": 20,
+     "rate": 2.5995,
+     "file": "s_7e64a4c24c94.mp3",
+     "narr_dur": 1.457,
+     "syl_per_s": 12.354
+    },
+    {
+     "k": 21,
+     "rate": 2.7267,
+     "file": "s_cb486259728a.mp3",
+     "narr_dur": 1.389,
+     "syl_per_s": 12.958
+    },
+    {
+     "k": 22,
+     "rate": 2.8601,
+     "file": "s_86db268c445f.mp3",
+     "narr_dur": 1.324,
+     "syl_per_s": 13.592
+    },
+    {
+     "k": 23,
+     "rate": 3.0,
+     "file": "s_d3829006ce23.mp3",
+     "narr_dur": 1.263,
+     "syl_per_s": 14.257
+    }
+   ]
+  },
+  {
+   "id": "A2",
+   "clip": "CQEeb6wSS97K",
+   "ver": "uk",
+   "cues": [
+    2,
+    2
+   ],
+   "text": "莉絲貝催緊油門，拉近與車子的距離。",
+   "chars": 15,
+   "onset_in_clip": 11.72,
+   "window": 18.06,
+   "excerpt_len": 8.267,
+   "narr_onset": 3.0,
+   "fits_gap_at_1x": true,
+   "stimuli": [
+    {
+     "k": 0,
+     "rate": 1.0,
+     "file": "s_ad5b5f7b7d2c.mp3",
+     "narr_dur": 3.267,
+     "syl_per_s": 4.592
+    },
+    {
+     "k": 1,
+     "rate": 1.0489,
+     "file": "s_2bd4902b20dc.mp3",
+     "narr_dur": 3.114,
+     "syl_per_s": 4.816
+    },
+    {
+     "k": 2,
+     "rate": 1.1002,
+     "file": "s_fbccc1c65ddb.mp3",
+     "narr_dur": 2.969,
+     "syl_per_s": 5.052
+    },
+    {
+     "k": 3,
+     "rate": 1.1541,
+     "file": "s_2ad1746a6366.mp3",
+     "narr_dur": 2.831,
+     "syl_per_s": 5.299
+    },
+    {
+     "k": 4,
+     "rate": 1.2105,
+     "file": "s_4ce05dfb3122.mp3",
+     "narr_dur": 2.699,
+     "syl_per_s": 5.558
+    },
+    {
+     "k": 5,
+     "rate": 1.2698,
+     "file": "s_4e2463a9eb67.mp3",
+     "narr_dur": 2.573,
+     "syl_per_s": 5.831
+    },
+    {
+     "k": 6,
+     "rate": 1.3319,
+     "file": "s_c6db54e9e74a.mp3",
+     "narr_dur": 2.453,
+     "syl_per_s": 6.116
+    },
+    {
+     "k": 7,
+     "rate": 1.397,
+     "file": "s_da90f01024af.mp3",
+     "narr_dur": 2.338,
+     "syl_per_s": 6.415
+    },
+    {
+     "k": 8,
+     "rate": 1.4654,
+     "file": "s_4538b3ff4d85.mp3",
+     "narr_dur": 2.229,
+     "syl_per_s": 6.729
+    },
+    {
+     "k": 9,
+     "rate": 1.5371,
+     "file": "s_94328c3e1cad.mp3",
+     "narr_dur": 2.125,
+     "syl_per_s": 7.058
+    },
+    {
+     "k": 10,
+     "rate": 1.6123,
+     "file": "s_dd85684196d0.mp3",
+     "narr_dur": 2.026,
+     "syl_per_s": 7.403
+    },
+    {
+     "k": 11,
+     "rate": 1.6912,
+     "file": "s_50a73ada1aba.mp3",
+     "narr_dur": 1.932,
+     "syl_per_s": 7.766
+    },
+    {
+     "k": 12,
+     "rate": 1.7739,
+     "file": "s_27ac456ae099.mp3",
+     "narr_dur": 1.842,
+     "syl_per_s": 8.145
+    },
+    {
+     "k": 13,
+     "rate": 1.8607,
+     "file": "s_bcc045063fbf.mp3",
+     "narr_dur": 1.756,
+     "syl_per_s": 8.544
+    },
+    {
+     "k": 14,
+     "rate": 1.9517,
+     "file": "s_b3ea1390df49.mp3",
+     "narr_dur": 1.674,
+     "syl_per_s": 8.962
+    },
+    {
+     "k": 15,
+     "rate": 2.0472,
+     "file": "s_614608c66d7d.mp3",
+     "narr_dur": 1.596,
+     "syl_per_s": 9.4
+    },
+    {
+     "k": 16,
+     "rate": 2.1474,
+     "file": "s_b9db75948b5b.mp3",
+     "narr_dur": 1.521,
+     "syl_per_s": 9.86
+    },
+    {
+     "k": 17,
+     "rate": 2.2524,
+     "file": "s_99e307aa1acd.mp3",
+     "narr_dur": 1.45,
+     "syl_per_s": 10.342
+    },
+    {
+     "k": 18,
+     "rate": 2.3626,
+     "file": "s_5182f50f7850.mp3",
+     "narr_dur": 1.383,
+     "syl_per_s": 10.849
+    },
+    {
+     "k": 19,
+     "rate": 2.4782,
+     "file": "s_71099e93dbd2.mp3",
+     "narr_dur": 1.318,
+     "syl_per_s": 11.379
+    },
+    {
+     "k": 20,
+     "rate": 2.5995,
+     "file": "s_b57a798d7daf.mp3",
+     "narr_dur": 1.257,
+     "syl_per_s": 11.936
+    },
+    {
+     "k": 21,
+     "rate": 2.7267,
+     "file": "s_123d2e3c23e5.mp3",
+     "narr_dur": 1.198,
+     "syl_per_s": 12.52
+    },
+    {
+     "k": 22,
+     "rate": 2.8601,
+     "file": "s_e0b8c44bd712.mp3",
+     "narr_dur": 1.142,
+     "syl_per_s": 13.133
+    },
+    {
+     "k": 23,
+     "rate": 3.0,
+     "file": "s_8fd4f31c38bb.mp3",
+     "narr_dur": 1.089,
+     "syl_per_s": 13.775
+    }
+   ]
+  },
+  {
+   "id": "A3",
+   "clip": "CQEeb6wSS97K",
+   "ver": "uk",
+   "cues": [
+    14,
+    14
+   ],
+   "text": "莉絲貝滑行急停，機車也倒在地上。",
+   "chars": 14,
+   "onset_in_clip": 56.68,
+   "window": 7.76,
+   "excerpt_len": 8.131,
+   "narr_onset": 3.0,
+   "fits_gap_at_1x": true,
+   "stimuli": [
+    {
+     "k": 0,
+     "rate": 1.0,
+     "file": "s_ac2bcf1d404f.mp3",
+     "narr_dur": 3.131,
+     "syl_per_s": 4.472
+    },
+    {
+     "k": 1,
+     "rate": 1.0489,
+     "file": "s_d2ffb8e029f3.mp3",
+     "narr_dur": 2.985,
+     "syl_per_s": 4.691
+    },
+    {
+     "k": 2,
+     "rate": 1.1002,
+     "file": "s_55e0124bbbe9.mp3",
+     "narr_dur": 2.846,
+     "syl_per_s": 4.92
+    },
+    {
+     "k": 3,
+     "rate": 1.1541,
+     "file": "s_92d51883828d.mp3",
+     "narr_dur": 2.713,
+     "syl_per_s": 5.16
+    },
+    {
+     "k": 4,
+     "rate": 1.2105,
+     "file": "s_a8de33b353ec.mp3",
+     "narr_dur": 2.586,
+     "syl_per_s": 5.413
+    },
+    {
+     "k": 5,
+     "rate": 1.2698,
+     "file": "s_6518c66a84c2.mp3",
+     "narr_dur": 2.466,
+     "syl_per_s": 5.678
+    },
+    {
+     "k": 6,
+     "rate": 1.3319,
+     "file": "s_26835471e9f3.mp3",
+     "narr_dur": 2.351,
+     "syl_per_s": 5.956
+    },
+    {
+     "k": 7,
+     "rate": 1.397,
+     "file": "s_a64eee40c58a.mp3",
+     "narr_dur": 2.241,
+     "syl_per_s": 6.247
+    },
+    {
+     "k": 8,
+     "rate": 1.4654,
+     "file": "s_56b745284c9b.mp3",
+     "narr_dur": 2.137,
+     "syl_per_s": 6.551
+    },
+    {
+     "k": 9,
+     "rate": 1.5371,
+     "file": "s_271c5085301c.mp3",
+     "narr_dur": 2.037,
+     "syl_per_s": 6.874
+    },
+    {
+     "k": 10,
+     "rate": 1.6123,
+     "file": "s_ffc242befb9e.mp3",
+     "narr_dur": 1.942,
+     "syl_per_s": 7.21
+    },
+    {
+     "k": 11,
+     "rate": 1.6912,
+     "file": "s_99dfc5d1afd6.mp3",
+     "narr_dur": 1.851,
+     "syl_per_s": 7.563
+    },
+    {
+     "k": 12,
+     "rate": 1.7739,
+     "file": "s_552005e73628.mp3",
+     "narr_dur": 1.765,
+     "syl_per_s": 7.933
+    },
+    {
+     "k": 13,
+     "rate": 1.8607,
+     "file": "s_3a82f4508f6f.mp3",
+     "narr_dur": 1.683,
+     "syl_per_s": 8.321
+    },
+    {
+     "k": 14,
+     "rate": 1.9517,
+     "file": "s_ede34a17d71c.mp3",
+     "narr_dur": 1.604,
+     "syl_per_s": 8.728
+    },
+    {
+     "k": 15,
+     "rate": 2.0472,
+     "file": "s_967804f13136.mp3",
+     "narr_dur": 1.529,
+     "syl_per_s": 9.155
+    },
+    {
+     "k": 16,
+     "rate": 2.1474,
+     "file": "s_6cdda94a2e2e.mp3",
+     "narr_dur": 1.458,
+     "syl_per_s": 9.603
+    },
+    {
+     "k": 17,
+     "rate": 2.2524,
+     "file": "s_ca07af38c093.mp3",
+     "narr_dur": 1.39,
+     "syl_per_s": 10.072
+    },
+    {
+     "k": 18,
+     "rate": 2.3626,
+     "file": "s_6be5eaed79ca.mp3",
+     "narr_dur": 1.325,
+     "syl_per_s": 10.565
+    },
+    {
+     "k": 19,
+     "rate": 2.4782,
+     "file": "s_afe716b49980.mp3",
+     "narr_dur": 1.263,
+     "syl_per_s": 11.082
+    },
+    {
+     "k": 20,
+     "rate": 2.5995,
+     "file": "s_be2cb0976f62.mp3",
+     "narr_dur": 1.204,
+     "syl_per_s": 11.624
+    },
+    {
+     "k": 21,
+     "rate": 2.7267,
+     "file": "s_69fea4be7d12.mp3",
+     "narr_dur": 1.148,
+     "syl_per_s": 12.193
+    },
+    {
+     "k": 22,
+     "rate": 2.8601,
+     "file": "s_23ef12150f0f.mp3",
+     "narr_dur": 1.095,
+     "syl_per_s": 12.79
+    },
+    {
+     "k": 23,
+     "rate": 3.0,
+     "file": "s_3a49245950ef.mp3",
+     "narr_dur": 1.044,
+     "syl_per_s": 13.416
+    }
+   ]
+  }
+ ],
+ "practice": {
+  "id": "P1",
+  "clip": "UMBOdTivgjBj",
+  "ver": "us",
+  "cues": [
+   0,
+   2
+  ],
+  "text": "他咧嘴一笑，跳過圍欄，匆匆跑出法庭。",
+  "chars": 15,
+  "onset_in_clip": 25.4,
+  "window": 6.42,
+  "excerpt_len": 8.759,
+  "narr_onset": 3.0,
+  "fits_gap_at_1x": true,
+  "stimuli": [
+   {
+    "k": 0,
+    "rate": 1.0,
+    "file": "s_e518ebdc1f7f.mp3",
+    "narr_dur": 3.759,
+    "syl_per_s": 3.991
+   }
+  ],
+  "q": "他跑出了哪裡？",
+  "options": [
+   "法庭",
+   "廁所",
+   "餐廳",
+   "停車場"
+  ],
+  "answer": 0
+ },
+ "attention": {
+  "id": "AC",
+  "clip": "CQEeb6wSS97K",
+  "ver": "uk",
+  "cues": [
+   21,
+   21
+  ],
+  "text": "這一題請把費力程度選成一分。",
+  "chars": 13,
+  "onset_in_clip": 81.08,
+  "window": 11.89,
+  "excerpt_len": 7.475,
+  "narr_onset": 3.0,
+  "fits_gap_at_1x": true,
+  "stimuli": [
+   {
+    "k": 0,
+    "rate": 1.0,
+    "file": "s_316ccfaced08.mp3",
+    "narr_dur": 2.475,
+    "syl_per_s": 5.252
+   }
+  ],
+  "q": "這段旁白要你把費力程度選成幾分？",
+  "options": [
+   "一分",
+   "三分",
+   "五分",
+   "沒有說"
+  ],
+  "answer": 0
+ },
+ "source": "REFRAMED (Sterner et al., 2026) AD text, CC BY-NC 4.0; zh-TW translation by the study team"
+}

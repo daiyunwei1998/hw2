@@ -1,0 +1,40 @@
+{
+ "version": "hw2-v2-2026-10-29",
+ "note": "Stratified-random speech-rate design. cues are inclusive cue ranges in segments.json; narration text is read from segments.json at build time. answer = index in options as written (options are shuffled at run time).",
+ "main": [
+  {"id": "L1", "clip": "UMBOdTivgjBj", "ver": "us", "cues": [3, 4], "q": "黛娜做了什麼？", "options": ["對柯爾先生耳語", "起身離開法庭", "拍手大笑", "把文件遞給法官"], "answer": 0},
+  {"id": "L2", "clip": "UMBOdTivgjBj", "ver": "uk", "cues": [2, 3], "q": "他在廁所裡抬頭盯著哪裡？", "options": ["天花板", "鏡子", "門口", "窗外"], "answer": 0},
+  {"id": "L3", "clip": "UMBOdTivgjBj", "ver": "uk", "cues": [5, 7], "q": "他走到鏡子前做了什麼？", "options": ["往自己臉上猛打", "整理頭髮", "洗臉", "對著鏡子大笑"], "answer": 0},
+  {"id": "L4", "clip": "UMBOdTivgjBj", "ver": "uk", "cues": [8, 8], "q": "他把什麼抹進眼睛？", "options": ["洗手乳", "清水", "衛生紙", "鹽巴"], "answer": 0},
+  {"id": "L5", "clip": "UMBOdTivgjBj", "ver": "us", "cues": [23, 25], "q": "垃圾桶裡的垃圾最後怎麼了？", "options": ["倒了他自己一身", "灑滿整個地板", "被丟出窗外", "被收進袋子裡"], "answer": 0},
+  {"id": "L6", "clip": "UMBOdTivgjBj", "ver": "uk", "cues": [17, 17], "q": "他用什麼砸自己的臉？", "options": ["木製馬桶座", "垃圾桶蓋", "廁所門", "洗手台"], "answer": 0},
+  {"id": "L7", "clip": "UMBOdTivgjBj", "ver": "uk", "cues": [18, 19], "q": "他從隔間走出來後做了什麼？", "options": ["往自己腳上一踩", "跟男子握手", "坐在地上", "打開水龍頭"], "answer": 0},
+  {"id": "L8", "clip": "UMBOdTivgjBj", "ver": "us", "cues": [36, 39], "q": "那名男子最後怎麼了？", "options": ["逃出廁所", "上前扶起佛萊契", "打電話報警", "躲進隔間"], "answer": 0},
+  {"id": "L9", "clip": "UMBOdTivgjBj", "ver": "us", "cues": [40, 41], "q": "佛萊契撞牆之後怎麼了？", "options": ["仰倒在地昏了過去", "跑出廁所", "對著鏡子大笑", "爬進隔間"], "answer": 0},
+  {"id": "D1", "clip": "CQEeb6wSS97K", "ver": "uk", "cues": [0, 1], "q": "馬汀從哪裡看到機車的車燈？", "options": ["後照鏡", "擋風玻璃", "側邊車窗", "手機螢幕"], "answer": 0},
+  {"id": "D2", "clip": "CQEeb6wSS97K", "ver": "uk", "cues": [3, 3], "q": "接近橋時，她在哪裡？", "options": ["緊跟在馬汀車後", "停在路邊", "超到馬汀前面", "騎下河岸"], "answer": 0},
+  {"id": "D3", "clip": "CQEeb6wSS97K", "ver": "uk", "cues": [8, 9], "q": "車子最後擦撞到什麼？", "options": ["橋身", "加油站", "另一輛車", "路邊的樹"], "answer": 0},
+  {"id": "D4", "clip": "CQEeb6wSS97K", "ver": "uk", "cues": [10, 10], "q": "莉絲貝從哪一側超過馬汀？", "options": ["左側", "右側", "從後面撞上去", "沒有超過"], "answer": 0},
+  {"id": "D5", "clip": "CQEeb6wSS97K", "ver": "uk", "cues": [11, 12], "q": "馬汀的車子怎麼了？", "options": ["翻覆", "掉進河裡", "撞上卡車", "順利開走"], "answer": 0},
+  {"id": "D6", "clip": "CQEeb6wSS97K", "ver": "uk", "cues": [15, 16], "q": "她深吸一口氣後走向哪裡？", "options": ["冒著濃煙的車子", "一棟房子", "她的機車", "橋的另一端"], "answer": 0},
+  {"id": "D7", "clip": "CQEeb6wSS97K", "ver": "uk", "cues": [17, 18], "q": "她從口袋拿出什麼？", "options": ["手槍", "手機", "鑰匙", "打火機"], "answer": 0},
+  {"id": "D8", "clip": "CQEeb6wSS97K", "ver": "uk", "cues": [22, 22], "q": "莉絲貝停下腳步後做了什麼？", "options": ["看著車子和馬汀燒成灰燼", "朝車子開槍", "打電話報警", "跑回機車"], "answer": 0},
+  {"id": "T1", "clip": "T9bfm2XbXjx_", "ver": "us", "cues": [9, 10], "q": "艾德華的身體出現什麼狀況？", "options": ["毛衣下鼓起一團、在地上抽搐", "突然站起來逃跑", "全身著火", "完全不動"], "answer": 0},
+  {"id": "T2", "clip": "T9bfm2XbXjx_", "ver": "uk", "cues": [24, 25], "q": "詹姆森跳起來後做了什麼？", "options": ["朝艾德華開槍", "往門外跑", "拿起火焰噴射器", "扶起艾德華"], "answer": 0},
+  {"id": "T3", "clip": "T9bfm2XbXjx_", "ver": "uk", "cues": [26, 27], "q": "觸手在他身上哪裡打穿一個洞？", "options": ["胸口", "腹部", "肩膀", "手臂"], "answer": 0},
+  {"id": "T4", "clip": "T9bfm2XbXjx_", "ver": "uk", "cues": [31, 32], "q": "亞當當時的狀況如何？", "options": ["身受重傷、努力往後退", "躲在桌子底下", "拿槍反擊", "已經逃出房間"], "answer": 0},
+  {"id": "T5", "clip": "T9bfm2XbXjx_", "ver": "uk", "cues": [33, 34], "q": "斷落的右臂做了什麼？", "options": ["用細長的腳逃走", "抓住凱特", "鑽進牆裡", "停在原地不動"], "answer": 0},
+  {"id": "T6", "clip": "T9bfm2XbXjx_", "ver": "uk", "cues": [35, 36], "q": "身體其餘部分長出了什麼？", "options": ["像昆蟲般的肢體", "一對翅膀", "第二顆頭", "一層鱗片"], "answer": 0},
+  {"id": "T7", "clip": "T9bfm2XbXjx_", "ver": "uk", "cues": [40, 41], "q": "兩張臉最後怎麼了？", "options": ["融合在一起", "互相撞擊", "被火燒焦", "分開了"], "answer": 0}
+ ],
+ "adjust": [
+  {"id": "A1", "clip": "UMBOdTivgjBj", "ver": "uk", "cues": [25, 25]},
+  {"id": "A2", "clip": "CQEeb6wSS97K", "ver": "uk", "cues": [2, 2]},
+  {"id": "A3", "clip": "CQEeb6wSS97K", "ver": "uk", "cues": [14, 14]}
+ ],
+ "practice": {"id": "P1", "clip": "UMBOdTivgjBj", "ver": "us", "cues": [0, 2], "k": 0,
+  "q": "他跑出了哪裡？", "options": ["法庭", "廁所", "餐廳", "停車場"], "answer": 0},
+ "attention": {"id": "AC", "clip": "CQEeb6wSS97K", "ver": "uk", "cues": [21, 21], "k": 0,
+  "narration_override": "這一題請把費力程度選成一分。",
+  "q": "這段旁白要你把費力程度選成幾分？", "options": ["一分", "三分", "五分", "沒有說"], "answer": 0}
+}
